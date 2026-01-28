@@ -1,0 +1,393 @@
+			AI and Data
+# 📘 DAY 1: Python Fundamentals for Data & AI
+
+## 1️⃣ Introduction to Python
+
+### What is Python?
+
+Python is a **high-level, interpreted, general-purpose programming language** used widely in:
+
+* Data Engineering
+* Data Science
+* Artificial Intelligence
+* Machine Learning
+* Automation
+* Web Development
+
+### Why Python for Data & AI?
+
+* Simple and readable
+* Huge libraries (NumPy, Pandas, Matplotlib, TensorFlow)
+* Fast development
+* Industry standard (used by Google, Netflix, Capgemini, etc.)
+
+### Features of Python
+
+* Easy to learn
+* Interpreted (no compilation step)
+* Platform independent
+* Object-oriented & functional
+* Open source
+* Large community support
+
+---
+
+## 2️⃣ Python Setup (Environment Setup)
+
+### Ways to install Python
+
+1. **Official Python** – from python.org
+2. **Anaconda** – preferred for Data & AI (comes with libraries)
+3. **Online platforms** – Google Colab, Jupyter Notebook
+
+### Tools used in training/industry
+
+* Python 3.x
+* VS Code / PyCharm
+* Jupyter Notebook
+* Terminal / Command Prompt
+
+### Check Python installation
+
+```bash
+python --version
+```
+
+---
+
+## 3️⃣ Python Scripting Basics
+
+### What is a script?
+
+A **Python script** is a file with `.py` extension containing Python code.
+
+Example:
+
+```python
+print("Welcome to Data & AI Training")
+```
+
+### How Python executes code
+
+```
+Python code → Bytecode → PVM → Machine instructions
+```
+
+---
+
+## 4️⃣ Python Syntax Rules
+
+### Indentation (VERY IMPORTANT)
+
+Python uses **indentation instead of braces `{}`**
+
+❌ Wrong:
+
+```python
+if x > 5:
+print(x)
+```
+
+✅ Correct:
+
+```python
+if x > 5:
+    print(x)
+```
+
+### Comments
+
+```python
+# This is a single-line comment
+```
+""" or ''' for multi line comment
+---
+
+## 5️⃣ Variables in Python
+
+### What is a variable?
+
+A variable is a **name that stores data**.
+
+```python
+age = 21
+name = "Sumehra"
+```
+
+### Rules for variable names
+
+✔ Must start with letter or `_`
+✔ Can contain numbers
+❌ Cannot start with number
+❌ No special characters
+
+---
+
+### Dynamic typing
+
+Python automatically decides the data type.
+
+```python
+x = 10
+x = "AI"
+```
+
+---
+
+## 6️⃣ Data Types (Very Important for Data & AI)
+
+### Built-in Data Types
+
+#### 1️⃣ Numeric Types
+
+```python
+a = 10        # int
+b = 3.14      # float
+c = 2 + 3j    # complex
+```
+
+#### 2️⃣ String
+
+```python
+name = "Python"
+```
+
+#### 3️⃣ Boolean
+
+```python
+is_active = True
+```
+
+---
+
+### 4️⃣ Sequence Types
+
+#### List (mutable)
+
+### 📌 **List in Python**
+
+---
+
+## 1️⃣ Explanation
+
+A **list** in Python is a built-in data type used to **store multiple values in a single variable**.
+Lists are:
+
+* **Ordered** (items have a fixed position)
+* **Mutable** (you can change items)
+* Can store **different data types**
+* Allow **duplicate values**
+
+Lists are heavily used in **Data, AI, and real applications** to store and process collections of data.
+
+---
+
+## 2️⃣ Syntax
+
+```python
+list_name = [item1, item2, item3, ...]
+```
+
+---
+
+## 3️⃣ Code Example
+
+```python
+# Creating a list
+numbers = [10, 20, 30, 40]
+
+# Accessing elements
+print(numbers[0])     # 10
+
+# Modifying elements
+numbers[1] = 25
+
+# Adding elements
+numbers.append(50)
+
+# Removing elements
+numbers.remove(30)
+
+print(numbers)
+```
+
+---
+
+## 4️⃣ Real-World Example
+
+**Student marks in a class**
+
+```python
+marks = [85, 90, 78, 92]
+
+# Calculate average marks
+average = sum(marks) / len(marks)
+print("Average marks:", average)
+```
+
+#### Tuple (immutable)
+
+### 📌 **Tuple in Python (Short)**
+
+---
+
+## 1️⃣ Explanation
+
+A **tuple** is a built-in data type used to **store multiple values** in a single variable.
+Tuples are **ordered** and **immutable** (cannot be changed after creation).
+
+---
+
+## 2️⃣ Syntax
+
+```python
+tuple_name = (item1, item2, item3)
+```
+
+---
+
+## 3️⃣ Example
+
+```python
+colors = ("red", "blue", "green")
+print(colors[0])
+```
+
+---
+
+## 4️⃣ Real-World Example
+
+**Coordinates (x, y)**
+
+```python
+location = (10, 20)
+```
+
+👉 Coordinates don’t change, so tuple is best.
+
+#### Range
+
+```python
+range(1, 10)
+```
+
+---
+
+### 5️⃣ Set
+
+What is a Set?
+
+Unordered collection
+
+No duplicate elements
+
+Mutable (can add/remove items)
+
+Does not support indexing
+
+my_set = {1, 2, 3, 4}
+
+### 6️⃣ Dictionary (VERY IMPORTANT)
+
+```python
+student = {
+    "name": "Sumehra",
+    "course": "Data & AI",
+    "age": 21
+}
+```
+
+---
+
+## 7️⃣ Type Checking & Conversion
+
+### Check data type
+
+```python
+type(x)
+```
+
+### Type conversion
+
+```python
+int("10")
+float("3.5")
+str(100)
+```
+
+---
+
+## 8️⃣ Input and Output
+
+### Input
+
+```python
+name = input("Enter your name: ")
+```
+
+### Output
+
+```python
+print("Hello", name)
+```
+
+---
+
+## 9️⃣ Operators
+
+### Arithmetic
+
+```python
++  -  *  /  %  //
+```
+
+### Comparison
+
+```python
+==  !=  >  <  >=  <=
+```
+
+### Logical
+
+```python
+and  or  not
+```
+
+---
+
+## 🔟 Control Flow Basics
+
+### If-Else
+
+```python
+if age >= 18:
+    print("Eligible")
+else:
+    print("Not eligible")
+```
+
+---
+
+### Loops
+
+```python
+for i in range(5):
+    print(i)
+```
+
+```python
+while x < 10:
+    x += 1
+```
+
+---
+
+## 1️⃣1️⃣ Functions (Basics)
+
+```python
+def add(a, b):
+    return a + b
+```
+
+---
+
