@@ -1,0 +1,8 @@
+2026-01-30 09:10:12 INFO Application started successfully
+2026-01-30 09:12:45 INFO User login successful
+2026-01-30 09:15:03 WARNING Disk space running low
+2026-01-30 09:18:27 ERROR Failed to connect to database
+2026-01-30 09:20:10 INFO Data processed successfully
+2026-01-30 09:22:55 ERROR Null pointer exception occurred
+2026-01-30 09:25:40 INFO Application shutdown initiated
+2026-01-30 09:27:01 ERROR Unable to write to log file

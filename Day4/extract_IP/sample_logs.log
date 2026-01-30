@@ -1,0 +1,7 @@
+INFO reverse mapping request [host:server01] [192.168.10.15]
+INFO reverse mapping request [host:server02] [192.168.10.45]
+WARNING connection timeout [host:external01] [8.8.8.8]
+INFO reverse mapping completed [host:server03] [192.168.10.99]
+ERROR reverse mapping failed [host:external02] [10.0.0.55]
+INFO reverse mapping request [host:server04] [192.168.10.120]
+INFO user login [host:user01] [172.16.5.22]
