@@ -1,0 +1,11 @@
+--------- UBER TRIP INVOICE ---------
+Customer : sam
+Driver   : Kiran
+Pickup   : Airport
+Drop     : idpl
+Distance : 12.0 km
+Fare     : ₹240.0
+Status   : Completed
+Date     : 2026-01-29 12:06:06.938645
+------------------------------------
+Thank you for riding with Uber 🚕
