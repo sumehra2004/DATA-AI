@@ -2,7 +2,7 @@ print("Welcome to Zomato!")
 print("Today's Special: Free Delivery on all orders!")
 print("Menu:\n 1. Pizza \n 2. Burger \n 3. Pasta \n 4. Salad \n 5. Dessert \n 6. Biryani")
 PRICE_PER_ITEM = 0  
-print("Enter ur choice from the menu:")
+print("Enter your choice from the menu:")
 choice = int(input())   
 if choice == 1:
     PRICE_PER_ITEM = 250        
