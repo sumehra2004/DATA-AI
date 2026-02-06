@@ -1,0 +1,5 @@
+Transaction_id,Type,Amount
+1,deposit,1000
+2,withdrawal,20000
+3,deposit,300
+4,withdrawal,3330
