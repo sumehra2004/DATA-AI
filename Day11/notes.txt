@@ -1,0 +1,6 @@
+build web applications by handling:
+HTTP requests & responses
+URL routing
+Templates (HTML)
+Middleware & extensions
+It’s called a microframework because it keeps the core simple and lets you add only what you need.
