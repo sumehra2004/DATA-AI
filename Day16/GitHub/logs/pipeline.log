@@ -1,0 +1,15 @@
+2026-02-16 14:27:52,171 - INFO - Pipeline started
+2026-02-16 14:27:52,171 - INFO - RUN: C:\Users\RAJASHEKAR\OneDrive\Documents\CapG_Training\Python\PT Day 15\super_calculator_ci_cd_automation_master\venv\Scripts\python.exe -m pip install -r requirements.txt
+2026-02-16 14:27:59,885 - INFO - RUN: C:\Users\RAJASHEKAR\OneDrive\Documents\CapG_Training\Python\PT Day 15\super_calculator_ci_cd_automation_master\venv\Scripts\python.exe -m pytest tests
+2026-02-16 14:28:00,685 - INFO - RUN: C:\Users\RAJASHEKAR\OneDrive\Documents\CapG_Training\Python\PT Day 15\super_calculator_ci_cd_automation_master\venv\Scripts\python.exe -m unittest discover tests
+2026-02-16 14:28:01,021 - INFO - Pipeline finished
+2026-02-16 14:36:19,555 - INFO - Pipeline started
+2026-02-16 14:36:19,556 - INFO - RUN: C:\Users\RAJASHEKAR\OneDrive\Documents\CapG_Training\Python\PT Day 15\Super Calculator with GitHub\venv\Scripts\python.exe -m pip install -r requirements.txt
+2026-02-16 14:36:26,801 - INFO - RUN: C:\Users\RAJASHEKAR\OneDrive\Documents\CapG_Training\Python\PT Day 15\Super Calculator with GitHub\venv\Scripts\python.exe -m pytest tests
+2026-02-16 14:36:27,517 - INFO - RUN: C:\Users\RAJASHEKAR\OneDrive\Documents\CapG_Training\Python\PT Day 15\Super Calculator with GitHub\venv\Scripts\python.exe -m unittest discover tests
+2026-02-16 14:36:27,745 - INFO - Pipeline finished
+2026-02-16 14:41:33,719 - INFO - Pipeline started
+2026-02-16 14:41:33,719 - INFO - RUN: C:\Users\User\OneDrive\Desktop\Capg\python\.venv\Scripts\python.exe -m pip install -r requirements.txt
+2026-02-16 14:41:35,088 - INFO - RUN: C:\Users\User\OneDrive\Desktop\Capg\python\.venv\Scripts\python.exe -m pytest tests
+2026-02-16 14:41:35,928 - INFO - RUN: C:\Users\User\OneDrive\Desktop\Capg\python\.venv\Scripts\python.exe -m unittest discover tests
+2026-02-16 14:41:36,202 - INFO - Pipeline finished

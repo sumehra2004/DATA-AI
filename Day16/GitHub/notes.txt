@@ -1,0 +1,1 @@
+Notes for Super Calculator CI/CD automation project.
