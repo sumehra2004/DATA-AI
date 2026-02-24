@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="nav-left">
+        <a href="/home">Sumehra Site  </a>
+
+        <a href="/checkout">Checkout</a>
+    </div>
+    <div class="nav-right">
+        {% if username %}
+            <span class="username">Hello, {{ username }}!</span>
+            <a href="/logout">Logout</a>
+        {% else %}
+            <a href="/home">Home</a>
+            <a href="/login">Login</a>
+            <a href="/register">Register</a>
+        {% endif %}
+    </div>
+</nav>
+
+<!-- Page Content -->
+
+
+<h3>Add Item</h3>
+<form method="post" action="/add-item">
+    <input name="title" placeholder="Title">
+    <input name="description" placeholder="Description">
+    <input name="price" placeholder="Price">
+    <input name="stock" placeholder="Stock">
+    <input name="category" placeholder="Category">
+    <button>Add Item</button>
+</form>
+
+<h3>Items</h3>
+<ul class="items-grid">
+{% for item in items %}
+    <li>
+        <span class="item-title">{{ item.title }}</span>
+        <span class="item-price">₹{{ item.price }}</span>
+        <form method="post" action="/add-cart">
+            <input type="hidden" name="item_id" value="{{ item.id }}">
+            <button>Add to cart</button>
+        </form>
+    </li>
+{% endfor %}
+</ul>
+</body>
+</html>

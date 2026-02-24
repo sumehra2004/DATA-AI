@@ -1,0 +1,229 @@
+/* ===============================
+   General Body & Fonts
+=================================*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #d6a4a4, #c6ffdd); /* watery gradient */
+    margin: 0;
+    padding: 0;
+    color: #3c096c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ===============================
+   Navbar
+=================================*/
+.navbar {
+    width: 100%;
+    background: linear-gradient(to right, #7209b7, #560bad);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffd6ff;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    color: #ffd6ff;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+/* ===============================
+   Headings
+=================================*/
+h2, h3 {
+    color: #5a189a; /* deep purple */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* ===============================
+   Links
+=================================*/
+a {
+    text-decoration: none;
+    color: #7209b7;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #560bad;
+}
+
+/* ===============================
+   Containers & Forms
+=================================*/
+form, .login-container, .checkout-form, .order-container, .success-container {
+    background: rgba(255,255,255,0.9);
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    padding: 25px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* ===============================
+   Input Fields
+=================================*/
+input {
+    width: 80%;
+    max-width: 350px;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #7209b7;
+    box-shadow: 0 0 8px rgba(114,9,183,0.5);
+    outline: none;
+}
+
+/* ===============================
+   Buttons
+=================================*/
+button, .btn-home, a[href="/checkout"] {
+    padding: 10px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+/* Primary Buttons */
+button {
+    background: linear-gradient(to right, #7209b7, #560bad);
+    color: #fff;
+}
+
+button:hover {
+    background: linear-gradient(to right, #560bad, #480ca8);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(114,9,183,0.4);
+}
+
+/* Back/Home & Checkout Buttons */
+.btn-home, a[href="/checkout"] {
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: white;
+    display: inline-block;
+    width: auto;
+}
+
+.btn-home:hover, a[href="/checkout"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(114,9,183,0.4);
+}
+
+/* ===============================
+   Lists & Items
+=================================*/
+ul, .cart-items ul, .order-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+ul li, .cart-items li, .order-items li {
+    background: rgba(255,255,255,0.85);
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 400px;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+ul li:hover, .cart-items li:hover, .order-items li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+/* Item title & price */
+.item-title {
+    font-weight: bold;
+    color: #4a00e0;
+}
+
+.item-price {
+    font-weight: bold;
+    color: #7209b7;
+}
+
+/* ===============================
+   Totals
+=================================*/
+.total {
+    text-align: center;
+    font-size: 1.3em;
+    color: #5a189a;
+    margin-top: 15px;
+}
+
+/* ===============================
+   Error messages
+=================================*/
+.error {
+    color: #d00000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* ===============================
+   Checkout Layout
+=================================*/
+.checkout-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .checkout-container {
+        flex-direction: column;
+    }
+}

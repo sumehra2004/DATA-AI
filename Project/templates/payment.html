@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Successful</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="success-container">
+    <h2>Payment Successful ✅</h2>
+
+    <div class="success-details">
+        <p><b>Order ID:</b> {{ order["order_id"] }}</p>
+        <p><b>Status:</b> {{ order["status"] }}</p>
+        <p><b>Paid via:</b> {{ order["paid_via"] }}</p>
+    </div>
+
+    <a href="/home" class="btn-home">Back to Home</a>
+</div>
+
+</body>
+</html>

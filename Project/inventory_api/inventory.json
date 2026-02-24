@@ -1,0 +1,38 @@
+[
+    {
+        "type": "Electronics",
+        "name": "laptop",
+        "price": 500000.0,
+        "stock": 148
+    },
+    {
+        "type": "Electronics",
+        "name": "phone",
+        "price": 50000.0,
+        "stock": 500
+    },
+    {
+        "type": "Grocery",
+        "name": "chocolates",
+        "price": 50.0,
+        "stock": 4000
+    },
+    {
+        "type": "Grocery",
+        "name": "Toy",
+        "price": 40000.0,
+        "stock": 6
+    },
+    {
+        "type": "Electronics",
+        "name": "Toy",
+        "price": 40000.0,
+        "stock": 6
+    },
+    {
+        "type": "Electronics",
+        "name": "Toy",
+        "price": 40000.0,
+        "stock": 6
+    }
+]

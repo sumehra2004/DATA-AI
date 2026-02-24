@@ -13,3 +13,10 @@
 2026-02-16 14:41:35,088 - INFO - RUN: C:\Users\User\OneDrive\Desktop\Capg\python\.venv\Scripts\python.exe -m pytest tests
 2026-02-16 14:41:35,928 - INFO - RUN: C:\Users\User\OneDrive\Desktop\Capg\python\.venv\Scripts\python.exe -m unittest discover tests
 2026-02-16 14:41:36,202 - INFO - Pipeline finished
+2026-02-16 15:08:35,755 - INFO - Pipeline started
+2026-02-16 15:08:35,756 - INFO - RUN: C:\Users\User\OneDrive\Desktop\Capg\python\.venv\Scripts\python.exe -m pip install -r requirements.txt
+2026-02-16 15:08:37,427 - INFO - RUN: C:\Users\User\OneDrive\Desktop\Capg\python\.venv\Scripts\python.exe -m pytest tests
+2026-02-16 15:08:38,307 - INFO - RUN: C:\Users\User\OneDrive\Desktop\Capg\python\.venv\Scripts\python.exe -m unittest discover tests
+2026-02-16 15:08:38,584 - INFO - Build zip created at: C:\Users\User\OneDrive\Desktop\Capg\python\Day16\GitHub\dist\app.zip
+2026-02-16 15:08:38,602 - INFO - Deploy artifact copied to: C:\Users\User\OneDrive\Desktop\Capg\python\Day16\GitHub\deploy.zip
+2026-02-16 15:08:38,602 - INFO - Pipeline finished successfully

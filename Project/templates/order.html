@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Summary</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="order-container">
+    <h2>Order Summary</h2>
+
+    <div class="order-details">
+        <p><b>Order ID:</b> {{ order["order_id"] }}</p>
+        <p><b>Name:</b> {{ order["customer"]["name"] }}</p>
+        <p><b>Address:</b> {{ order["customer"]["address"] }}</p>
+        <p><b>Payment Method:</b> {{ order["payment_method"] }}</p>
+        <p><b>Status:</b> {{ order["status"] }}</p>
+    </div>
+
+    <h3>Items</h3>
+    <ul class="order-items">
+        {% for i in order["items"] %}
+        <li>
+            <span class="item-title">{{ i["title"] }}</span>
+            <span class="item-price">₹{{ i["price"] }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <h3 class="total">Total: ₹{{ order["subtotal"] }}</h3>
+
+    <form method="post" action="/payment">
+        <button type="submit">Pay Now</button>
+    </form>
+</div>
+
+</body>
+</html>
