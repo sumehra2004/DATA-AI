@@ -1,0 +1,2501 @@
+customer_id,age,gender,city,annual_income,spending_score,membership_years,total_orders,avg_order_value,last_purchase_days,preferred_category,churn
+1,56,Male,Chicago,85780.0,57.0,3,16,121,136,Fashion,0
+2,69,Male,Phoenix,135614.0,1.0,9,29,282,247,Groceries,1
+3,46,Male,Chicago,23178.0,71.0,5,23,290,248,Home,0
+4,32,Female,Phoenix,51831.0,58.0,5,24,243,331,Sports,1
+5,60,Female,Los Angeles,22176.0,91.0,4,34,158,198,Electronics,0
+6,25,Male,New York,123306.0,21.0,3,7,299,1,Home,0
+7,38,Female,Chicago,53654.0,92.0,5,38,470,190,Beauty,0
+8,56,Female,Chicago,143220.0,80.0,4,37,305,294,Sports,0
+9,36,Male,Phoenix,46627.0,56.0,8,4,473,45,Sports,0
+10,40,Female,San Francisco,72550.0,87.0,4,34,269,337,Fashion,0
+11,28,Male,Los Angeles,132025.0,20.0,8,42,341,32,Home,0
+12,28,Male,Los Angeles,64910.0,54.0,6,22,336,118,Beauty,0
+13,41,Female,Dallas,110417.0,25.0,5,5,97,296,Fashion,1
+14,53,Female,San Francisco,78251.0,28.0,4,50,316,184,Fashion,0
+15,57,Female,Phoenix,55422.0,5.0,4,42,357,191,Groceries,1
+16,41,Male,Los Angeles,31984.0,21.0,4,23,326,235,Electronics,1
+17,20,Male,San Francisco,109312.0,18.0,9,54,447,238,Sports,1
+18,39,Female,Miami,81386.0,47.0,4,15,370,216,Beauty,0
+19,19,Female,San Francisco,103291.0,70.0,9,31,32,74,Sports,0
+20,41,Female,Houston,27135.0,57.0,10,59,365,111,Home,0
+21,61,Female,Dallas,20320.0,93.0,6,9,415,103,Electronics,0
+22,47,Male,Miami,122958.0,19.0,10,43,101,359,Fashion,1
+23,55,Female,New York,114171.0,97.0,7,58,28,74,Electronics,0
+24,19,Male,Chicago,41684.0,65.0,10,53,232,252,Fashion,0
+25,38,Male,Dallas,75913.0,3.0,3,25,67,114,Electronics,0
+26,50,Female,New York,108774.0,42.0,8,25,68,313,Fashion,0
+27,29,Female,Chicago,41889.0,21.0,3,49,328,330,Sports,1
+28,39,Female,Houston,115849.0,99.0,1,21,459,339,Sports,0
+29,61,Male,San Francisco,118071.0,40.0,10,9,59,238,Sports,1
+30,42,Female,Los Angeles,68899.0,67.0,5,55,382,173,Sports,0
+31,66,Female,Miami,144011.0,25.0,2,48,299,79,Electronics,0
+32,44,Male,Phoenix,30770.0,55.0,10,38,245,93,Fashion,0
+33,59,Female,Miami,59321.0,84.0,6,22,475,50,Sports,0
+34,45,Male,Houston,105962.0,52.0,10,43,127,285,Electronics,1
+35,33,Female,New York,129863.0,44.0,9,23,264,223,Fashion,1
+36,32,Male,Phoenix,61777.0,98.0,1,49,274,81,Electronics,0
+37,64,Female,Los Angeles,66250.0,85.0,4,4,52,266,Groceries,0
+38,68,Female,Houston,93034.0,56.0,1,29,42,155,Sports,0
+39,61,Male,Phoenix,124940.0,55.0,1,15,352,233,Home,1
+40,69,Male,Houston,60130.0,87.0,8,1,73,316,Electronics,0
+41,20,Female,San Francisco,101931.0,70.0,2,54,328,236,Sports,1
+42,54,Male,Houston,69346.0,77.0,1,30,68,159,Beauty,0
+43,68,Male,Los Angeles,22537.0,87.0,8,29,481,316,Fashion,0
+44,24,Male,Dallas,104762.0,73.0,4,20,97,251,Groceries,0
+45,38,Male,Chicago,35216.0,81.0,3,33,355,314,Sports,0
+46,26,Female,Phoenix,104149.0,66.0,4,41,452,301,Beauty,0
+47,56,Female,San Francisco,23009.0,19.0,5,44,377,282,Electronics,1
+48,35,Male,Los Angeles,109904.0,83.0,1,36,141,102,Electronics,0
+49,21,Male,Houston,49327.0,7.0,1,22,463,51,Beauty,0
+50,42,Male,San Francisco,34209.0,63.0,3,13,378,52,Groceries,0
+51,31,Male,Los Angeles,68443.0,42.0,6,7,109,209,Beauty,0
+52,67,Female,Dallas,35029.0,42.0,1,8,365,307,Fashion,1
+53,26,Female,San Francisco,87613.0,59.0,2,28,212,131,Electronics,0
+54,43,Male,San Francisco,99443.0,20.0,7,45,435,270,Beauty,1
+55,19,Male,Chicago,76997.0,73.0,1,43,396,205,Home,1
+56,37,Male,Miami,122171.0,17.0,7,9,482,219,Home,1
+57,45,Female,Phoenix,,,4,25,263,257,Beauty,1
+58,64,Male,Chicago,82559.0,47.0,10,56,168,185,Fashion,1
+59,24,Female,New York,84892.0,2.0,6,16,165,145,Electronics,0
+60,61,Male,Phoenix,90409.0,63.0,8,10,497,178,Home,0
+61,25,Female,Chicago,28635.0,62.0,9,11,335,14,Beauty,0
+62,64,Male,Houston,53065.0,100.0,6,31,397,246,Beauty,0
+63,52,Female,Phoenix,131399.0,19.0,9,12,160,187,Sports,1
+64,31,Male,Phoenix,140544.0,17.0,4,31,427,337,Beauty,1
+65,34,Male,Los Angeles,127340.0,69.0,6,14,305,259,Fashion,1
+66,53,Male,Houston,53783.0,39.0,8,51,405,354,Home,0
+67,67,Female,New York,54152.0,82.0,9,44,358,40,Sports,0
+68,57,Male,Miami,78741.0,71.0,3,32,130,89,Home,0
+69,21,Female,San Francisco,127049.0,81.0,2,50,127,125,Home,1
+70,19,Female,Dallas,71502.0,39.0,6,53,386,351,Fashion,0
+71,23,Male,Chicago,49092.0,36.0,4,17,300,9,Beauty,0
+72,59,Male,Los Angeles,37653.0,40.0,1,35,69,350,Fashion,0
+73,21,Male,Chicago,117999.0,45.0,8,1,33,84,Beauty,0
+74,46,Female,New York,119564.0,4.0,9,29,153,21,Sports,0
+75,35,Male,San Francisco,60469.0,25.0,9,51,95,281,Fashion,0
+76,43,Female,New York,143064.0,69.0,2,4,103,358,Fashion,1
+77,61,Female,Phoenix,106483.0,30.0,9,23,362,172,Groceries,0
+78,51,Male,Dallas,141585.0,76.0,7,28,177,25,Electronics,0
+79,27,Male,New York,79754.0,68.0,5,16,305,103,Fashion,0
+80,53,Male,Chicago,49978.0,88.0,7,12,441,190,Groceries,0
+81,31,Male,Houston,107592.0,29.0,9,53,333,236,Electronics,1
+82,48,Male,Houston,114543.0,73.0,8,21,113,313,Beauty,0
+83,65,Male,Phoenix,63169.0,68.0,6,45,316,37,Beauty,0
+84,32,Female,Miami,68287.0,51.0,4,17,113,272,Beauty,0
+85,25,Female,Chicago,74745.0,24.0,1,40,76,293,Groceries,1
+86,31,Female,Chicago,130168.0,14.0,6,13,183,332,Groceries,1
+87,40,Male,New York,133985.0,69.0,3,52,339,152,Electronics,0
+88,57,Female,Dallas,140843.0,18.0,6,58,117,282,Beauty,1
+89,38,Female,Chicago,25543.0,42.0,6,32,35,20,Home,0
+90,33,Female,Los Angeles,76392.0,57.0,4,37,363,137,Fashion,0
+91,62,Female,Miami,41067.0,83.0,2,50,97,359,Groceries,0
+92,35,Female,New York,71033.0,12.0,9,15,365,29,Groceries,0
+93,64,Male,Los Angeles,65256.0,82.0,2,12,91,31,Groceries,0
+94,41,Male,Phoenix,,,3,49,289,19,Electronics,0
+95,43,Female,Houston,128383.0,30.0,10,57,306,148,Beauty,0
+96,42,Female,Phoenix,129048.0,88.0,1,15,85,283,Home,0
+97,62,Female,Houston,89345.0,75.0,7,34,387,350,Fashion,0
+98,58,Male,Phoenix,42191.0,99.0,1,6,87,341,Fashion,0
+99,46,Male,Chicago,106803.0,23.0,9,17,212,300,Beauty,0
+100,32,Female,Los Angeles,92742.0,81.0,1,48,74,163,Home,0
+101,62,Male,Houston,138843.0,1.0,5,49,487,113,Electronics,0
+102,18,Male,New York,106593.0,79.0,7,57,398,150,Groceries,0
+103,42,Female,Los Angeles,48992.0,32.0,3,20,481,330,Groceries,1
+104,24,Male,New York,132050.0,9.0,9,9,187,255,Beauty,1
+105,26,Male,Los Angeles,101531.0,15.0,8,59,428,87,Fashion,0
+106,41,Female,Los Angeles,68803.0,28.0,3,5,44,350,Groceries,0
+107,18,Male,Phoenix,129975.0,24.0,5,23,150,98,Fashion,0
+108,61,Male,Houston,83477.0,60.0,7,33,344,132,Fashion,0
+109,25,Female,Houston,33210.0,35.0,4,38,121,312,Beauty,0
+110,41,Male,Dallas,103329.0,86.0,5,56,393,97,Sports,0
+111,28,Male,Los Angeles,46270.0,27.0,3,14,301,98,Sports,0
+112,68,Female,Chicago,82008.0,83.0,9,17,315,290,Sports,0
+113,34,Female,Chicago,25197.0,76.0,10,57,313,356,Home,0
+114,25,Female,New York,133857.0,20.0,9,19,441,227,Beauty,1
+115,52,Male,New York,27452.0,65.0,7,33,471,145,Fashion,0
+116,52,Female,Phoenix,61486.0,85.0,10,1,282,156,Groceries,0
+117,50,Male,Los Angeles,34859.0,49.0,2,13,497,270,Home,0
+118,22,Female,New York,47236.0,1.0,7,46,433,162,Sports,0
+119,59,Male,New York,51899.0,10.0,7,27,139,112,Electronics,0
+120,56,Female,Miami,52083.0,47.0,5,6,422,331,Home,1
+121,58,Female,Los Angeles,87708.0,59.0,9,59,250,185,Home,1
+122,45,Female,San Francisco,131462.0,96.0,3,6,310,205,Beauty,0
+123,24,Female,Phoenix,36663.0,62.0,4,33,180,97,Groceries,0
+124,26,Male,New York,113076.0,86.0,1,30,180,55,Home,0
+125,25,Female,Phoenix,138665.0,18.0,6,46,97,117,Groceries,0
+126,29,Female,Houston,39053.0,46.0,4,35,57,93,Beauty,0
+127,51,Male,Phoenix,31085.0,32.0,1,23,413,293,Electronics,1
+128,50,Female,San Francisco,50564.0,27.0,2,10,460,204,Fashion,0
+129,65,Male,Chicago,109745.0,92.0,3,51,47,282,Fashion,0
+130,40,Female,San Francisco,79095.0,18.0,9,19,481,189,Sports,1
+131,41,Female,Chicago,89517.0,39.0,8,51,119,323,Sports,0
+132,54,Female,Phoenix,41153.0,49.0,7,28,313,84,Electronics,0
+133,52,Male,Chicago,25247.0,93.0,4,23,419,180,Fashion,0
+134,61,Female,Houston,30553.0,82.0,1,4,143,274,Sports,1
+135,57,Female,Los Angeles,,,8,20,424,181,Groceries,0
+136,39,Female,Chicago,115381.0,72.0,4,19,111,181,Home,0
+137,44,Male,Chicago,26135.0,54.0,3,42,274,283,Beauty,0
+138,52,Male,Phoenix,25573.0,95.0,9,27,116,287,Sports,0
+139,18,Female,Houston,138819.0,34.0,10,57,25,106,Electronics,0
+140,52,Male,Dallas,144588.0,71.0,4,34,188,129,Fashion,0
+141,54,Female,Dallas,99267.0,36.0,4,4,402,262,Electronics,0
+142,64,Female,Dallas,27189.0,18.0,9,56,290,11,Beauty,0
+143,31,Female,Dallas,100077.0,38.0,2,38,127,162,Beauty,0
+144,20,Female,Los Angeles,63646.0,59.0,5,7,406,181,Electronics,1
+145,18,Female,San Francisco,96623.0,9.0,4,48,318,213,Sports,0
+146,22,Female,Phoenix,131971.0,73.0,9,7,66,274,Sports,1
+147,43,Female,Phoenix,73687.0,72.0,5,50,118,21,Fashion,0
+148,31,Male,Miami,88312.0,51.0,9,52,33,275,Groceries,0
+149,56,Male,Houston,127615.0,35.0,9,26,213,260,Fashion,0
+150,44,Male,Dallas,47564.0,82.0,2,26,176,333,Home,0
+151,26,Male,Los Angeles,48835.0,5.0,9,54,407,116,Groceries,0
+152,32,Male,Houston,81587.0,14.0,3,19,173,25,Home,0
+153,32,Male,Dallas,27697.0,92.0,4,9,134,333,Fashion,0
+154,43,Male,Los Angeles,100165.0,30.0,1,20,415,254,Groceries,0
+155,59,Female,Houston,93922.0,4.0,1,42,277,211,Groceries,0
+156,30,Female,Phoenix,37046.0,39.0,1,45,164,305,Home,0
+157,68,Female,Phoenix,77823.0,84.0,9,50,310,321,Electronics,0
+158,49,Female,San Francisco,93580.0,64.0,8,16,29,339,Sports,0
+159,56,Male,New York,73370.0,25.0,5,54,387,257,Groceries,1
+160,66,Male,San Francisco,29615.0,28.0,5,17,233,168,Groceries,0
+161,69,Female,Chicago,133338.0,76.0,9,22,252,337,Home,0
+162,49,Female,San Francisco,25060.0,66.0,3,13,190,21,Groceries,0
+163,21,Male,Dallas,96436.0,78.0,3,12,40,86,Home,0
+164,47,Female,Miami,80519.0,22.0,7,10,34,15,Electronics,1
+165,54,Female,Houston,140562.0,31.0,9,1,438,50,Groceries,0
+166,40,Female,Miami,91117.0,23.0,6,32,387,304,Beauty,1
+167,56,Female,New York,81158.0,48.0,2,30,145,305,Fashion,1
+168,62,Male,Chicago,54782.0,20.0,1,8,360,196,Electronics,0
+169,32,Female,Houston,105709.0,38.0,2,21,360,364,Beauty,1
+170,60,Female,Los Angeles,98533.0,55.0,1,22,232,301,Electronics,1
+171,46,Male,Dallas,128939.0,68.0,10,18,207,288,Sports,0
+172,53,Male,Chicago,78255.0,79.0,10,2,191,245,Electronics,0
+173,30,Female,Phoenix,131952.0,88.0,9,48,499,353,Electronics,0
+174,49,Male,New York,92684.0,89.0,10,44,266,201,Sports,0
+175,24,Female,Chicago,76918.0,1.0,8,9,24,193,Groceries,1
+176,68,Female,Dallas,146093.0,7.0,7,3,250,336,Fashion,1
+177,39,Male,San Francisco,104284.0,57.0,3,54,220,146,Beauty,0
+178,45,Female,Chicago,99558.0,95.0,8,26,392,310,Home,0
+179,19,Female,San Francisco,,,2,21,421,127,Fashion,1
+180,59,Female,Dallas,124223.0,5.0,2,30,168,175,Electronics,1
+181,62,Female,Phoenix,101422.0,50.0,10,28,91,134,Home,0
+182,23,Male,Houston,140363.0,42.0,3,36,245,66,Sports,0
+183,45,Male,Los Angeles,146352.0,12.0,7,26,93,279,Fashion,1
+184,45,Female,Phoenix,45256.0,18.0,1,34,326,246,Groceries,0
+185,61,Male,San Francisco,50005.0,66.0,8,8,188,363,Beauty,1
+186,61,Female,San Francisco,26638.0,74.0,7,10,268,237,Fashion,0
+187,37,Female,Los Angeles,57419.0,79.0,4,48,299,171,Fashion,0
+188,47,Female,Houston,53377.0,94.0,5,55,171,51,Groceries,0
+189,28,Female,Chicago,,,10,43,243,328,Home,1
+190,45,Female,Los Angeles,63116.0,68.0,1,50,244,359,Sports,0
+191,42,Male,New York,56634.0,71.0,4,54,57,153,Groceries,0
+192,56,Female,New York,102291.0,62.0,1,14,63,80,Sports,0
+193,50,Male,Dallas,43382.0,41.0,1,40,204,145,Groceries,0
+194,18,Male,Phoenix,135303.0,95.0,10,55,462,274,Fashion,0
+195,44,Female,San Francisco,,,1,15,260,155,Sports,0
+196,69,Female,Houston,42394.0,70.0,7,17,437,337,Home,0
+197,30,Female,Dallas,,,7,53,350,363,Home,0
+198,58,Female,Phoenix,123246.0,58.0,4,18,370,325,Beauty,0
+199,20,Female,Phoenix,130634.0,51.0,2,32,229,336,Sports,0
+200,56,Male,Dallas,20864.0,34.0,3,38,42,143,Beauty,0
+201,23,Female,Miami,119572.0,44.0,8,23,143,298,Groceries,1
+202,25,Female,Phoenix,60222.0,15.0,8,46,105,34,Electronics,0
+203,44,Male,Miami,33666.0,78.0,6,23,62,304,Home,1
+204,26,Male,New York,143664.0,70.0,10,35,485,239,Fashion,1
+205,54,Female,New York,40955.0,50.0,9,39,59,138,Home,1
+206,50,Male,Phoenix,130674.0,32.0,9,15,322,254,Electronics,1
+207,68,Female,New York,123533.0,67.0,4,53,188,5,Fashion,0
+208,59,Male,Houston,101845.0,3.0,1,24,194,176,Sports,1
+209,61,Male,Miami,136925.0,86.0,1,28,39,214,Sports,0
+210,41,Female,Miami,89590.0,86.0,10,16,480,364,Home,0
+211,32,Male,Phoenix,147775.0,74.0,5,16,128,23,Fashion,0
+212,49,Male,New York,86471.0,51.0,2,40,212,318,Groceries,1
+213,49,Male,Los Angeles,130476.0,67.0,6,39,263,13,Fashion,1
+214,41,Male,San Francisco,108314.0,76.0,7,6,343,241,Beauty,0
+215,58,Male,Dallas,142579.0,93.0,1,2,299,276,Electronics,0
+216,69,Male,Dallas,63298.0,48.0,6,54,247,92,Sports,0
+217,66,Female,Miami,83108.0,17.0,8,13,55,108,Home,0
+218,66,Female,Phoenix,133864.0,7.0,5,44,64,229,Fashion,1
+219,69,Male,Phoenix,,,7,47,405,152,Sports,1
+220,29,Female,Houston,36709.0,66.0,10,59,47,108,Home,1
+221,56,Female,Chicago,29726.0,4.0,6,9,173,289,Sports,1
+222,19,Female,San Francisco,80824.0,10.0,4,34,42,176,Home,1
+223,20,Male,Chicago,60542.0,88.0,7,17,226,320,Sports,0
+224,66,Female,Miami,40245.0,17.0,10,27,439,286,Groceries,0
+225,54,Male,Dallas,54753.0,52.0,9,29,110,364,Beauty,0
+226,66,Female,Houston,99788.0,6.0,10,37,409,329,Electronics,1
+227,34,Male,Houston,41316.0,83.0,10,43,438,241,Sports,0
+228,66,Male,Houston,122907.0,69.0,7,22,378,145,Electronics,0
+229,19,Female,Miami,104698.0,96.0,5,51,57,356,Sports,0
+230,19,Female,Chicago,35960.0,74.0,7,24,438,14,Fashion,0
+231,45,Male,Dallas,50791.0,9.0,3,7,247,275,Beauty,0
+232,40,Female,Houston,127766.0,91.0,2,34,221,71,Groceries,0
+233,54,Female,Dallas,45216.0,77.0,5,48,369,315,Beauty,0
+234,49,Female,New York,52467.0,83.0,4,12,328,195,Electronics,1
+235,50,Male,Phoenix,84427.0,21.0,5,23,273,353,Fashion,1
+236,18,Male,Phoenix,132470.0,24.0,8,15,57,300,Home,1
+237,36,Female,Dallas,82047.0,4.0,4,33,240,11,Beauty,0
+238,19,Female,Los Angeles,93290.0,24.0,9,57,206,106,Groceries,0
+239,61,Female,Los Angeles,67014.0,59.0,7,13,62,258,Fashion,1
+240,43,Male,Miami,24078.0,99.0,10,23,378,196,Fashion,0
+241,49,Male,Miami,98389.0,3.0,7,38,133,145,Electronics,0
+242,23,Female,Phoenix,70519.0,68.0,8,32,279,220,Groceries,0
+243,49,Female,New York,24042.0,40.0,6,45,24,350,Fashion,0
+244,21,Female,San Francisco,69052.0,48.0,8,50,87,174,Fashion,1
+245,28,Female,Chicago,34389.0,54.0,3,35,247,216,Home,1
+246,34,Female,Chicago,115961.0,35.0,10,1,142,93,Electronics,0
+247,55,Female,Miami,,,10,47,192,260,Electronics,0
+248,41,Male,New York,125058.0,56.0,1,58,355,63,Groceries,0
+249,22,Female,Miami,113715.0,89.0,6,45,172,29,Fashion,0
+250,69,Male,San Francisco,70733.0,40.0,1,5,481,275,Home,1
+251,51,Female,Chicago,54754.0,77.0,9,57,286,347,Sports,0
+252,23,Female,Dallas,38624.0,68.0,2,13,176,285,Beauty,1
+253,39,Male,Miami,105886.0,46.0,2,54,181,70,Electronics,0
+254,28,Male,Houston,46681.0,78.0,7,5,233,279,Home,0
+255,65,Male,Dallas,109524.0,13.0,2,32,417,231,Groceries,0
+256,33,Male,San Francisco,101006.0,27.0,10,51,395,302,Home,1
+257,50,Female,San Francisco,44704.0,6.0,8,21,427,255,Fashion,0
+258,26,Male,Miami,124272.0,17.0,6,24,462,172,Beauty,0
+259,23,Female,Phoenix,114913.0,36.0,7,18,442,180,Electronics,1
+260,33,Male,Miami,114108.0,99.0,7,21,45,264,Sports,0
+261,46,Female,Phoenix,143731.0,81.0,6,54,446,183,Fashion,0
+262,20,Female,San Francisco,27493.0,2.0,10,10,311,322,Electronics,1
+263,37,Female,New York,89639.0,77.0,9,24,442,205,Groceries,0
+264,53,Female,San Francisco,120380.0,52.0,9,40,208,249,Electronics,1
+265,36,Female,Chicago,74383.0,66.0,7,47,419,213,Home,0
+266,43,Female,Dallas,22994.0,52.0,9,21,141,159,Beauty,0
+267,20,Male,Dallas,89280.0,92.0,10,25,249,100,Sports,0
+268,36,Female,Los Angeles,67234.0,43.0,3,52,78,317,Beauty,1
+269,37,Male,Los Angeles,67291.0,90.0,3,57,115,112,Home,0
+270,49,Male,San Francisco,148674.0,22.0,1,59,281,308,Sports,1
+271,24,Female,Chicago,112868.0,55.0,5,23,373,166,Sports,0
+272,69,Male,Los Angeles,25594.0,67.0,4,22,331,36,Fashion,0
+273,58,Female,Dallas,125835.0,99.0,2,4,155,112,Sports,0
+274,50,Male,Miami,27371.0,60.0,9,34,369,87,Electronics,0
+275,57,Female,New York,67315.0,58.0,3,56,302,183,Beauty,0
+276,56,Male,New York,103564.0,12.0,8,6,474,85,Groceries,0
+277,35,Female,Chicago,147251.0,88.0,6,28,430,269,Groceries,1
+278,57,Female,San Francisco,121448.0,69.0,5,31,492,165,Beauty,0
+279,18,Female,Los Angeles,99526.0,84.0,1,35,139,303,Fashion,0
+280,28,Female,Miami,132387.0,39.0,4,39,449,90,Sports,0
+281,45,Male,New York,36626.0,13.0,3,42,444,238,Home,0
+282,42,Female,New York,106005.0,41.0,1,23,482,22,Electronics,0
+283,67,Male,Houston,126258.0,57.0,5,6,44,167,Fashion,0
+284,40,Male,San Francisco,125573.0,53.0,6,16,361,215,Sports,1
+285,48,Male,Houston,27130.0,12.0,2,2,165,58,Groceries,0
+286,47,Female,Dallas,26828.0,13.0,3,24,31,30,Home,0
+287,59,Male,New York,77514.0,74.0,6,17,106,106,Sports,0
+288,52,Male,Chicago,127148.0,97.0,4,45,454,330,Fashion,0
+289,24,Male,Phoenix,132524.0,57.0,9,1,128,167,Home,0
+290,33,Female,Phoenix,124635.0,40.0,5,6,442,350,Home,0
+291,43,Female,Miami,72664.0,80.0,4,5,364,154,Home,0
+292,65,Male,New York,131701.0,45.0,2,57,285,327,Home,0
+293,69,Female,New York,37883.0,35.0,6,45,241,7,Sports,0
+294,66,Female,Dallas,63059.0,3.0,10,55,93,197,Home,1
+295,19,Male,New York,104078.0,5.0,2,50,352,321,Sports,1
+296,18,Male,Chicago,62932.0,90.0,7,29,329,46,Home,0
+297,65,Female,Houston,149900.0,11.0,3,12,432,18,Home,0
+298,29,Male,New York,81269.0,71.0,9,39,121,153,Fashion,0
+299,22,Female,New York,,,5,47,444,264,Sports,0
+300,54,Female,Dallas,95986.0,10.0,8,3,156,74,Groceries,1
+301,49,Female,San Francisco,105959.0,34.0,6,48,210,145,Sports,0
+302,26,Female,Los Angeles,22035.0,67.0,10,1,480,102,Beauty,0
+303,58,Female,San Francisco,129767.0,72.0,8,27,440,335,Groceries,0
+304,52,Female,Dallas,60745.0,31.0,3,48,161,335,Fashion,0
+305,36,Male,San Francisco,37241.0,75.0,3,24,376,121,Sports,0
+306,65,Male,Dallas,72975.0,71.0,5,44,92,176,Fashion,0
+307,33,Female,Chicago,43154.0,66.0,10,19,347,63,Groceries,0
+308,20,Female,Miami,45625.0,70.0,3,59,186,296,Fashion,1
+309,37,Female,New York,64950.0,41.0,8,8,187,84,Fashion,0
+310,41,Male,Dallas,118602.0,63.0,10,55,73,15,Electronics,0
+311,50,Female,Dallas,76396.0,32.0,8,44,278,355,Sports,1
+312,41,Male,Los Angeles,119227.0,20.0,2,47,458,134,Fashion,0
+313,69,Female,Dallas,138920.0,57.0,4,2,130,121,Electronics,1
+314,28,Female,Phoenix,33331.0,98.0,10,30,251,319,Electronics,0
+315,66,Male,Miami,83927.0,50.0,1,30,180,128,Home,1
+316,25,Male,New York,106226.0,80.0,4,49,371,288,Home,0
+317,53,Female,New York,104719.0,25.0,4,39,346,301,Groceries,0
+318,55,Female,Los Angeles,83014.0,12.0,10,45,38,180,Sports,1
+319,57,Female,Chicago,59346.0,71.0,9,32,309,82,Home,0
+320,37,Male,New York,90411.0,39.0,3,1,481,13,Groceries,0
+321,52,Male,Phoenix,74478.0,17.0,2,38,69,24,Sports,0
+322,65,Male,New York,32254.0,45.0,9,13,194,168,Groceries,0
+323,42,Male,Phoenix,75734.0,11.0,9,11,321,270,Electronics,0
+324,52,Male,Miami,48621.0,70.0,1,10,203,70,Electronics,0
+325,42,Male,Miami,136490.0,23.0,6,48,204,318,Sports,1
+326,46,Female,Houston,96441.0,91.0,10,59,358,89,Groceries,0
+327,35,Female,Houston,66121.0,70.0,8,26,326,189,Groceries,0
+328,63,Male,Phoenix,147386.0,38.0,3,56,329,257,Home,1
+329,35,Female,Chicago,101418.0,2.0,9,55,365,217,Home,1
+330,19,Female,New York,80197.0,86.0,2,20,100,32,Sports,0
+331,52,Male,Dallas,104577.0,84.0,6,17,393,141,Beauty,0
+332,33,Female,New York,114634.0,89.0,1,17,175,161,Home,0
+333,58,Male,Houston,138034.0,79.0,7,4,294,32,Fashion,0
+334,53,Male,San Francisco,62431.0,93.0,3,5,302,312,Home,0
+335,50,Female,Dallas,137637.0,72.0,7,23,451,152,Beauty,0
+336,21,Male,Phoenix,119245.0,37.0,4,46,268,347,Groceries,0
+337,50,Male,Dallas,120211.0,49.0,9,52,166,260,Electronics,0
+338,31,Male,San Francisco,24837.0,52.0,5,10,454,216,Electronics,0
+339,38,Male,New York,131984.0,33.0,3,46,26,279,Groceries,0
+340,65,Male,New York,110025.0,22.0,8,28,176,285,Electronics,1
+341,37,Male,Chicago,103163.0,5.0,6,33,190,98,Home,0
+342,25,Male,Los Angeles,91232.0,18.0,2,43,88,30,Electronics,0
+343,24,Male,Dallas,68994.0,38.0,3,26,113,90,Beauty,0
+344,20,Female,Houston,99079.0,37.0,8,55,388,148,Beauty,0
+345,34,Female,San Francisco,32615.0,94.0,10,50,382,144,Home,0
+346,50,Female,San Francisco,21466.0,95.0,7,48,395,67,Groceries,0
+347,65,Male,San Francisco,50771.0,64.0,10,29,205,357,Fashion,1
+348,29,Male,Houston,138645.0,10.0,6,27,411,58,Home,1
+349,68,Female,Los Angeles,103886.0,79.0,1,18,189,281,Electronics,0
+350,39,Female,New York,85911.0,42.0,9,40,223,279,Home,1
+351,39,Female,Chicago,118566.0,48.0,3,10,61,236,Beauty,0
+352,63,Male,Chicago,40746.0,44.0,5,58,32,353,Home,0
+353,47,Female,Houston,108422.0,82.0,7,42,173,128,Home,0
+354,55,Female,Chicago,129884.0,87.0,7,5,293,337,Fashion,0
+355,55,Male,San Francisco,80739.0,97.0,3,10,317,209,Beauty,0
+356,62,Female,Miami,128440.0,16.0,4,50,70,186,Sports,1
+357,68,Male,Los Angeles,118187.0,54.0,10,21,388,169,Sports,0
+358,25,Male,New York,93369.0,35.0,7,24,231,172,Beauty,0
+359,44,Male,Miami,21893.0,98.0,8,38,163,260,Sports,0
+360,44,Female,Los Angeles,50573.0,28.0,2,3,376,205,Electronics,1
+361,51,Female,Phoenix,116907.0,2.0,9,40,22,135,Sports,0
+362,38,Male,Dallas,60874.0,94.0,7,31,273,46,Electronics,0
+363,47,Female,Houston,97362.0,13.0,8,41,494,9,Beauty,0
+364,50,Female,San Francisco,119956.0,41.0,6,37,354,161,Sports,1
+365,45,Female,Chicago,107460.0,80.0,6,2,275,289,Sports,0
+366,64,Female,Phoenix,147021.0,59.0,9,2,117,340,Groceries,0
+367,50,Male,Chicago,138580.0,69.0,4,39,192,321,Electronics,0
+368,22,Female,Miami,53367.0,92.0,5,49,169,106,Electronics,0
+369,65,Male,New York,41199.0,53.0,9,42,298,290,Home,0
+370,36,Male,New York,136600.0,45.0,1,44,78,341,Fashion,1
+371,21,Female,New York,111404.0,20.0,4,34,465,88,Sports,0
+372,52,Male,San Francisco,94328.0,24.0,7,42,132,192,Groceries,0
+373,66,Female,Chicago,77724.0,61.0,9,20,343,153,Fashion,0
+374,34,Female,Phoenix,106133.0,91.0,10,33,262,311,Groceries,0
+375,61,Male,New York,56405.0,94.0,6,4,329,137,Fashion,0
+376,45,Male,Phoenix,118232.0,58.0,8,45,76,273,Sports,1
+377,47,Male,Chicago,128659.0,27.0,9,44,426,149,Groceries,0
+378,46,Male,San Francisco,35989.0,26.0,10,11,386,188,Electronics,0
+379,63,Female,Miami,48931.0,7.0,4,42,79,141,Home,0
+380,23,Female,San Francisco,29290.0,42.0,1,47,348,131,Groceries,1
+381,52,Female,Phoenix,58367.0,47.0,8,5,235,4,Beauty,0
+382,58,Male,San Francisco,141136.0,53.0,2,25,488,263,Sports,1
+383,54,Male,San Francisco,99878.0,59.0,1,49,252,26,Sports,0
+384,41,Male,Miami,110477.0,38.0,7,37,74,24,Beauty,0
+385,46,Female,Chicago,99481.0,69.0,10,34,392,266,Fashion,1
+386,66,Male,Chicago,96298.0,87.0,9,9,227,229,Home,0
+387,63,Female,Houston,146299.0,92.0,9,6,82,269,Fashion,0
+388,48,Male,San Francisco,50133.0,98.0,3,18,203,125,Beauty,0
+389,52,Female,Chicago,132616.0,53.0,6,14,330,172,Beauty,0
+390,50,Female,Chicago,125686.0,15.0,7,19,300,234,Home,0
+391,69,Male,Los Angeles,47052.0,96.0,10,14,45,295,Beauty,0
+392,38,Male,New York,127286.0,26.0,9,40,196,275,Beauty,0
+393,49,Female,Houston,105489.0,48.0,2,17,82,76,Groceries,0
+394,40,Female,Dallas,60475.0,95.0,8,35,448,308,Home,0
+395,50,Male,Houston,102666.0,19.0,7,29,92,214,Sports,1
+396,20,Male,Houston,116622.0,9.0,4,42,354,158,Fashion,1
+397,35,Female,Dallas,77656.0,64.0,2,17,186,302,Sports,0
+398,42,Male,Los Angeles,24633.0,93.0,8,59,244,204,Sports,0
+399,59,Female,San Francisco,37304.0,54.0,5,43,84,149,Groceries,0
+400,48,Female,Miami,127573.0,51.0,6,8,88,75,Fashion,0
+401,20,Male,Chicago,117820.0,39.0,7,1,459,229,Sports,0
+402,57,Male,New York,66546.0,4.0,10,45,28,304,Home,0
+403,63,Male,Phoenix,,,1,53,255,62,Fashion,0
+404,41,Male,San Francisco,68291.0,64.0,8,36,217,58,Electronics,0
+405,67,Male,Dallas,47405.0,29.0,4,7,431,274,Groceries,1
+406,49,Female,Miami,137069.0,11.0,9,46,192,108,Sports,0
+407,64,Female,San Francisco,56386.0,97.0,1,5,301,187,Beauty,0
+408,39,Male,Dallas,110909.0,58.0,2,24,47,229,Fashion,0
+409,40,Male,Chicago,40827.0,75.0,6,28,315,48,Electronics,0
+410,19,Male,Los Angeles,53040.0,27.0,10,43,418,319,Beauty,0
+411,44,Female,San Francisco,80354.0,97.0,1,17,153,268,Electronics,0
+412,59,Male,Dallas,98543.0,21.0,4,37,46,215,Sports,0
+413,19,Male,Chicago,38157.0,39.0,8,20,57,290,Beauty,1
+414,43,Female,Chicago,117693.0,95.0,10,3,215,254,Sports,0
+415,34,Female,Los Angeles,55315.0,46.0,5,37,222,358,Beauty,1
+416,57,Male,Houston,55932.0,66.0,9,26,104,87,Fashion,0
+417,50,Male,San Francisco,41164.0,91.0,6,15,339,181,Home,0
+418,26,Male,San Francisco,34414.0,36.0,1,51,49,25,Home,0
+419,60,Female,Houston,147597.0,75.0,6,48,485,222,Electronics,0
+420,65,Male,New York,34327.0,82.0,6,8,118,49,Groceries,0
+421,56,Male,New York,,,6,13,406,334,Beauty,0
+422,46,Male,Houston,20946.0,63.0,8,48,209,175,Sports,0
+423,59,Female,Miami,34693.0,99.0,6,3,31,311,Groceries,0
+424,43,Female,Phoenix,47241.0,35.0,5,1,110,274,Fashion,1
+425,52,Male,Chicago,135194.0,31.0,2,9,49,35,Fashion,0
+426,67,Male,Phoenix,115790.0,28.0,4,31,232,217,Fashion,0
+427,42,Female,Chicago,35540.0,1.0,10,41,57,209,Home,0
+428,41,Female,Houston,92255.0,25.0,5,54,360,160,Sports,0
+429,30,Female,New York,84757.0,43.0,10,26,79,7,Fashion,0
+430,24,Female,Miami,61203.0,84.0,4,17,313,269,Fashion,0
+431,53,Female,New York,45081.0,67.0,2,56,379,126,Electronics,0
+432,62,Female,Phoenix,81861.0,63.0,7,34,162,325,Beauty,0
+433,37,Female,New York,31350.0,51.0,10,9,421,356,Beauty,0
+434,18,Female,Houston,,,10,56,199,90,Beauty,0
+435,25,Female,Miami,76809.0,82.0,2,51,304,42,Groceries,0
+436,63,Male,Phoenix,121894.0,64.0,1,13,131,159,Electronics,1
+437,33,Male,Miami,117557.0,74.0,5,5,249,202,Home,0
+438,31,Male,San Francisco,62832.0,69.0,1,41,463,282,Groceries,0
+439,29,Female,Chicago,48369.0,9.0,1,13,40,332,Electronics,1
+440,68,Male,New York,51728.0,2.0,1,1,164,288,Fashion,1
+441,40,Female,Miami,37576.0,34.0,6,25,165,91,Sports,0
+442,32,Female,Los Angeles,49001.0,60.0,9,47,460,125,Groceries,0
+443,45,Male,San Francisco,147625.0,61.0,10,4,394,126,Groceries,0
+444,51,Female,New York,103384.0,31.0,1,36,440,52,Fashion,0
+445,19,Male,Chicago,20390.0,10.0,5,52,335,103,Fashion,1
+446,49,Male,Miami,107535.0,76.0,9,10,185,361,Sports,0
+447,40,Male,Phoenix,65436.0,36.0,9,28,159,187,Beauty,1
+448,39,Female,Chicago,31569.0,85.0,1,57,222,205,Groceries,0
+449,68,Male,Los Angeles,33029.0,49.0,8,6,263,14,Electronics,0
+450,42,Female,Miami,42490.0,70.0,1,27,132,104,Home,0
+451,39,Male,Dallas,65875.0,49.0,8,56,487,117,Fashion,0
+452,39,Male,Dallas,143552.0,3.0,1,12,220,304,Fashion,1
+453,66,Male,Houston,120864.0,74.0,5,52,404,93,Home,0
+454,69,Female,New York,25867.0,5.0,8,48,333,144,Electronics,0
+455,59,Female,Phoenix,100820.0,90.0,6,3,278,110,Fashion,0
+456,23,Female,Houston,119515.0,61.0,9,46,274,163,Home,1
+457,32,Male,Miami,29121.0,85.0,1,33,466,53,Fashion,0
+458,60,Male,Dallas,21539.0,90.0,9,10,424,3,Beauty,0
+459,54,Female,Dallas,111024.0,26.0,1,31,42,68,Beauty,1
+460,50,Female,Dallas,37027.0,72.0,10,15,412,246,Fashion,0
+461,25,Female,Miami,147402.0,5.0,10,7,265,138,Fashion,1
+462,61,Female,Dallas,94229.0,15.0,3,36,358,308,Beauty,1
+463,61,Female,Chicago,28921.0,16.0,1,14,330,352,Fashion,1
+464,22,Female,San Francisco,70435.0,1.0,3,56,385,287,Electronics,1
+465,56,Male,Miami,142368.0,16.0,2,48,391,66,Electronics,0
+466,21,Female,Phoenix,30310.0,37.0,2,14,422,347,Sports,1
+467,23,Male,San Francisco,83965.0,3.0,9,3,337,325,Electronics,1
+468,62,Male,Houston,142033.0,52.0,8,49,106,155,Groceries,0
+469,49,Female,Phoenix,131048.0,47.0,1,53,238,87,Groceries,0
+470,69,Female,San Francisco,116444.0,95.0,4,46,494,33,Groceries,0
+471,47,Male,Los Angeles,89922.0,13.0,1,50,442,68,Fashion,0
+472,64,Female,Dallas,,,1,3,375,187,Fashion,0
+473,52,Female,Los Angeles,113948.0,55.0,4,22,479,192,Home,1
+474,57,Male,New York,102839.0,21.0,2,19,46,213,Groceries,0
+475,69,Male,New York,32242.0,66.0,3,35,449,88,Groceries,0
+476,33,Male,San Francisco,137027.0,54.0,9,12,309,351,Electronics,0
+477,30,Female,Los Angeles,132561.0,27.0,2,54,308,108,Beauty,0
+478,67,Male,Miami,28947.0,38.0,4,5,367,240,Beauty,0
+479,59,Female,Phoenix,132250.0,90.0,1,10,242,216,Sports,0
+480,47,Male,Los Angeles,91466.0,58.0,2,41,371,177,Home,1
+481,36,Male,New York,123706.0,62.0,5,33,197,53,Beauty,0
+482,34,Male,Los Angeles,140351.0,46.0,10,13,167,330,Sports,1
+483,36,Female,Miami,144749.0,89.0,1,35,443,49,Electronics,0
+484,45,Female,Los Angeles,81816.0,11.0,7,51,246,114,Home,0
+485,43,Male,Phoenix,68785.0,72.0,4,32,370,95,Home,0
+486,54,Male,Houston,139963.0,8.0,6,11,205,25,Groceries,0
+487,43,Male,Miami,20507.0,97.0,8,48,434,132,Fashion,0
+488,40,Female,New York,86972.0,71.0,6,38,313,179,Groceries,0
+489,26,Male,Phoenix,47151.0,64.0,2,24,489,145,Electronics,0
+490,29,Female,Los Angeles,31618.0,21.0,1,35,448,364,Groceries,1
+491,18,Male,Los Angeles,94286.0,72.0,8,19,60,198,Home,0
+492,18,Male,Houston,36122.0,63.0,8,6,412,325,Groceries,0
+493,64,Male,New York,27354.0,85.0,9,40,412,84,Sports,0
+494,51,Male,New York,129598.0,64.0,6,54,210,157,Groceries,1
+495,49,Male,Chicago,50979.0,20.0,1,45,98,85,Beauty,0
+496,65,Male,New York,106436.0,8.0,9,44,224,253,Electronics,0
+497,42,Female,Houston,99376.0,58.0,3,42,403,72,Electronics,0
+498,57,Male,Dallas,,,6,35,297,223,Home,0
+499,62,Female,Chicago,122703.0,31.0,10,4,291,276,Groceries,0
+500,18,Male,Chicago,25037.0,93.0,10,33,51,283,Home,0
+501,33,Male,Los Angeles,48633.0,9.0,9,13,469,264,Home,0
+502,56,Female,Los Angeles,44495.0,15.0,3,56,493,246,Sports,0
+503,22,Male,New York,84550.0,94.0,5,36,161,341,Fashion,0
+504,39,Female,Chicago,101384.0,26.0,5,54,270,61,Home,1
+505,46,Female,San Francisco,56483.0,10.0,10,43,313,259,Fashion,1
+506,20,Male,Los Angeles,133181.0,29.0,7,19,117,7,Fashion,0
+507,29,Female,Houston,93373.0,80.0,4,43,155,188,Electronics,0
+508,43,Female,San Francisco,54069.0,36.0,4,12,296,4,Beauty,0
+509,33,Male,Los Angeles,27370.0,84.0,7,11,331,231,Beauty,0
+510,68,Female,Miami,,,9,6,321,133,Groceries,0
+511,54,Male,Miami,136843.0,86.0,4,12,62,125,Sports,0
+512,39,Male,Los Angeles,91947.0,71.0,4,27,139,15,Sports,0
+513,46,Male,Chicago,59133.0,23.0,6,41,239,13,Beauty,0
+514,31,Male,Dallas,116035.0,41.0,6,25,65,118,Groceries,0
+515,45,Female,Dallas,115761.0,93.0,7,42,255,240,Beauty,0
+516,22,Male,Chicago,133753.0,80.0,1,3,67,263,Groceries,0
+517,64,Male,Phoenix,20692.0,28.0,3,3,217,360,Groceries,1
+518,66,Female,Dallas,48926.0,48.0,9,20,103,6,Groceries,0
+519,47,Male,Miami,,,6,28,50,320,Groceries,1
+520,63,Male,Houston,124700.0,31.0,6,23,180,231,Electronics,0
+521,69,Female,Chicago,93984.0,14.0,5,48,447,30,Electronics,0
+522,22,Female,New York,63390.0,97.0,3,3,90,22,Beauty,0
+523,29,Female,Miami,69593.0,73.0,5,42,27,156,Groceries,0
+524,33,Female,Houston,95609.0,91.0,1,24,476,118,Home,0
+525,43,Female,Houston,120950.0,88.0,3,43,405,340,Groceries,1
+526,43,Female,Chicago,25209.0,77.0,4,40,420,193,Home,0
+527,65,Female,Houston,146700.0,90.0,5,6,71,346,Electronics,0
+528,38,Male,Chicago,26533.0,29.0,10,20,64,195,Groceries,0
+529,56,Female,Dallas,106597.0,51.0,9,11,312,168,Fashion,0
+530,53,Female,Los Angeles,27211.0,49.0,4,32,445,239,Beauty,1
+531,50,Female,Miami,29927.0,43.0,3,27,319,362,Groceries,0
+532,47,Male,Phoenix,97463.0,92.0,10,21,484,244,Sports,0
+533,54,Male,Los Angeles,137333.0,92.0,1,44,392,69,Home,0
+534,40,Female,Miami,44594.0,72.0,10,48,57,95,Groceries,0
+535,27,Female,Chicago,94852.0,87.0,6,50,374,77,Fashion,0
+536,22,Female,Miami,97713.0,93.0,7,13,399,171,Home,0
+537,53,Male,Dallas,96382.0,5.0,10,22,250,1,Fashion,0
+538,51,Male,Chicago,27933.0,42.0,8,35,497,62,Beauty,0
+539,69,Female,Los Angeles,123780.0,7.0,1,47,281,207,Beauty,1
+540,48,Male,New York,132157.0,42.0,4,22,87,154,Beauty,0
+541,27,Female,New York,60696.0,36.0,5,28,198,274,Electronics,1
+542,36,Male,San Francisco,85449.0,27.0,2,21,376,48,Fashion,1
+543,49,Male,San Francisco,87616.0,58.0,1,46,438,137,Groceries,0
+544,18,Female,Miami,26089.0,46.0,8,18,205,1,Sports,0
+545,22,Female,New York,76548.0,66.0,6,31,460,235,Sports,1
+546,62,Female,Chicago,46123.0,25.0,5,46,220,256,Beauty,0
+547,21,Female,Houston,27797.0,73.0,9,37,409,107,Sports,0
+548,33,Male,Chicago,70013.0,27.0,2,21,32,173,Home,0
+549,41,Male,Houston,28346.0,1.0,10,14,462,130,Fashion,0
+550,33,Male,Los Angeles,105414.0,87.0,8,25,233,294,Fashion,0
+551,19,Female,Phoenix,53672.0,74.0,10,27,239,40,Fashion,0
+552,66,Male,Houston,37653.0,42.0,9,40,305,338,Home,0
+553,45,Female,New York,69556.0,52.0,1,23,263,16,Groceries,0
+554,49,Male,Chicago,143723.0,25.0,7,31,375,127,Electronics,0
+555,44,Female,Los Angeles,128278.0,54.0,8,47,277,349,Home,0
+556,37,Female,New York,46140.0,67.0,3,29,77,203,Fashion,1
+557,41,Male,Los Angeles,21184.0,6.0,4,47,55,134,Fashion,1
+558,29,Female,Phoenix,143626.0,58.0,3,30,347,259,Fashion,0
+559,67,Female,Dallas,54493.0,70.0,7,51,448,14,Groceries,0
+560,52,Male,Chicago,64148.0,53.0,9,26,412,66,Sports,0
+561,50,Female,Miami,44846.0,66.0,3,20,401,351,Electronics,0
+562,50,Female,Chicago,131361.0,58.0,6,38,212,342,Home,1
+563,68,Female,San Francisco,42195.0,82.0,8,19,352,195,Fashion,0
+564,60,Male,Phoenix,25606.0,87.0,6,27,69,114,Beauty,0
+565,54,Male,Chicago,23956.0,2.0,2,25,482,159,Electronics,0
+566,29,Female,San Francisco,36555.0,76.0,7,40,51,161,Beauty,1
+567,20,Male,Miami,110385.0,22.0,2,38,117,254,Electronics,1
+568,18,Female,Houston,38690.0,37.0,2,52,62,15,Fashion,0
+569,50,Female,Los Angeles,78502.0,20.0,2,23,400,37,Electronics,1
+570,57,Female,Miami,144586.0,24.0,1,29,370,155,Electronics,1
+571,27,Female,New York,68849.0,84.0,1,15,353,27,Fashion,0
+572,60,Female,Phoenix,46347.0,65.0,7,59,329,12,Groceries,0
+573,61,Male,Houston,,,5,3,66,67,Beauty,0
+574,46,Female,New York,123844.0,81.0,3,10,289,30,Groceries,0
+575,30,Male,New York,111321.0,1.0,1,15,451,96,Beauty,0
+576,29,Male,Phoenix,69056.0,94.0,10,56,330,215,Sports,0
+577,48,Female,Houston,83851.0,3.0,6,16,432,194,Beauty,1
+578,63,Female,Dallas,118234.0,46.0,1,17,450,135,Beauty,0
+579,19,Male,New York,101502.0,55.0,9,19,82,290,Electronics,0
+580,68,Male,New York,116633.0,75.0,2,11,38,32,Sports,0
+581,67,Male,Houston,101418.0,88.0,1,48,366,39,Fashion,0
+582,52,Female,Chicago,90211.0,86.0,7,5,412,352,Fashion,0
+583,40,Male,New York,61850.0,64.0,6,5,120,206,Home,0
+584,34,Female,Los Angeles,98545.0,45.0,6,58,56,43,Sports,0
+585,43,Female,Houston,47843.0,26.0,5,14,126,337,Electronics,1
+586,25,Female,New York,82320.0,77.0,4,50,111,259,Home,0
+587,46,Male,Phoenix,49793.0,65.0,4,26,327,249,Home,0
+588,43,Female,Miami,59516.0,24.0,3,8,204,74,Fashion,0
+589,27,Female,Los Angeles,124407.0,74.0,10,5,235,319,Beauty,1
+590,43,Female,San Francisco,149045.0,35.0,8,7,47,296,Electronics,0
+591,51,Female,San Francisco,37857.0,24.0,7,16,55,274,Sports,1
+592,68,Female,Miami,39627.0,28.0,9,55,391,323,Home,1
+593,58,Male,San Francisco,81822.0,100.0,1,14,339,359,Electronics,0
+594,24,Female,Miami,104101.0,80.0,7,37,37,190,Fashion,0
+595,21,Female,New York,111561.0,16.0,10,56,364,138,Home,1
+596,67,Male,Los Angeles,72248.0,59.0,4,41,438,302,Home,0
+597,62,Female,Los Angeles,75798.0,81.0,7,4,215,311,Groceries,0
+598,28,Male,Chicago,113368.0,54.0,1,36,97,331,Fashion,1
+599,46,Female,Miami,64116.0,79.0,5,48,186,353,Groceries,1
+600,53,Male,Los Angeles,95318.0,16.0,3,56,109,282,Fashion,1
+601,42,Male,Chicago,124186.0,15.0,5,17,283,166,Fashion,0
+602,38,Female,Houston,147119.0,98.0,4,47,491,278,Groceries,0
+603,53,Female,Chicago,107902.0,11.0,2,36,227,26,Electronics,0
+604,27,Female,Phoenix,48557.0,65.0,4,6,231,73,Electronics,0
+605,54,Male,Dallas,91334.0,79.0,3,16,290,115,Electronics,0
+606,26,Male,New York,95163.0,90.0,1,29,282,51,Beauty,0
+607,41,Male,Houston,126719.0,68.0,10,36,292,171,Home,0
+608,52,Female,Dallas,143099.0,43.0,8,38,361,268,Electronics,1
+609,66,Male,Dallas,98002.0,69.0,5,37,233,3,Beauty,0
+610,52,Male,Houston,62614.0,99.0,4,48,393,210,Home,0
+611,65,Female,Phoenix,32720.0,13.0,10,57,83,338,Electronics,1
+612,53,Male,Chicago,77608.0,10.0,5,48,31,301,Fashion,1
+613,35,Male,New York,127449.0,75.0,4,10,229,342,Sports,1
+614,66,Female,Chicago,122828.0,82.0,3,41,331,115,Electronics,0
+615,56,Male,Los Angeles,146613.0,98.0,5,36,193,167,Sports,0
+616,49,Female,Chicago,92095.0,41.0,4,29,450,265,Electronics,0
+617,41,Female,San Francisco,125924.0,50.0,1,14,275,227,Fashion,0
+618,40,Female,Houston,104694.0,87.0,3,4,482,151,Sports,0
+619,49,Female,New York,116452.0,71.0,10,44,120,268,Beauty,0
+620,54,Female,Chicago,107593.0,59.0,10,56,35,116,Fashion,0
+621,29,Male,New York,55892.0,39.0,8,42,216,88,Sports,0
+622,66,Male,New York,126975.0,3.0,7,36,277,318,Sports,1
+623,30,Female,Los Angeles,97242.0,76.0,2,50,403,242,Groceries,0
+624,40,Female,Los Angeles,136041.0,7.0,1,45,263,360,Groceries,1
+625,42,Male,Houston,146202.0,49.0,3,13,367,329,Fashion,0
+626,52,Female,Phoenix,97606.0,26.0,5,46,268,333,Fashion,1
+627,58,Female,San Francisco,143769.0,33.0,10,18,124,40,Fashion,0
+628,47,Female,Dallas,138542.0,48.0,1,33,201,182,Home,0
+629,34,Male,New York,126438.0,79.0,3,21,174,209,Beauty,0
+630,66,Male,Phoenix,20924.0,2.0,3,16,306,273,Electronics,1
+631,37,Female,Dallas,71322.0,71.0,5,15,188,119,Groceries,0
+632,65,Female,Dallas,46478.0,32.0,3,54,439,24,Sports,0
+633,42,Male,San Francisco,91042.0,4.0,9,57,66,258,Groceries,1
+634,39,Male,Houston,66418.0,20.0,1,5,62,92,Electronics,0
+635,30,Female,Dallas,82217.0,36.0,4,6,340,161,Fashion,1
+636,36,Female,San Francisco,120699.0,32.0,10,38,325,149,Groceries,0
+637,66,Male,Dallas,110140.0,28.0,10,3,240,117,Beauty,1
+638,53,Male,New York,100846.0,77.0,4,48,20,53,Beauty,0
+639,29,Male,New York,93762.0,1.0,1,12,219,302,Home,0
+640,58,Female,Miami,31781.0,60.0,2,36,460,45,Groceries,0
+641,36,Male,Phoenix,25515.0,56.0,1,33,163,265,Fashion,1
+642,29,Female,Chicago,137358.0,35.0,6,36,397,262,Sports,0
+643,26,Male,San Francisco,56133.0,30.0,3,33,47,307,Home,0
+644,24,Male,Los Angeles,102508.0,54.0,7,31,361,234,Fashion,0
+645,45,Male,San Francisco,117628.0,36.0,5,21,357,35,Home,0
+646,31,Male,Chicago,96946.0,55.0,9,27,297,338,Groceries,1
+647,48,Female,Phoenix,105058.0,89.0,7,27,60,197,Electronics,0
+648,69,Female,Los Angeles,29095.0,80.0,4,8,351,25,Groceries,0
+649,36,Male,Chicago,108583.0,58.0,5,56,166,202,Fashion,0
+650,64,Female,Miami,40470.0,83.0,5,37,364,273,Sports,0
+651,33,Male,Los Angeles,63129.0,65.0,5,32,197,36,Sports,0
+652,22,Male,New York,28531.0,69.0,10,26,334,223,Fashion,0
+653,52,Male,Chicago,57038.0,51.0,9,2,344,352,Home,0
+654,29,Male,San Francisco,107939.0,22.0,10,12,437,277,Beauty,0
+655,42,Female,Los Angeles,62674.0,88.0,3,22,186,18,Fashion,0
+656,69,Male,Miami,147572.0,53.0,6,17,142,188,Groceries,1
+657,38,Male,San Francisco,114658.0,100.0,8,7,93,257,Sports,0
+658,53,Female,Dallas,102476.0,36.0,9,43,258,142,Electronics,0
+659,40,Male,Los Angeles,49831.0,68.0,7,4,268,136,Sports,0
+660,33,Male,Los Angeles,77174.0,36.0,3,37,282,307,Beauty,1
+661,56,Male,Miami,31279.0,52.0,1,38,271,79,Sports,0
+662,62,Female,Dallas,58220.0,53.0,4,32,376,292,Beauty,0
+663,59,Male,Chicago,80610.0,82.0,6,11,130,62,Fashion,0
+664,56,Female,Houston,72719.0,50.0,3,1,199,129,Sports,0
+665,31,Male,Chicago,144936.0,80.0,1,25,207,341,Home,0
+666,48,Male,Dallas,73051.0,41.0,6,42,327,298,Groceries,1
+667,22,Female,Phoenix,92013.0,18.0,1,52,226,257,Home,0
+668,52,Male,San Francisco,76652.0,22.0,9,24,253,212,Groceries,0
+669,40,Male,Miami,,,1,53,43,54,Sports,0
+670,46,Female,Chicago,102936.0,21.0,6,43,45,175,Sports,1
+671,60,Female,Los Angeles,,,1,56,400,100,Groceries,0
+672,28,Female,Miami,87598.0,44.0,7,17,237,39,Electronics,0
+673,35,Female,New York,61798.0,47.0,3,8,365,263,Sports,0
+674,64,Female,Dallas,144517.0,39.0,6,59,397,150,Electronics,0
+675,29,Male,San Francisco,73473.0,29.0,7,45,29,121,Electronics,1
+676,26,Female,Chicago,39880.0,54.0,1,27,36,178,Groceries,0
+677,27,Male,Miami,120117.0,90.0,1,52,264,301,Electronics,0
+678,61,Male,San Francisco,64439.0,85.0,5,18,225,330,Electronics,1
+679,34,Male,Chicago,140944.0,17.0,6,27,277,120,Fashion,1
+680,55,Female,Miami,34308.0,80.0,9,22,131,72,Home,0
+681,24,Female,Los Angeles,111563.0,60.0,1,16,224,219,Electronics,0
+682,63,Male,New York,116256.0,31.0,4,2,46,302,Home,1
+683,30,Female,New York,55081.0,73.0,10,5,476,123,Electronics,0
+684,57,Female,Phoenix,95242.0,95.0,8,18,90,244,Home,0
+685,59,Female,Miami,70383.0,78.0,10,3,195,75,Sports,0
+686,26,Female,Chicago,29837.0,49.0,9,27,221,6,Sports,0
+687,67,Male,New York,124135.0,2.0,3,54,267,21,Home,0
+688,44,Male,Dallas,72151.0,48.0,2,17,137,190,Electronics,0
+689,19,Female,New York,138128.0,14.0,4,16,28,225,Fashion,1
+690,22,Male,Houston,56824.0,59.0,2,6,105,103,Home,0
+691,46,Female,Houston,53073.0,97.0,1,51,42,344,Beauty,0
+692,54,Female,New York,132651.0,99.0,3,7,474,99,Fashion,0
+693,55,Male,Miami,117624.0,58.0,7,50,259,318,Beauty,0
+694,36,Male,Phoenix,113648.0,58.0,1,14,92,363,Home,0
+695,25,Male,New York,46299.0,51.0,2,38,46,83,Electronics,0
+696,65,Female,Los Angeles,119993.0,84.0,1,40,491,181,Beauty,0
+697,62,Male,San Francisco,78861.0,2.0,8,15,368,152,Home,1
+698,18,Female,Chicago,50063.0,41.0,5,47,100,56,Fashion,1
+699,39,Male,Phoenix,89453.0,83.0,8,47,103,190,Electronics,0
+700,69,Male,Los Angeles,141768.0,82.0,3,48,218,22,Beauty,0
+701,34,Female,Phoenix,143299.0,16.0,7,33,62,68,Home,0
+702,24,Female,Los Angeles,88472.0,4.0,8,43,282,185,Electronics,0
+703,42,Female,Chicago,122166.0,12.0,6,27,111,10,Electronics,1
+704,62,Female,Chicago,34506.0,29.0,7,29,358,66,Sports,0
+705,21,Female,Houston,114341.0,7.0,2,57,466,264,Electronics,0
+706,53,Female,Miami,99854.0,14.0,8,37,103,225,Home,1
+707,23,Female,Los Angeles,133604.0,12.0,5,5,319,123,Fashion,0
+708,48,Female,San Francisco,,,7,29,442,38,Groceries,0
+709,36,Male,Houston,47672.0,5.0,1,32,315,123,Sports,0
+710,61,Female,Los Angeles,58417.0,81.0,5,53,154,318,Home,0
+711,56,Female,Houston,72413.0,32.0,1,6,473,156,Home,0
+712,44,Male,Chicago,144044.0,74.0,8,2,300,301,Home,0
+713,27,Female,Phoenix,85066.0,43.0,4,6,78,321,Beauty,0
+714,43,Male,Dallas,79213.0,81.0,4,46,416,67,Beauty,0
+715,36,Male,Houston,70971.0,69.0,2,43,378,133,Fashion,0
+716,56,Female,Los Angeles,47281.0,45.0,5,4,361,362,Home,1
+717,20,Male,Los Angeles,133978.0,9.0,1,56,260,140,Beauty,1
+718,62,Female,Dallas,48091.0,49.0,9,29,484,82,Beauty,0
+719,30,Male,Miami,70494.0,33.0,5,59,387,58,Beauty,0
+720,67,Male,San Francisco,,,6,25,361,149,Fashion,0
+721,45,Male,Chicago,133755.0,100.0,2,9,117,131,Fashion,0
+722,37,Female,Los Angeles,38610.0,18.0,10,56,81,69,Home,0
+723,45,Female,New York,21079.0,9.0,10,3,283,345,Sports,1
+724,25,Male,Phoenix,115386.0,62.0,1,26,132,250,Home,0
+725,58,Male,Houston,66751.0,57.0,4,48,448,320,Beauty,0
+726,56,Female,Miami,106126.0,29.0,7,43,165,177,Groceries,0
+727,18,Female,San Francisco,75432.0,78.0,6,27,235,72,Beauty,0
+728,20,Male,Dallas,50951.0,25.0,10,36,275,17,Electronics,0
+729,30,Male,Phoenix,100863.0,15.0,1,32,335,329,Groceries,1
+730,45,Female,Chicago,98291.0,6.0,1,1,335,160,Groceries,0
+731,66,Female,Miami,145659.0,42.0,8,57,381,70,Home,0
+732,42,Female,San Francisco,79872.0,29.0,4,53,277,113,Beauty,1
+733,50,Female,Houston,27235.0,79.0,5,54,213,232,Beauty,0
+734,55,Female,Houston,102733.0,93.0,7,16,366,21,Sports,0
+735,23,Male,Dallas,82712.0,4.0,8,51,33,135,Electronics,0
+736,61,Female,New York,41473.0,82.0,10,48,323,263,Home,0
+737,62,Male,Dallas,87567.0,57.0,7,11,122,111,Fashion,0
+738,49,Female,Chicago,126818.0,49.0,2,26,264,246,Home,0
+739,62,Male,Miami,145849.0,44.0,4,40,264,283,Groceries,1
+740,64,Female,Miami,127399.0,80.0,10,55,331,8,Home,0
+741,38,Female,Los Angeles,144421.0,75.0,1,1,287,284,Sports,1
+742,33,Male,New York,99823.0,14.0,10,26,243,207,Home,0
+743,38,Male,New York,124215.0,3.0,9,28,239,194,Sports,1
+744,28,Female,Miami,129999.0,62.0,3,53,330,47,Groceries,0
+745,54,Female,Miami,52230.0,64.0,3,58,431,342,Sports,1
+746,53,Female,Phoenix,104573.0,45.0,10,9,385,242,Beauty,1
+747,52,Female,San Francisco,112588.0,82.0,9,59,236,10,Fashion,0
+748,36,Female,Phoenix,88876.0,58.0,10,44,23,289,Groceries,0
+749,37,Male,Phoenix,60644.0,20.0,3,22,493,131,Sports,0
+750,35,Male,New York,68664.0,58.0,8,8,55,270,Electronics,0
+751,64,Female,Los Angeles,65203.0,89.0,2,58,197,302,Groceries,0
+752,58,Male,Houston,86677.0,57.0,3,49,406,61,Electronics,0
+753,66,Male,Phoenix,45425.0,77.0,2,42,276,164,Fashion,0
+754,31,Male,Los Angeles,143246.0,68.0,1,27,36,13,Sports,0
+755,32,Female,Dallas,104817.0,78.0,2,39,218,272,Groceries,0
+756,48,Male,Chicago,127585.0,97.0,8,19,337,208,Groceries,0
+757,18,Female,Phoenix,105961.0,92.0,9,25,67,246,Fashion,0
+758,20,Male,Dallas,120342.0,52.0,2,38,81,133,Beauty,0
+759,33,Female,Houston,145740.0,37.0,7,21,88,244,Electronics,0
+760,40,Male,Chicago,117649.0,8.0,5,24,166,294,Groceries,0
+761,28,Female,Chicago,89806.0,44.0,3,24,378,38,Home,0
+762,29,Female,Houston,62814.0,98.0,9,19,385,359,Electronics,0
+763,27,Male,Phoenix,90219.0,5.0,6,50,181,56,Sports,1
+764,49,Female,New York,69646.0,69.0,1,47,246,319,Fashion,0
+765,33,Female,Houston,59884.0,31.0,5,2,452,48,Electronics,1
+766,25,Female,Houston,115345.0,45.0,7,14,483,105,Home,0
+767,55,Female,Houston,146062.0,9.0,4,53,450,59,Home,0
+768,29,Female,Chicago,120088.0,32.0,8,32,366,77,Fashion,0
+769,41,Female,San Francisco,138198.0,33.0,10,42,249,218,Fashion,0
+770,45,Female,Los Angeles,89322.0,67.0,5,32,389,55,Electronics,0
+771,25,Female,Dallas,41650.0,30.0,9,28,197,55,Sports,0
+772,45,Male,New York,114242.0,76.0,9,48,364,129,Beauty,0
+773,53,Male,Phoenix,,,9,39,429,85,Home,0
+774,43,Female,Phoenix,58196.0,3.0,1,40,75,214,Fashion,1
+775,25,Female,Dallas,59449.0,90.0,2,42,97,115,Beauty,0
+776,67,Male,Los Angeles,59661.0,57.0,3,47,289,314,Beauty,0
+777,45,Male,Houston,49709.0,30.0,4,40,225,293,Beauty,0
+778,45,Male,San Francisco,130965.0,9.0,10,13,300,49,Sports,0
+779,54,Female,New York,100428.0,26.0,9,12,247,67,Fashion,0
+780,58,Male,Phoenix,95179.0,2.0,10,8,407,275,Home,0
+781,53,Female,Dallas,29943.0,62.0,6,15,258,129,Fashion,0
+782,44,Female,Miami,63240.0,3.0,1,26,482,29,Electronics,0
+783,34,Male,San Francisco,65760.0,46.0,9,12,307,343,Home,1
+784,26,Female,Dallas,41042.0,68.0,6,43,101,33,Fashion,0
+785,50,Female,San Francisco,141770.0,25.0,4,51,353,119,Home,1
+786,37,Female,Phoenix,63894.0,51.0,4,46,269,180,Electronics,0
+787,30,Female,Houston,26869.0,13.0,3,27,212,151,Groceries,0
+788,45,Male,Miami,81078.0,44.0,7,18,125,133,Home,0
+789,65,Male,Los Angeles,76759.0,35.0,3,45,208,327,Groceries,1
+790,46,Female,New York,125973.0,55.0,2,36,295,185,Beauty,1
+791,30,Female,Los Angeles,64306.0,87.0,10,49,93,134,Sports,0
+792,63,Male,Los Angeles,128369.0,9.0,8,51,29,177,Electronics,1
+793,52,Female,Dallas,75371.0,2.0,4,27,142,22,Home,0
+794,23,Male,San Francisco,40918.0,61.0,8,9,235,241,Electronics,0
+795,35,Female,New York,48379.0,41.0,1,55,309,77,Beauty,0
+796,68,Female,New York,140667.0,44.0,5,39,464,204,Groceries,0
+797,22,Male,Phoenix,128475.0,64.0,9,1,495,4,Sports,0
+798,64,Male,Phoenix,110810.0,31.0,1,7,430,328,Electronics,1
+799,42,Male,New York,103232.0,47.0,4,26,59,165,Groceries,1
+800,19,Male,Miami,22962.0,2.0,6,7,212,128,Beauty,0
+801,27,Female,Chicago,33851.0,96.0,10,52,146,45,Beauty,0
+802,47,Male,Phoenix,137626.0,82.0,8,7,308,218,Beauty,0
+803,67,Female,Chicago,65747.0,77.0,3,8,471,235,Groceries,0
+804,62,Male,Dallas,145180.0,69.0,5,16,90,136,Home,0
+805,22,Male,Miami,72349.0,58.0,7,3,156,168,Fashion,0
+806,50,Female,New York,90832.0,44.0,1,45,163,237,Electronics,0
+807,18,Male,Miami,76356.0,74.0,7,10,408,93,Fashion,0
+808,35,Male,Phoenix,34745.0,56.0,8,50,373,5,Beauty,0
+809,49,Male,Los Angeles,25730.0,43.0,8,7,399,156,Fashion,0
+810,64,Male,Dallas,33921.0,89.0,9,21,426,245,Groceries,0
+811,66,Female,New York,118430.0,34.0,6,53,318,360,Beauty,1
+812,28,Female,Houston,91138.0,30.0,6,37,389,81,Beauty,0
+813,38,Male,Dallas,103111.0,71.0,2,31,364,247,Sports,1
+814,43,Male,San Francisco,39023.0,70.0,3,23,460,343,Sports,0
+815,42,Male,Chicago,65349.0,55.0,4,57,454,137,Groceries,0
+816,39,Female,Miami,146796.0,67.0,4,27,288,63,Groceries,0
+817,44,Female,New York,101533.0,13.0,8,56,403,307,Fashion,1
+818,66,Female,Dallas,103286.0,3.0,1,22,427,116,Electronics,0
+819,30,Female,Miami,61979.0,26.0,10,39,158,113,Fashion,0
+820,50,Male,New York,42837.0,57.0,4,57,71,31,Groceries,0
+821,51,Male,Phoenix,34997.0,24.0,4,27,36,7,Electronics,0
+822,58,Male,Dallas,124975.0,53.0,1,54,184,3,Fashion,0
+823,52,Female,Phoenix,108603.0,70.0,3,49,32,307,Home,0
+824,18,Male,Dallas,65039.0,43.0,5,4,209,243,Home,0
+825,38,Female,Phoenix,147394.0,60.0,6,24,494,56,Electronics,0
+826,65,Female,San Francisco,40923.0,58.0,9,23,359,73,Sports,0
+827,23,Male,Miami,28876.0,49.0,9,48,372,10,Electronics,0
+828,45,Male,Houston,80973.0,42.0,9,19,381,61,Fashion,0
+829,34,Male,Dallas,22887.0,76.0,1,42,371,50,Beauty,0
+830,22,Female,San Francisco,83723.0,100.0,9,3,283,122,Home,0
+831,48,Female,Dallas,62422.0,66.0,8,27,331,175,Beauty,0
+832,22,Male,Phoenix,122390.0,11.0,2,3,240,1,Home,0
+833,55,Male,New York,71413.0,98.0,1,28,123,38,Fashion,0
+834,20,Female,Dallas,122484.0,90.0,1,17,358,190,Home,0
+835,40,Male,San Francisco,22841.0,18.0,6,31,217,79,Electronics,0
+836,54,Female,Phoenix,144647.0,85.0,9,10,319,345,Beauty,0
+837,54,Female,Los Angeles,48756.0,100.0,7,49,463,338,Groceries,0
+838,27,Male,Phoenix,91576.0,52.0,5,22,378,190,Beauty,1
+839,27,Male,Miami,138248.0,46.0,2,30,387,184,Fashion,0
+840,36,Male,Houston,30304.0,44.0,1,49,188,67,Groceries,0
+841,34,Male,Los Angeles,50341.0,22.0,2,21,168,17,Beauty,0
+842,38,Female,Miami,24758.0,53.0,1,36,268,316,Fashion,1
+843,31,Female,Miami,37010.0,59.0,3,53,275,296,Sports,1
+844,26,Female,Miami,147039.0,94.0,6,23,489,209,Electronics,0
+845,63,Male,New York,80758.0,30.0,8,38,61,345,Home,0
+846,18,Female,Miami,51658.0,8.0,3,12,221,41,Home,0
+847,68,Male,New York,69002.0,98.0,10,25,477,115,Home,0
+848,62,Male,Miami,123318.0,57.0,9,54,263,100,Sports,0
+849,30,Male,Chicago,21375.0,73.0,10,57,176,345,Electronics,1
+850,21,Male,San Francisco,119485.0,20.0,5,20,483,349,Beauty,1
+851,18,Male,Los Angeles,42092.0,25.0,7,49,468,139,Beauty,1
+852,66,Male,Chicago,20490.0,19.0,8,49,420,316,Electronics,1
+853,57,Female,Miami,23729.0,5.0,3,42,305,324,Groceries,1
+854,49,Male,Los Angeles,25974.0,75.0,2,7,301,334,Electronics,0
+855,51,Female,Los Angeles,138222.0,79.0,2,29,456,302,Home,0
+856,45,Female,Dallas,105216.0,72.0,5,48,400,294,Beauty,1
+857,48,Male,Houston,103860.0,83.0,1,29,257,17,Electronics,0
+858,25,Male,Chicago,147288.0,87.0,2,13,38,322,Beauty,0
+859,56,Male,Houston,116870.0,27.0,9,3,72,292,Electronics,1
+860,43,Female,Los Angeles,41398.0,40.0,7,2,104,74,Fashion,0
+861,51,Male,New York,54650.0,96.0,6,16,292,263,Home,0
+862,20,Female,Los Angeles,41292.0,26.0,9,30,449,16,Electronics,0
+863,67,Male,Houston,121291.0,27.0,7,38,379,14,Sports,0
+864,29,Male,Chicago,123889.0,62.0,5,6,232,336,Electronics,0
+865,18,Female,Miami,23159.0,83.0,9,45,456,281,Fashion,0
+866,61,Female,Dallas,118162.0,50.0,6,7,380,361,Sports,1
+867,22,Male,Dallas,82766.0,42.0,6,5,123,4,Sports,0
+868,47,Female,Dallas,114887.0,29.0,4,56,211,127,Electronics,0
+869,47,Female,Miami,122834.0,39.0,1,7,448,312,Fashion,0
+870,34,Female,Dallas,37065.0,60.0,5,34,196,6,Sports,0
+871,65,Female,Chicago,41638.0,41.0,9,32,166,129,Home,0
+872,64,Female,Miami,21073.0,33.0,8,49,399,232,Groceries,0
+873,40,Male,Dallas,66511.0,83.0,8,13,474,313,Home,0
+874,32,Male,Miami,104307.0,83.0,5,30,100,195,Beauty,1
+875,54,Female,Houston,145274.0,97.0,9,25,212,65,Beauty,0
+876,38,Male,San Francisco,120997.0,16.0,3,21,56,321,Fashion,1
+877,31,Male,San Francisco,127866.0,23.0,3,59,396,103,Sports,0
+878,19,Female,Chicago,49320.0,7.0,1,21,345,277,Home,1
+879,28,Male,Phoenix,89876.0,26.0,9,28,173,158,Home,1
+880,68,Female,New York,54924.0,96.0,6,48,149,224,Groceries,0
+881,56,Female,Dallas,101720.0,12.0,2,58,78,289,Fashion,1
+882,55,Male,New York,60734.0,72.0,8,20,243,278,Sports,0
+883,51,Female,Miami,88116.0,5.0,9,34,268,182,Fashion,0
+884,55,Female,New York,60025.0,92.0,9,5,259,4,Electronics,0
+885,67,Female,Chicago,114503.0,69.0,2,18,393,215,Home,0
+886,51,Female,Chicago,22159.0,49.0,2,39,408,217,Fashion,0
+887,35,Female,Los Angeles,68940.0,26.0,7,43,312,209,Fashion,0
+888,47,Male,San Francisco,99436.0,5.0,4,57,306,74,Groceries,0
+889,32,Male,Dallas,96976.0,22.0,1,57,223,227,Electronics,0
+890,44,Female,Los Angeles,34678.0,79.0,8,11,118,93,Beauty,0
+891,68,Female,New York,81075.0,13.0,2,54,369,65,Home,0
+892,51,Male,Phoenix,,,3,17,195,321,Groceries,1
+893,69,Female,Los Angeles,32021.0,33.0,5,48,281,10,Fashion,0
+894,55,Male,Los Angeles,26772.0,23.0,3,45,290,303,Home,0
+895,50,Female,Chicago,87163.0,97.0,7,22,162,322,Beauty,0
+896,41,Female,Phoenix,129968.0,18.0,7,37,208,305,Fashion,0
+897,32,Female,Miami,93755.0,30.0,2,20,291,278,Electronics,1
+898,47,Female,New York,43464.0,26.0,7,48,39,86,Home,0
+899,59,Female,Los Angeles,71137.0,16.0,6,54,352,26,Groceries,0
+900,68,Female,Phoenix,50232.0,77.0,10,54,319,218,Electronics,0
+901,34,Female,San Francisco,81497.0,39.0,9,48,445,95,Beauty,0
+902,22,Male,Dallas,128017.0,33.0,9,48,65,244,Beauty,0
+903,46,Male,Phoenix,94024.0,26.0,2,46,114,107,Home,0
+904,21,Male,San Francisco,120485.0,48.0,7,6,437,248,Beauty,1
+905,27,Female,New York,129898.0,65.0,5,34,83,14,Sports,0
+906,34,Female,Phoenix,71448.0,38.0,6,14,432,161,Groceries,1
+907,27,Female,San Francisco,125468.0,2.0,1,48,150,71,Home,0
+908,34,Female,Phoenix,104517.0,6.0,7,23,28,152,Sports,0
+909,37,Female,Phoenix,20901.0,46.0,6,20,478,75,Beauty,0
+910,41,Female,Dallas,107980.0,50.0,4,13,222,215,Home,1
+911,22,Female,San Francisco,127594.0,38.0,1,47,428,51,Sports,0
+912,51,Male,San Francisco,103597.0,88.0,9,44,489,143,Beauty,0
+913,23,Female,Los Angeles,22881.0,18.0,4,41,317,36,Fashion,0
+914,19,Male,New York,49863.0,27.0,2,32,193,167,Fashion,0
+915,30,Male,Dallas,131362.0,41.0,8,26,92,236,Electronics,0
+916,60,Female,Phoenix,25622.0,72.0,2,50,103,260,Fashion,1
+917,60,Female,Phoenix,,,5,53,78,192,Sports,0
+918,65,Male,Los Angeles,21378.0,74.0,6,14,40,202,Groceries,1
+919,28,Male,New York,103168.0,17.0,8,52,477,262,Fashion,1
+920,68,Female,Chicago,113847.0,62.0,1,57,425,185,Home,0
+921,64,Female,Dallas,91186.0,29.0,1,36,176,158,Home,1
+922,40,Male,Los Angeles,65201.0,58.0,4,8,338,246,Home,1
+923,33,Female,New York,140767.0,70.0,5,40,348,110,Fashion,0
+924,48,Female,Dallas,,,9,22,80,99,Fashion,0
+925,28,Female,Phoenix,79251.0,22.0,7,22,83,241,Electronics,1
+926,33,Male,New York,92572.0,6.0,7,16,344,202,Groceries,1
+927,25,Male,New York,59255.0,26.0,8,27,187,122,Groceries,0
+928,21,Male,Miami,83212.0,39.0,5,56,222,117,Beauty,1
+929,57,Female,New York,70210.0,12.0,5,10,148,96,Electronics,0
+930,21,Female,Chicago,145629.0,99.0,1,25,264,234,Sports,0
+931,42,Male,New York,136736.0,14.0,9,31,125,67,Home,0
+932,20,Male,Chicago,42499.0,22.0,6,21,340,218,Fashion,0
+933,49,Male,Phoenix,,,9,27,141,15,Beauty,0
+934,20,Female,Chicago,71628.0,23.0,3,17,337,273,Beauty,1
+935,44,Male,Dallas,81360.0,48.0,5,33,201,219,Fashion,0
+936,46,Male,Phoenix,24603.0,71.0,2,31,122,274,Electronics,0
+937,49,Female,Phoenix,113309.0,50.0,10,50,335,147,Beauty,1
+938,67,Female,Chicago,147466.0,89.0,5,42,321,332,Groceries,0
+939,68,Female,San Francisco,105473.0,13.0,8,26,280,344,Electronics,1
+940,36,Male,Los Angeles,32632.0,85.0,2,21,132,152,Fashion,1
+941,38,Female,Houston,50607.0,10.0,8,36,425,347,Electronics,1
+942,22,Female,San Francisco,111873.0,55.0,4,1,493,304,Groceries,1
+943,35,Male,New York,85756.0,9.0,10,4,456,15,Home,1
+944,45,Female,Miami,66994.0,79.0,10,4,89,354,Fashion,0
+945,59,Male,Houston,83382.0,52.0,1,26,179,84,Groceries,0
+946,39,Male,New York,90354.0,2.0,5,4,259,192,Fashion,1
+947,38,Female,San Francisco,76344.0,25.0,1,49,30,41,Groceries,0
+948,23,Female,San Francisco,73775.0,13.0,7,9,157,352,Groceries,1
+949,18,Female,New York,27349.0,98.0,8,30,186,324,Beauty,0
+950,22,Female,Phoenix,91154.0,51.0,3,51,266,261,Beauty,1
+951,58,Female,New York,47464.0,58.0,3,45,373,309,Beauty,1
+952,29,Female,Miami,62624.0,34.0,7,4,50,136,Home,0
+953,43,Male,San Francisco,141897.0,35.0,4,5,31,278,Home,1
+954,63,Male,New York,146866.0,3.0,3,45,262,106,Groceries,0
+955,51,Female,Chicago,57344.0,59.0,8,23,127,7,Sports,0
+956,66,Male,Houston,145857.0,70.0,3,16,355,302,Fashion,1
+957,31,Female,Chicago,103791.0,48.0,7,22,441,30,Beauty,0
+958,43,Male,Miami,44299.0,64.0,2,37,342,126,Fashion,0
+959,62,Male,New York,67975.0,19.0,1,8,213,357,Groceries,1
+960,44,Male,Dallas,21462.0,67.0,6,48,327,79,Electronics,0
+961,26,Female,Miami,140209.0,82.0,8,33,152,67,Groceries,0
+962,43,Male,Phoenix,101441.0,73.0,1,55,414,23,Home,0
+963,64,Female,Chicago,110456.0,76.0,10,38,300,189,Sports,0
+964,39,Male,Chicago,101788.0,5.0,9,43,310,74,Electronics,0
+965,64,Male,Los Angeles,126540.0,67.0,3,16,182,5,Fashion,0
+966,47,Male,New York,60581.0,11.0,3,5,297,82,Home,0
+967,60,Male,Phoenix,120372.0,94.0,4,16,440,25,Beauty,0
+968,65,Male,Dallas,91289.0,68.0,1,7,489,264,Electronics,0
+969,34,Female,Chicago,125541.0,69.0,9,51,458,2,Home,0
+970,43,Female,Chicago,34175.0,1.0,3,1,222,278,Fashion,0
+971,53,Male,Phoenix,141704.0,91.0,10,9,115,328,Groceries,0
+972,18,Male,Miami,26191.0,92.0,4,18,242,343,Fashion,0
+973,25,Male,Miami,103434.0,63.0,1,45,256,224,Electronics,0
+974,66,Male,New York,104518.0,29.0,4,58,136,72,Electronics,0
+975,52,Female,San Francisco,100158.0,82.0,1,47,475,68,Groceries,0
+976,69,Male,Los Angeles,86537.0,12.0,5,3,211,320,Electronics,1
+977,32,Female,Chicago,135721.0,77.0,5,24,295,94,Sports,0
+978,64,Male,San Francisco,67645.0,41.0,7,28,125,19,Beauty,0
+979,39,Female,San Francisco,128536.0,2.0,8,10,23,128,Home,1
+980,31,Male,Los Angeles,43283.0,37.0,4,9,37,343,Groceries,1
+981,43,Male,San Francisco,143153.0,45.0,7,13,326,82,Fashion,1
+982,45,Female,San Francisco,106971.0,80.0,4,48,471,254,Fashion,0
+983,40,Male,Miami,112759.0,48.0,3,35,39,221,Beauty,0
+984,31,Male,Miami,79123.0,24.0,6,54,141,343,Electronics,1
+985,41,Male,Houston,122780.0,99.0,4,23,156,97,Electronics,0
+986,19,Female,Dallas,50024.0,22.0,3,47,99,52,Fashion,0
+987,62,Male,New York,69630.0,100.0,9,17,173,175,Beauty,0
+988,43,Male,San Francisco,50734.0,11.0,5,46,377,338,Fashion,1
+989,31,Female,Houston,20515.0,58.0,7,7,44,182,Electronics,0
+990,68,Female,Dallas,130782.0,46.0,6,52,471,353,Groceries,1
+991,24,Female,Houston,86727.0,29.0,10,16,188,115,Home,0
+992,20,Male,Houston,117800.0,35.0,5,53,78,348,Electronics,1
+993,64,Male,New York,129164.0,15.0,7,40,320,1,Groceries,0
+994,40,Male,New York,66216.0,60.0,6,36,60,63,Home,0
+995,63,Female,Phoenix,91833.0,95.0,10,20,57,248,Sports,0
+996,60,Male,Los Angeles,78755.0,42.0,2,24,136,231,Beauty,1
+997,64,Male,Los Angeles,47856.0,43.0,3,47,294,226,Groceries,1
+998,62,Female,Phoenix,134959.0,80.0,2,5,289,19,Sports,0
+999,35,Female,Phoenix,93870.0,74.0,3,45,146,31,Electronics,0
+1000,55,Female,Miami,44162.0,49.0,1,6,424,333,Beauty,0
+1001,52,Female,Dallas,26008.0,64.0,8,28,418,121,Groceries,0
+1002,68,Female,Houston,27987.0,32.0,6,59,22,24,Electronics,0
+1003,32,Male,San Francisco,82532.0,64.0,2,5,312,325,Beauty,0
+1004,42,Female,Phoenix,116502.0,2.0,8,49,392,211,Beauty,1
+1005,54,Male,Chicago,23332.0,24.0,6,39,449,161,Electronics,0
+1006,45,Male,Los Angeles,86323.0,87.0,7,38,35,255,Electronics,0
+1007,27,Female,Phoenix,58990.0,66.0,1,2,417,59,Groceries,1
+1008,56,Female,Chicago,29873.0,38.0,7,43,284,114,Beauty,0
+1009,34,Female,Chicago,102542.0,31.0,3,39,258,160,Groceries,1
+1010,56,Male,Chicago,105761.0,26.0,8,54,282,220,Beauty,1
+1011,39,Female,Miami,56444.0,29.0,6,21,417,357,Groceries,0
+1012,43,Female,Miami,55340.0,67.0,4,40,153,169,Electronics,0
+1013,61,Female,San Francisco,125219.0,78.0,8,37,232,12,Electronics,0
+1014,42,Female,San Francisco,25033.0,25.0,9,59,34,242,Fashion,0
+1015,34,Female,Chicago,93324.0,48.0,10,18,455,139,Groceries,0
+1016,30,Male,Dallas,35689.0,65.0,2,54,347,97,Fashion,0
+1017,37,Male,Miami,129756.0,53.0,6,48,437,147,Fashion,0
+1018,42,Male,Houston,107134.0,67.0,5,46,379,182,Sports,1
+1019,21,Female,Chicago,123016.0,90.0,5,12,148,57,Beauty,0
+1020,27,Female,Houston,115239.0,18.0,10,17,371,42,Home,0
+1021,20,Female,Houston,20066.0,9.0,3,37,141,354,Sports,1
+1022,58,Male,Chicago,134159.0,38.0,8,46,260,199,Beauty,0
+1023,62,Female,Los Angeles,65246.0,87.0,8,38,134,31,Home,0
+1024,35,Female,Dallas,27533.0,21.0,5,15,216,180,Fashion,1
+1025,64,Female,Chicago,100639.0,65.0,8,7,241,2,Home,0
+1026,53,Male,San Francisco,90152.0,21.0,10,14,233,288,Electronics,1
+1027,64,Female,Chicago,131581.0,27.0,8,50,423,138,Electronics,0
+1028,39,Male,Miami,135828.0,70.0,3,1,99,105,Groceries,0
+1029,51,Female,Chicago,79658.0,44.0,2,38,282,218,Beauty,0
+1030,64,Male,Los Angeles,58498.0,100.0,9,3,154,222,Sports,0
+1031,25,Male,Miami,129028.0,28.0,2,37,325,331,Fashion,0
+1032,57,Male,San Francisco,31772.0,45.0,9,44,261,105,Beauty,0
+1033,66,Female,New York,109385.0,17.0,4,31,405,127,Fashion,0
+1034,61,Female,New York,69036.0,40.0,2,43,322,265,Electronics,0
+1035,36,Male,Houston,,,10,13,289,200,Sports,1
+1036,59,Male,Dallas,139159.0,76.0,1,48,306,252,Sports,0
+1037,58,Female,Houston,,,4,18,69,15,Electronics,1
+1038,54,Female,Los Angeles,138027.0,66.0,9,17,208,226,Home,1
+1039,23,Male,Phoenix,36932.0,46.0,9,17,316,353,Sports,0
+1040,69,Female,San Francisco,115305.0,86.0,4,11,33,105,Home,0
+1041,43,Female,Dallas,76827.0,87.0,9,20,408,233,Fashion,0
+1042,51,Female,San Francisco,81431.0,30.0,6,10,478,319,Sports,1
+1043,62,Female,New York,44648.0,69.0,1,29,251,219,Groceries,0
+1044,23,Male,Houston,132947.0,9.0,10,48,280,277,Electronics,0
+1045,54,Female,San Francisco,52966.0,85.0,6,34,211,261,Home,0
+1046,50,Female,New York,47777.0,11.0,9,17,432,341,Groceries,1
+1047,39,Male,Los Angeles,144661.0,69.0,2,54,222,336,Fashion,0
+1048,38,Male,Los Angeles,52567.0,99.0,6,52,280,190,Fashion,0
+1049,23,Female,Phoenix,135259.0,91.0,2,42,132,198,Sports,0
+1050,23,Female,San Francisco,37174.0,66.0,4,13,393,353,Sports,1
+1051,65,Female,Phoenix,62598.0,88.0,8,44,371,277,Groceries,0
+1052,21,Female,Miami,144711.0,31.0,7,47,55,336,Beauty,0
+1053,47,Male,Dallas,79199.0,33.0,9,39,98,39,Beauty,0
+1054,28,Male,San Francisco,33798.0,39.0,7,27,294,162,Sports,1
+1055,47,Male,Los Angeles,85364.0,94.0,1,54,467,121,Beauty,0
+1056,48,Female,Houston,37558.0,46.0,2,53,297,262,Electronics,1
+1057,41,Female,New York,81084.0,37.0,6,26,181,216,Groceries,0
+1058,26,Female,Chicago,64237.0,92.0,7,28,331,312,Electronics,0
+1059,20,Female,Phoenix,85497.0,60.0,3,13,36,49,Beauty,0
+1060,68,Male,Chicago,20178.0,31.0,9,12,223,92,Sports,0
+1061,48,Male,San Francisco,136932.0,11.0,7,44,492,129,Electronics,0
+1062,57,Female,Houston,106006.0,87.0,6,28,459,321,Fashion,1
+1063,54,Male,Phoenix,37118.0,2.0,6,2,36,28,Sports,0
+1064,53,Female,Chicago,42616.0,27.0,1,37,221,356,Groceries,1
+1065,41,Female,Dallas,,,5,57,495,148,Home,0
+1066,48,Male,Houston,27601.0,2.0,10,57,229,328,Home,0
+1067,23,Female,New York,45363.0,21.0,3,34,421,65,Sports,1
+1068,19,Female,Dallas,22795.0,58.0,7,23,448,218,Beauty,0
+1069,37,Male,Houston,117462.0,5.0,10,58,499,51,Electronics,0
+1070,45,Female,Miami,65264.0,52.0,3,52,97,305,Electronics,1
+1071,28,Female,Phoenix,122892.0,45.0,5,45,75,74,Sports,0
+1072,21,Male,Los Angeles,92833.0,85.0,7,29,99,199,Fashion,0
+1073,32,Female,New York,149688.0,93.0,3,35,325,192,Groceries,0
+1074,23,Male,San Francisco,23084.0,20.0,10,11,77,189,Beauty,1
+1075,66,Female,Dallas,115865.0,61.0,2,48,37,12,Fashion,0
+1076,47,Male,Dallas,96646.0,38.0,6,33,227,239,Sports,0
+1077,55,Male,Chicago,20731.0,20.0,8,51,484,360,Sports,1
+1078,68,Male,Phoenix,21129.0,25.0,4,11,154,81,Fashion,0
+1079,19,Female,San Francisco,48022.0,2.0,9,9,351,270,Home,1
+1080,32,Male,Los Angeles,21605.0,32.0,8,14,29,290,Sports,1
+1081,28,Male,Houston,97506.0,26.0,7,9,88,48,Groceries,0
+1082,25,Male,Los Angeles,129241.0,70.0,7,39,360,317,Beauty,0
+1083,43,Male,Phoenix,64130.0,41.0,3,48,406,209,Fashion,0
+1084,68,Male,Phoenix,49265.0,67.0,6,3,102,35,Home,0
+1085,62,Female,Miami,,,5,29,128,119,Fashion,0
+1086,61,Female,Miami,88469.0,1.0,1,19,63,65,Home,0
+1087,22,Female,Los Angeles,35187.0,51.0,3,36,473,315,Home,0
+1088,23,Female,Houston,45791.0,5.0,1,32,417,242,Groceries,1
+1089,43,Female,Los Angeles,110436.0,13.0,4,7,151,36,Beauty,0
+1090,21,Female,Phoenix,90610.0,19.0,10,55,37,252,Sports,1
+1091,36,Female,Phoenix,132341.0,12.0,3,28,112,243,Home,0
+1092,37,Male,Chicago,111962.0,48.0,4,44,455,42,Sports,0
+1093,50,Female,Miami,59867.0,25.0,9,18,313,69,Beauty,0
+1094,37,Male,San Francisco,136178.0,57.0,3,5,483,107,Sports,0
+1095,66,Male,San Francisco,20893.0,35.0,6,23,167,39,Groceries,0
+1096,29,Female,San Francisco,119694.0,76.0,6,55,491,69,Groceries,0
+1097,64,Male,Chicago,39773.0,94.0,7,22,191,180,Electronics,0
+1098,18,Male,New York,24239.0,5.0,9,26,70,12,Groceries,1
+1099,43,Male,San Francisco,40863.0,98.0,7,42,38,339,Home,0
+1100,31,Male,Phoenix,71415.0,22.0,1,12,139,204,Beauty,1
+1101,55,Female,Chicago,88968.0,77.0,8,40,343,36,Groceries,0
+1102,54,Female,Los Angeles,120675.0,57.0,5,19,244,126,Fashion,0
+1103,28,Female,Miami,80430.0,47.0,9,47,85,63,Beauty,0
+1104,53,Female,Miami,,,10,1,160,332,Home,1
+1105,30,Female,Houston,21515.0,3.0,5,3,465,82,Beauty,1
+1106,60,Female,Los Angeles,117206.0,53.0,5,27,208,307,Groceries,0
+1107,20,Female,Houston,134210.0,84.0,2,18,177,299,Fashion,0
+1108,50,Female,Chicago,124630.0,31.0,3,50,117,34,Electronics,0
+1109,23,Female,Dallas,34605.0,69.0,10,30,177,240,Home,0
+1110,67,Female,San Francisco,76240.0,88.0,9,2,454,97,Home,0
+1111,27,Male,New York,25586.0,33.0,7,5,265,49,Beauty,0
+1112,22,Female,Los Angeles,121221.0,72.0,1,29,363,146,Sports,0
+1113,40,Male,Los Angeles,140419.0,88.0,3,33,451,125,Sports,0
+1114,27,Male,Los Angeles,142374.0,50.0,2,42,255,189,Fashion,0
+1115,61,Male,Houston,,,1,20,52,57,Electronics,0
+1116,19,Male,Chicago,51186.0,16.0,9,30,380,349,Electronics,0
+1117,30,Female,Los Angeles,46928.0,76.0,8,42,260,109,Beauty,0
+1118,57,Male,Dallas,118264.0,77.0,5,5,349,5,Beauty,0
+1119,19,Female,Los Angeles,103087.0,39.0,2,50,357,24,Sports,0
+1120,37,Female,Miami,142990.0,89.0,1,21,294,221,Groceries,0
+1121,18,Male,San Francisco,107029.0,46.0,7,58,90,315,Electronics,0
+1122,54,Female,New York,40711.0,96.0,2,15,332,294,Groceries,0
+1123,26,Male,San Francisco,74962.0,88.0,1,20,422,10,Electronics,0
+1124,34,Male,Miami,40039.0,47.0,2,8,235,165,Groceries,1
+1125,26,Female,Miami,,,7,49,98,215,Groceries,1
+1126,28,Female,New York,95483.0,9.0,7,31,188,126,Electronics,0
+1127,32,Male,Dallas,117871.0,87.0,10,12,317,267,Fashion,1
+1128,41,Female,Chicago,101395.0,50.0,6,21,490,280,Fashion,1
+1129,55,Female,Miami,108658.0,77.0,5,30,199,88,Beauty,0
+1130,52,Female,Chicago,21577.0,60.0,3,27,135,114,Groceries,1
+1131,47,Male,Miami,127792.0,96.0,3,44,279,21,Groceries,0
+1132,48,Male,Phoenix,,,9,26,279,148,Groceries,1
+1133,66,Female,New York,136908.0,36.0,4,33,24,245,Groceries,0
+1134,22,Female,Miami,127468.0,63.0,9,26,316,266,Groceries,1
+1135,61,Female,Phoenix,53798.0,69.0,4,26,127,217,Sports,0
+1136,67,Female,San Francisco,117434.0,86.0,2,36,362,240,Home,0
+1137,31,Female,Houston,101417.0,80.0,4,40,379,232,Groceries,0
+1138,28,Male,Phoenix,30785.0,41.0,6,1,136,232,Sports,0
+1139,26,Female,Los Angeles,92227.0,74.0,6,59,376,242,Fashion,0
+1140,51,Male,Miami,138680.0,24.0,5,15,464,190,Groceries,0
+1141,29,Female,Phoenix,81957.0,82.0,1,50,350,229,Fashion,0
+1142,52,Male,Chicago,85431.0,49.0,3,1,458,66,Beauty,1
+1143,52,Female,Houston,37297.0,18.0,5,11,350,279,Home,0
+1144,18,Male,Dallas,91894.0,7.0,6,55,32,269,Electronics,0
+1145,57,Female,Miami,136869.0,4.0,1,2,161,209,Home,1
+1146,39,Male,Los Angeles,83772.0,90.0,9,1,207,16,Groceries,0
+1147,46,Male,Dallas,39581.0,69.0,3,31,475,297,Groceries,0
+1148,25,Male,Phoenix,75192.0,60.0,10,44,300,220,Home,0
+1149,28,Male,Dallas,21462.0,55.0,3,16,485,257,Home,1
+1150,58,Male,Dallas,148848.0,16.0,2,54,134,268,Beauty,1
+1151,54,Male,Houston,84173.0,99.0,8,22,447,229,Fashion,0
+1152,31,Female,San Francisco,35511.0,90.0,3,42,255,119,Electronics,0
+1153,47,Male,Dallas,96106.0,82.0,6,18,357,178,Home,0
+1154,52,Female,Dallas,68665.0,29.0,2,47,29,20,Electronics,0
+1155,38,Female,Miami,64414.0,23.0,7,17,218,36,Home,0
+1156,54,Female,San Francisco,101010.0,14.0,4,30,271,335,Fashion,1
+1157,22,Female,Houston,92573.0,79.0,9,10,69,108,Electronics,0
+1158,36,Female,Los Angeles,113665.0,49.0,10,35,447,189,Sports,0
+1159,31,Male,Phoenix,127803.0,33.0,9,58,161,178,Fashion,0
+1160,43,Male,Houston,139682.0,25.0,7,21,290,96,Electronics,0
+1161,21,Male,Houston,33386.0,21.0,8,16,35,315,Home,0
+1162,42,Female,New York,144069.0,17.0,3,6,21,20,Home,0
+1163,62,Male,Houston,74460.0,23.0,5,3,177,164,Fashion,1
+1164,59,Male,San Francisco,26221.0,57.0,2,41,49,97,Fashion,0
+1165,42,Male,New York,43474.0,81.0,10,43,101,143,Home,0
+1166,35,Male,Phoenix,126073.0,58.0,7,21,50,62,Electronics,0
+1167,57,Male,Dallas,135375.0,14.0,8,13,255,242,Sports,1
+1168,25,Female,Miami,132660.0,93.0,9,18,352,238,Beauty,0
+1169,56,Male,Miami,41045.0,20.0,7,58,167,131,Fashion,0
+1170,57,Female,Phoenix,111319.0,30.0,10,54,196,93,Home,0
+1171,31,Female,Phoenix,136582.0,19.0,10,24,389,91,Electronics,0
+1172,49,Female,San Francisco,125693.0,53.0,8,27,54,133,Fashion,0
+1173,68,Female,Chicago,24922.0,56.0,9,54,42,123,Electronics,0
+1174,55,Female,Dallas,131943.0,77.0,6,4,125,342,Fashion,0
+1175,50,Male,Phoenix,42706.0,82.0,10,22,116,118,Home,0
+1176,40,Male,Houston,62771.0,23.0,2,24,249,198,Electronics,0
+1177,32,Male,San Francisco,72335.0,62.0,2,40,246,282,Home,0
+1178,50,Female,Miami,118015.0,33.0,4,45,390,1,Electronics,0
+1179,42,Male,Los Angeles,72949.0,18.0,9,10,119,211,Fashion,1
+1180,34,Male,San Francisco,,,7,2,464,263,Beauty,0
+1181,50,Female,Miami,115558.0,33.0,2,40,487,332,Beauty,1
+1182,64,Female,New York,35240.0,32.0,8,6,74,212,Sports,0
+1183,19,Female,San Francisco,111756.0,61.0,7,48,214,87,Sports,0
+1184,31,Female,Miami,122272.0,54.0,9,18,27,153,Groceries,0
+1185,57,Male,Chicago,22716.0,17.0,8,17,443,350,Home,1
+1186,57,Female,San Francisco,36574.0,19.0,3,38,334,187,Electronics,1
+1187,68,Female,San Francisco,131815.0,91.0,1,45,147,61,Sports,0
+1188,56,Male,Dallas,,,2,23,51,285,Fashion,0
+1189,68,Male,Phoenix,93717.0,99.0,2,46,112,95,Beauty,0
+1190,23,Female,Dallas,131299.0,34.0,4,30,26,274,Electronics,1
+1191,23,Male,San Francisco,64066.0,84.0,6,58,277,41,Groceries,0
+1192,20,Female,Phoenix,135066.0,25.0,4,21,360,147,Beauty,0
+1193,24,Female,Miami,81826.0,68.0,9,10,409,246,Electronics,0
+1194,68,Male,Los Angeles,40213.0,74.0,4,56,239,132,Sports,0
+1195,25,Male,Los Angeles,91916.0,74.0,6,43,259,297,Sports,0
+1196,59,Female,San Francisco,86151.0,88.0,6,13,125,123,Home,0
+1197,69,Female,Chicago,148518.0,85.0,10,12,55,143,Groceries,0
+1198,32,Female,New York,137018.0,11.0,10,9,435,182,Electronics,1
+1199,64,Male,Miami,149024.0,91.0,1,4,64,192,Groceries,0
+1200,46,Female,Phoenix,70906.0,16.0,8,39,317,207,Fashion,0
+1201,50,Female,San Francisco,20463.0,90.0,3,24,328,231,Groceries,0
+1202,69,Female,Miami,51973.0,61.0,6,54,385,22,Sports,0
+1203,47,Female,San Francisco,94694.0,94.0,3,34,28,80,Home,0
+1204,56,Female,Chicago,40651.0,80.0,2,39,478,130,Sports,0
+1205,44,Male,Houston,88694.0,7.0,5,41,106,292,Beauty,0
+1206,53,Female,Houston,40008.0,16.0,1,5,389,276,Sports,0
+1207,46,Female,Chicago,131738.0,99.0,9,15,350,323,Electronics,0
+1208,55,Female,Phoenix,90474.0,16.0,7,50,196,55,Home,0
+1209,50,Female,Dallas,58185.0,40.0,3,4,149,66,Electronics,0
+1210,54,Male,Chicago,107924.0,12.0,4,51,214,227,Fashion,0
+1211,44,Male,San Francisco,94417.0,35.0,6,52,30,26,Fashion,0
+1212,50,Male,Phoenix,145502.0,21.0,3,58,325,253,Sports,1
+1213,21,Female,Los Angeles,91139.0,50.0,7,39,438,197,Home,0
+1214,39,Female,Chicago,54980.0,43.0,6,58,141,130,Groceries,0
+1215,19,Male,Phoenix,42504.0,100.0,9,8,418,243,Home,0
+1216,27,Male,Chicago,74970.0,17.0,5,49,254,312,Home,0
+1217,22,Male,Chicago,36766.0,32.0,4,45,350,212,Home,1
+1218,27,Female,Dallas,136944.0,41.0,3,24,50,190,Sports,0
+1219,50,Female,Dallas,113922.0,6.0,10,53,367,290,Electronics,1
+1220,55,Male,San Francisco,31695.0,88.0,1,28,465,226,Sports,0
+1221,30,Male,Phoenix,37796.0,27.0,3,55,431,246,Groceries,1
+1222,48,Male,Phoenix,62543.0,20.0,3,43,243,56,Electronics,0
+1223,64,Female,New York,34559.0,25.0,7,27,172,55,Groceries,0
+1224,53,Female,Chicago,124450.0,66.0,7,1,231,276,Beauty,0
+1225,62,Female,Houston,53139.0,9.0,1,34,111,306,Beauty,1
+1226,41,Male,Chicago,140494.0,92.0,3,17,428,340,Electronics,0
+1227,69,Male,Chicago,123869.0,53.0,8,37,350,153,Sports,0
+1228,32,Female,Phoenix,28802.0,61.0,9,38,486,53,Groceries,0
+1229,46,Male,Chicago,93843.0,38.0,7,26,367,111,Groceries,0
+1230,25,Female,Miami,60205.0,3.0,7,57,148,204,Fashion,1
+1231,22,Male,Chicago,118750.0,84.0,8,24,462,112,Groceries,0
+1232,46,Male,Miami,54159.0,70.0,6,39,216,325,Sports,0
+1233,64,Male,Dallas,31516.0,97.0,3,21,477,258,Fashion,0
+1234,21,Male,Houston,70492.0,55.0,1,30,61,16,Sports,0
+1235,29,Female,San Francisco,49086.0,1.0,7,47,385,350,Home,1
+1236,62,Male,Phoenix,133758.0,70.0,1,51,437,166,Groceries,0
+1237,19,Female,Chicago,50480.0,45.0,1,48,247,301,Home,0
+1238,44,Female,Miami,72091.0,98.0,9,57,213,280,Beauty,0
+1239,48,Female,Miami,148023.0,47.0,10,13,37,158,Beauty,0
+1240,68,Male,Dallas,130195.0,79.0,7,37,352,249,Electronics,0
+1241,68,Female,Miami,67766.0,26.0,4,3,262,181,Groceries,1
+1242,53,Female,San Francisco,58737.0,14.0,6,32,408,191,Fashion,0
+1243,53,Female,Los Angeles,29265.0,54.0,1,35,295,139,Home,0
+1244,43,Male,New York,134165.0,71.0,7,19,469,78,Sports,0
+1245,60,Male,San Francisco,139501.0,46.0,6,14,146,336,Groceries,1
+1246,44,Female,Houston,138257.0,31.0,4,48,94,50,Electronics,1
+1247,22,Male,San Francisco,90990.0,88.0,7,22,81,85,Sports,0
+1248,37,Female,Dallas,121454.0,59.0,3,17,497,183,Home,1
+1249,28,Female,Dallas,111717.0,95.0,1,59,499,183,Groceries,0
+1250,27,Male,San Francisco,35386.0,29.0,4,4,307,4,Home,0
+1251,57,Female,Chicago,124718.0,96.0,3,45,205,317,Groceries,0
+1252,55,Male,Los Angeles,57425.0,17.0,1,40,197,111,Groceries,0
+1253,23,Male,Chicago,141635.0,14.0,2,19,185,334,Home,0
+1254,25,Female,Chicago,63254.0,36.0,5,37,202,339,Home,1
+1255,40,Male,San Francisco,109863.0,58.0,8,2,47,251,Sports,0
+1256,64,Male,Phoenix,138350.0,24.0,1,15,349,133,Electronics,1
+1257,43,Female,Phoenix,73634.0,63.0,4,2,489,100,Home,1
+1258,63,Female,Phoenix,106717.0,91.0,4,11,266,172,Beauty,0
+1259,60,Male,Los Angeles,,,5,45,356,287,Electronics,0
+1260,29,Male,Chicago,106988.0,59.0,7,23,41,119,Beauty,0
+1261,43,Female,New York,123784.0,32.0,8,10,446,350,Sports,1
+1262,30,Male,Houston,126337.0,82.0,6,3,486,175,Home,0
+1263,57,Male,Phoenix,119287.0,18.0,1,5,484,30,Electronics,0
+1264,35,Male,Phoenix,107527.0,37.0,7,3,491,55,Home,0
+1265,42,Male,Dallas,,,3,38,439,361,Groceries,1
+1266,50,Male,Chicago,95452.0,9.0,6,13,115,196,Home,1
+1267,64,Male,Chicago,,,8,42,141,41,Electronics,0
+1268,57,Male,Los Angeles,111391.0,64.0,7,19,269,173,Home,0
+1269,60,Female,Los Angeles,35581.0,72.0,10,40,398,330,Home,0
+1270,29,Female,Phoenix,87443.0,20.0,6,50,327,219,Fashion,0
+1271,61,Female,Chicago,49424.0,54.0,9,35,439,208,Fashion,0
+1272,53,Female,New York,108844.0,86.0,9,24,431,158,Electronics,0
+1273,65,Female,Houston,61984.0,83.0,1,24,353,333,Electronics,0
+1274,21,Male,San Francisco,,,1,17,461,228,Groceries,0
+1275,22,Male,Chicago,132061.0,53.0,1,40,439,85,Groceries,0
+1276,54,Male,Dallas,122478.0,92.0,8,10,345,173,Home,0
+1277,25,Male,San Francisco,82699.0,99.0,10,2,156,245,Beauty,0
+1278,59,Female,Chicago,46957.0,63.0,7,44,296,360,Electronics,0
+1279,66,Male,Miami,45464.0,11.0,3,23,339,173,Home,1
+1280,45,Male,Los Angeles,134012.0,31.0,2,6,351,335,Beauty,1
+1281,48,Female,Dallas,43649.0,49.0,4,2,80,212,Fashion,0
+1282,26,Male,Houston,62065.0,100.0,3,21,269,84,Groceries,0
+1283,68,Male,Phoenix,112661.0,94.0,7,55,497,173,Electronics,0
+1284,46,Female,Dallas,54758.0,87.0,10,56,114,183,Home,0
+1285,31,Male,Chicago,25596.0,19.0,8,35,315,133,Fashion,0
+1286,57,Male,Phoenix,36374.0,12.0,6,49,203,288,Sports,0
+1287,58,Male,Chicago,138686.0,15.0,3,29,279,262,Fashion,1
+1288,39,Male,Phoenix,23775.0,31.0,6,7,306,350,Home,1
+1289,28,Male,Houston,,,2,29,174,282,Groceries,0
+1290,40,Female,Los Angeles,143800.0,37.0,7,53,205,293,Beauty,0
+1291,18,Female,Houston,41029.0,79.0,10,37,428,269,Sports,0
+1292,63,Female,Miami,103981.0,29.0,7,23,88,349,Sports,1
+1293,54,Female,New York,73639.0,26.0,4,33,345,197,Groceries,0
+1294,38,Female,Los Angeles,,,8,8,280,25,Sports,0
+1295,43,Female,Houston,34645.0,84.0,4,12,134,141,Electronics,0
+1296,63,Male,Miami,51105.0,15.0,7,46,366,223,Home,1
+1297,53,Female,New York,33668.0,4.0,4,48,27,20,Sports,0
+1298,40,Female,Miami,147949.0,86.0,5,10,284,247,Fashion,0
+1299,18,Male,Chicago,35960.0,50.0,7,15,290,328,Beauty,0
+1300,68,Male,San Francisco,146519.0,38.0,10,53,268,201,Home,0
+1301,57,Female,Chicago,31357.0,23.0,3,24,124,115,Groceries,0
+1302,32,Male,Phoenix,84604.0,59.0,10,26,282,189,Fashion,0
+1303,38,Female,Los Angeles,122739.0,90.0,5,47,243,26,Electronics,0
+1304,64,Male,Chicago,71796.0,75.0,3,42,347,54,Sports,0
+1305,26,Female,Dallas,35804.0,28.0,5,53,390,170,Fashion,0
+1306,26,Male,Miami,147732.0,66.0,3,39,290,11,Home,0
+1307,27,Male,Los Angeles,135733.0,8.0,10,58,184,27,Fashion,0
+1308,69,Female,San Francisco,34626.0,29.0,7,3,102,350,Electronics,0
+1309,43,Female,Dallas,48132.0,11.0,1,2,314,83,Beauty,0
+1310,58,Female,Chicago,27951.0,18.0,9,6,153,290,Sports,1
+1311,52,Female,Phoenix,26449.0,55.0,9,21,230,38,Home,0
+1312,69,Female,Houston,,,5,9,332,87,Sports,0
+1313,42,Male,Phoenix,121503.0,14.0,9,10,111,321,Sports,1
+1314,43,Female,Dallas,125072.0,74.0,10,36,356,156,Groceries,0
+1315,28,Female,New York,29130.0,99.0,6,59,422,308,Sports,0
+1316,55,Male,Chicago,109360.0,9.0,5,3,146,286,Fashion,1
+1317,19,Male,Dallas,82287.0,99.0,3,41,210,186,Fashion,0
+1318,24,Female,New York,126937.0,11.0,8,24,178,182,Beauty,0
+1319,35,Male,New York,71702.0,63.0,4,22,350,143,Electronics,0
+1320,44,Male,Miami,56993.0,76.0,10,49,354,206,Home,0
+1321,51,Female,Los Angeles,51875.0,67.0,3,14,29,142,Fashion,1
+1322,44,Male,Miami,135284.0,53.0,6,42,126,185,Sports,0
+1323,34,Male,Chicago,26054.0,39.0,8,45,106,241,Electronics,1
+1324,60,Female,New York,119809.0,78.0,9,44,86,8,Home,0
+1325,61,Female,San Francisco,127357.0,56.0,6,27,81,72,Home,0
+1326,68,Male,Dallas,,,5,33,406,288,Home,1
+1327,41,Male,Houston,96368.0,75.0,2,22,165,95,Home,0
+1328,42,Female,New York,49670.0,39.0,2,29,172,157,Beauty,1
+1329,24,Male,Dallas,69112.0,25.0,9,19,126,41,Home,0
+1330,69,Male,San Francisco,108388.0,21.0,2,19,167,331,Electronics,1
+1331,23,Male,Houston,109156.0,10.0,2,6,205,301,Fashion,1
+1332,41,Female,Miami,48307.0,43.0,3,45,368,269,Electronics,0
+1333,50,Male,Miami,133087.0,15.0,3,19,361,155,Sports,1
+1334,66,Male,Los Angeles,87087.0,83.0,4,13,197,275,Groceries,0
+1335,46,Female,Dallas,67922.0,48.0,7,59,396,154,Beauty,0
+1336,60,Male,New York,83080.0,86.0,9,26,354,53,Beauty,0
+1337,39,Male,Phoenix,113348.0,21.0,2,22,285,179,Sports,1
+1338,43,Female,Miami,99335.0,60.0,4,21,168,240,Electronics,0
+1339,45,Female,Miami,46312.0,96.0,9,36,266,137,Electronics,0
+1340,67,Female,Los Angeles,125156.0,50.0,2,56,273,255,Sports,1
+1341,38,Female,Houston,86985.0,23.0,10,2,48,224,Groceries,1
+1342,66,Male,Los Angeles,140641.0,13.0,1,47,371,180,Home,1
+1343,24,Male,San Francisco,77608.0,69.0,10,44,285,182,Home,0
+1344,34,Female,New York,109962.0,4.0,8,30,32,259,Fashion,1
+1345,37,Female,Dallas,120963.0,92.0,9,27,66,243,Electronics,0
+1346,58,Male,Chicago,60277.0,78.0,7,7,170,96,Electronics,0
+1347,66,Female,Chicago,51551.0,72.0,8,20,69,197,Sports,0
+1348,37,Male,Dallas,109813.0,9.0,4,50,234,14,Sports,0
+1349,39,Female,Houston,76597.0,35.0,4,31,498,120,Home,0
+1350,45,Male,San Francisco,121025.0,21.0,2,23,151,269,Electronics,1
+1351,57,Female,Miami,144342.0,58.0,8,13,391,171,Electronics,0
+1352,66,Female,Houston,65212.0,18.0,2,17,132,72,Beauty,0
+1353,24,Male,Miami,29637.0,97.0,9,4,271,179,Fashion,0
+1354,18,Female,Miami,63258.0,72.0,4,57,470,170,Fashion,0
+1355,49,Male,Chicago,55693.0,81.0,1,14,360,159,Home,0
+1356,30,Male,Houston,29824.0,43.0,4,20,72,154,Groceries,1
+1357,47,Male,San Francisco,149553.0,95.0,3,13,149,82,Electronics,0
+1358,40,Male,Los Angeles,46950.0,98.0,6,3,343,57,Beauty,0
+1359,68,Male,Miami,43488.0,6.0,7,26,212,7,Electronics,0
+1360,36,Female,Phoenix,147870.0,86.0,8,26,98,112,Sports,0
+1361,49,Female,Phoenix,124544.0,78.0,2,18,76,48,Home,0
+1362,47,Male,Los Angeles,135200.0,67.0,6,32,116,80,Groceries,0
+1363,46,Female,Phoenix,20215.0,12.0,6,14,217,316,Fashion,1
+1364,66,Male,New York,125603.0,100.0,10,47,154,33,Electronics,0
+1365,62,Female,Miami,31523.0,12.0,5,3,166,115,Groceries,0
+1366,46,Female,Los Angeles,95900.0,66.0,10,1,191,3,Home,0
+1367,47,Female,Houston,,,10,26,82,4,Fashion,0
+1368,33,Female,Miami,43834.0,15.0,7,24,84,356,Electronics,1
+1369,57,Male,Los Angeles,54474.0,23.0,3,49,314,260,Beauty,0
+1370,36,Male,Chicago,63066.0,29.0,4,35,230,42,Home,0
+1371,35,Female,San Francisco,119871.0,81.0,10,14,128,9,Electronics,0
+1372,18,Female,Houston,30400.0,96.0,9,3,301,307,Fashion,0
+1373,31,Male,San Francisco,145211.0,7.0,4,13,191,145,Fashion,0
+1374,68,Female,Chicago,30345.0,94.0,3,47,31,97,Beauty,0
+1375,64,Male,Miami,53896.0,28.0,2,50,425,276,Home,1
+1376,67,Male,Houston,105430.0,14.0,5,14,352,142,Home,0
+1377,19,Male,San Francisco,48899.0,44.0,4,21,239,278,Groceries,1
+1378,45,Female,Phoenix,126171.0,30.0,8,26,417,27,Electronics,0
+1379,66,Male,San Francisco,48229.0,81.0,7,3,361,43,Groceries,1
+1380,67,Female,Los Angeles,137053.0,32.0,6,51,305,131,Fashion,0
+1381,47,Male,Miami,25583.0,70.0,2,40,191,216,Fashion,0
+1382,55,Female,New York,24897.0,88.0,3,4,487,94,Beauty,0
+1383,68,Female,San Francisco,140406.0,6.0,10,36,255,8,Beauty,0
+1384,21,Female,Houston,91537.0,27.0,9,51,494,86,Home,0
+1385,18,Male,Houston,129417.0,82.0,9,43,185,345,Groceries,1
+1386,25,Male,Dallas,24567.0,88.0,5,1,206,138,Fashion,0
+1387,46,Female,San Francisco,94807.0,24.0,3,40,189,246,Electronics,0
+1388,56,Female,Miami,149648.0,34.0,2,47,71,21,Sports,0
+1389,20,Female,Miami,132652.0,40.0,8,33,338,265,Electronics,0
+1390,49,Male,Chicago,97239.0,47.0,6,7,208,148,Beauty,0
+1391,27,Male,Dallas,33329.0,79.0,10,53,139,184,Electronics,0
+1392,27,Male,San Francisco,121045.0,75.0,7,52,124,227,Fashion,0
+1393,36,Male,Phoenix,137708.0,86.0,1,52,181,292,Groceries,0
+1394,63,Female,Chicago,91792.0,24.0,1,56,314,36,Home,0
+1395,51,Female,Dallas,20228.0,65.0,10,11,60,246,Groceries,0
+1396,50,Male,San Francisco,110282.0,18.0,2,27,396,73,Sports,0
+1397,40,Male,San Francisco,102214.0,44.0,10,14,383,150,Home,0
+1398,45,Female,Chicago,57052.0,76.0,3,22,184,1,Sports,0
+1399,49,Male,Phoenix,77769.0,57.0,1,16,340,69,Sports,0
+1400,67,Male,Dallas,66032.0,28.0,5,46,393,293,Fashion,1
+1401,24,Male,San Francisco,131694.0,71.0,3,12,354,230,Fashion,0
+1402,46,Male,San Francisco,108721.0,23.0,1,49,179,211,Beauty,0
+1403,25,Male,Dallas,53686.0,85.0,8,46,283,72,Beauty,0
+1404,18,Male,New York,96981.0,34.0,6,10,372,363,Sports,1
+1405,20,Female,Chicago,118802.0,11.0,9,24,37,96,Groceries,1
+1406,41,Male,Chicago,83261.0,86.0,3,46,192,84,Beauty,0
+1407,40,Male,Houston,22809.0,35.0,9,18,496,228,Fashion,0
+1408,25,Female,Phoenix,123265.0,93.0,9,22,371,299,Beauty,0
+1409,64,Female,Los Angeles,61785.0,42.0,1,9,52,236,Sports,1
+1410,54,Female,New York,56547.0,28.0,3,17,280,293,Home,0
+1411,20,Male,Dallas,62818.0,82.0,6,38,229,222,Groceries,0
+1412,68,Female,Dallas,120422.0,78.0,8,40,402,223,Groceries,1
+1413,50,Male,Dallas,91927.0,82.0,4,58,349,281,Electronics,0
+1414,45,Male,New York,85681.0,92.0,5,13,401,221,Beauty,0
+1415,64,Male,San Francisco,,,9,50,183,216,Groceries,0
+1416,25,Female,Dallas,109862.0,8.0,6,37,426,231,Fashion,1
+1417,51,Female,Dallas,115527.0,53.0,7,6,443,169,Home,0
+1418,52,Female,Phoenix,133221.0,72.0,7,21,24,329,Fashion,0
+1419,49,Female,Miami,57333.0,4.0,4,51,53,42,Beauty,0
+1420,41,Female,Miami,146457.0,91.0,4,36,299,258,Sports,0
+1421,31,Male,Houston,36576.0,100.0,4,7,164,196,Electronics,0
+1422,49,Male,Houston,139875.0,5.0,5,36,370,96,Electronics,0
+1423,63,Male,Dallas,59405.0,97.0,5,25,90,317,Home,0
+1424,60,Male,Phoenix,114000.0,49.0,8,11,484,14,Groceries,0
+1425,33,Female,Dallas,93779.0,98.0,9,44,367,113,Groceries,0
+1426,21,Female,Houston,51601.0,30.0,2,14,249,77,Groceries,0
+1427,69,Male,New York,87946.0,72.0,7,45,144,277,Electronics,0
+1428,54,Female,New York,,,1,29,297,320,Sports,0
+1429,38,Female,San Francisco,72116.0,47.0,1,10,290,160,Groceries,0
+1430,31,Male,Los Angeles,120825.0,26.0,4,50,376,313,Fashion,1
+1431,48,Male,Miami,144749.0,57.0,10,48,34,119,Groceries,0
+1432,65,Female,Phoenix,137256.0,37.0,7,5,261,161,Sports,0
+1433,35,Female,Chicago,124186.0,98.0,2,8,172,308,Home,0
+1434,24,Male,Miami,82894.0,7.0,2,46,72,351,Home,1
+1435,27,Male,Chicago,54635.0,40.0,1,5,168,146,Electronics,0
+1436,24,Male,Los Angeles,27465.0,92.0,10,58,377,163,Sports,0
+1437,50,Female,Los Angeles,76754.0,39.0,2,24,469,179,Fashion,0
+1438,40,Male,Dallas,117975.0,62.0,7,40,238,89,Sports,0
+1439,38,Male,Houston,112850.0,92.0,9,57,132,223,Fashion,0
+1440,36,Female,Los Angeles,129765.0,78.0,6,26,307,266,Fashion,0
+1441,65,Female,Los Angeles,105119.0,53.0,10,6,296,239,Sports,1
+1442,36,Female,Chicago,112691.0,4.0,2,16,471,308,Beauty,1
+1443,53,Female,Houston,58871.0,82.0,10,36,447,34,Sports,0
+1444,46,Female,Los Angeles,82874.0,25.0,10,12,102,167,Fashion,0
+1445,35,Male,Miami,97733.0,7.0,9,11,469,125,Groceries,1
+1446,19,Male,San Francisco,49511.0,28.0,7,3,237,224,Home,1
+1447,18,Female,Los Angeles,100960.0,69.0,1,44,245,150,Home,0
+1448,64,Female,San Francisco,,,9,37,289,189,Electronics,0
+1449,22,Female,Houston,85776.0,95.0,2,6,34,43,Home,0
+1450,37,Female,Dallas,,,4,19,423,29,Beauty,0
+1451,28,Female,Phoenix,90167.0,83.0,9,18,309,362,Fashion,0
+1452,59,Male,Houston,95135.0,11.0,4,16,439,120,Sports,0
+1453,19,Male,Chicago,64462.0,67.0,3,23,358,337,Sports,1
+1454,20,Male,Phoenix,81382.0,87.0,1,43,284,31,Beauty,0
+1455,40,Male,Miami,110194.0,7.0,7,37,218,181,Home,1
+1456,29,Female,New York,123381.0,23.0,6,9,177,162,Fashion,0
+1457,37,Male,San Francisco,52574.0,61.0,10,3,352,128,Home,0
+1458,22,Female,San Francisco,122072.0,71.0,4,8,494,255,Electronics,0
+1459,54,Female,San Francisco,61910.0,34.0,6,38,466,294,Home,0
+1460,55,Female,Houston,93531.0,19.0,6,4,438,357,Electronics,1
+1461,47,Male,San Francisco,45186.0,58.0,4,12,416,254,Sports,0
+1462,26,Female,Dallas,114781.0,9.0,6,44,226,130,Fashion,0
+1463,51,Male,San Francisco,42813.0,48.0,10,31,193,12,Groceries,0
+1464,61,Male,Chicago,98812.0,82.0,8,25,203,35,Electronics,0
+1465,52,Female,Miami,105525.0,41.0,3,53,284,198,Home,0
+1466,69,Female,San Francisco,,,4,16,490,248,Home,1
+1467,39,Female,San Francisco,129779.0,45.0,10,42,265,110,Sports,0
+1468,61,Male,Phoenix,38557.0,25.0,1,54,55,328,Beauty,1
+1469,41,Female,Miami,48060.0,78.0,4,14,392,245,Groceries,0
+1470,34,Male,San Francisco,78866.0,25.0,10,13,278,250,Beauty,0
+1471,27,Female,Houston,92104.0,19.0,10,41,38,317,Home,1
+1472,47,Female,Los Angeles,120905.0,39.0,9,7,431,163,Beauty,0
+1473,63,Male,Dallas,,,8,12,42,48,Groceries,0
+1474,40,Male,Houston,26080.0,80.0,4,37,123,71,Groceries,0
+1475,49,Male,New York,33854.0,27.0,7,50,260,134,Fashion,0
+1476,34,Male,Houston,142013.0,74.0,10,4,410,239,Beauty,0
+1477,67,Male,Phoenix,87695.0,63.0,3,2,380,68,Fashion,1
+1478,68,Male,Phoenix,47025.0,68.0,9,35,223,278,Home,1
+1479,34,Female,San Francisco,72982.0,19.0,10,58,272,32,Home,0
+1480,31,Female,Houston,61081.0,28.0,4,44,161,123,Home,0
+1481,26,Male,Phoenix,24368.0,85.0,2,3,321,22,Sports,0
+1482,57,Female,Los Angeles,119621.0,78.0,10,4,162,155,Beauty,0
+1483,19,Male,Miami,139181.0,33.0,5,38,470,110,Electronics,0
+1484,62,Female,Houston,47094.0,10.0,2,12,290,271,Groceries,1
+1485,42,Female,Dallas,66040.0,83.0,10,19,326,300,Electronics,0
+1486,56,Male,Los Angeles,86766.0,30.0,6,10,491,115,Home,0
+1487,26,Male,San Francisco,103053.0,22.0,10,1,129,220,Beauty,0
+1488,39,Male,Miami,43991.0,3.0,1,17,27,230,Fashion,0
+1489,60,Female,Dallas,21301.0,82.0,6,16,88,252,Electronics,1
+1490,63,Male,San Francisco,48610.0,75.0,4,9,209,249,Home,0
+1491,21,Female,Dallas,101463.0,48.0,3,57,198,9,Electronics,0
+1492,43,Male,San Francisco,54678.0,2.0,2,53,82,34,Electronics,1
+1493,46,Female,Dallas,44466.0,76.0,7,9,87,228,Groceries,0
+1494,62,Female,Miami,100440.0,54.0,9,59,225,73,Electronics,0
+1495,51,Male,Los Angeles,60875.0,6.0,3,55,419,301,Home,1
+1496,40,Female,Dallas,46081.0,40.0,6,9,487,212,Groceries,1
+1497,54,Female,Dallas,44354.0,93.0,9,12,427,72,Home,0
+1498,28,Male,Chicago,113297.0,94.0,2,55,25,58,Sports,0
+1499,23,Female,Houston,38300.0,2.0,7,41,138,220,Sports,0
+1500,35,Male,Miami,84384.0,73.0,5,15,332,275,Sports,0
+1501,38,Male,San Francisco,115027.0,2.0,5,2,50,249,Electronics,0
+1502,59,Male,Miami,141684.0,93.0,7,11,25,16,Beauty,0
+1503,53,Male,Phoenix,80892.0,97.0,9,11,226,75,Home,0
+1504,58,Female,San Francisco,55525.0,74.0,4,8,176,106,Sports,0
+1505,55,Female,Miami,46532.0,98.0,9,55,86,136,Beauty,0
+1506,51,Female,Los Angeles,26464.0,55.0,10,32,478,74,Sports,0
+1507,34,Male,San Francisco,36562.0,72.0,9,6,406,254,Sports,1
+1508,54,Female,San Francisco,127392.0,60.0,4,53,431,18,Beauty,0
+1509,42,Female,Miami,75514.0,97.0,3,20,349,43,Sports,0
+1510,55,Male,San Francisco,133428.0,6.0,2,39,389,50,Electronics,0
+1511,29,Male,Chicago,132564.0,19.0,9,35,372,3,Electronics,0
+1512,40,Female,Houston,128047.0,96.0,2,8,451,232,Groceries,0
+1513,59,Male,San Francisco,94219.0,27.0,6,50,355,219,Electronics,0
+1514,39,Male,Houston,52634.0,1.0,5,49,398,59,Fashion,0
+1515,38,Male,Miami,20060.0,33.0,5,43,413,284,Groceries,0
+1516,44,Male,Dallas,29269.0,40.0,4,34,308,302,Sports,1
+1517,48,Female,New York,83143.0,32.0,6,57,470,64,Fashion,0
+1518,23,Male,New York,43065.0,69.0,5,53,472,70,Home,0
+1519,44,Male,Dallas,22895.0,17.0,4,59,159,303,Beauty,1
+1520,57,Male,Dallas,100859.0,8.0,9,56,460,142,Home,0
+1521,51,Male,Dallas,32352.0,57.0,6,19,319,202,Fashion,0
+1522,29,Male,Los Angeles,130179.0,42.0,10,7,32,207,Electronics,0
+1523,62,Male,New York,69737.0,98.0,10,31,171,221,Sports,0
+1524,24,Male,Dallas,124127.0,9.0,10,18,447,362,Groceries,1
+1525,27,Male,Los Angeles,116426.0,87.0,3,40,332,246,Sports,0
+1526,62,Female,Phoenix,52016.0,35.0,10,14,371,81,Electronics,0
+1527,34,Male,San Francisco,81304.0,71.0,6,39,419,251,Sports,1
+1528,43,Female,Los Angeles,31962.0,79.0,1,53,499,51,Beauty,0
+1529,38,Male,New York,53302.0,53.0,5,59,128,285,Beauty,0
+1530,45,Male,Miami,105382.0,54.0,10,36,395,346,Beauty,1
+1531,63,Male,Phoenix,24011.0,84.0,6,17,375,204,Home,1
+1532,19,Male,New York,149716.0,25.0,8,37,168,25,Electronics,0
+1533,60,Female,San Francisco,39782.0,67.0,9,44,386,41,Beauty,0
+1534,18,Male,Los Angeles,87691.0,62.0,3,9,223,69,Fashion,0
+1535,68,Male,Chicago,140654.0,55.0,2,58,326,4,Beauty,0
+1536,53,Female,Houston,142017.0,46.0,4,20,40,240,Groceries,0
+1537,68,Female,San Francisco,59725.0,24.0,8,45,79,361,Home,1
+1538,43,Male,New York,,,8,57,454,31,Fashion,0
+1539,46,Female,Dallas,63459.0,46.0,3,28,40,117,Electronics,0
+1540,38,Female,Los Angeles,107245.0,22.0,4,50,382,195,Electronics,0
+1541,28,Female,Dallas,149613.0,11.0,3,20,401,90,Groceries,0
+1542,57,Male,Dallas,98863.0,48.0,10,41,264,178,Beauty,0
+1543,28,Male,Dallas,143206.0,8.0,2,36,409,145,Fashion,1
+1544,53,Male,Dallas,139391.0,39.0,4,53,92,202,Groceries,0
+1545,66,Female,Dallas,121010.0,35.0,6,27,468,322,Fashion,0
+1546,56,Male,Phoenix,52769.0,49.0,5,8,95,344,Beauty,0
+1547,57,Female,New York,127529.0,46.0,3,32,205,203,Beauty,1
+1548,52,Male,San Francisco,145361.0,38.0,2,1,97,24,Sports,0
+1549,51,Male,New York,44700.0,8.0,9,17,409,355,Sports,1
+1550,64,Female,San Francisco,135792.0,54.0,1,57,84,105,Beauty,0
+1551,41,Male,Houston,100356.0,37.0,9,9,361,275,Home,1
+1552,39,Female,Los Angeles,96427.0,91.0,1,20,309,322,Groceries,0
+1553,22,Female,Chicago,120165.0,92.0,7,45,75,60,Sports,0
+1554,50,Male,Phoenix,25269.0,40.0,6,32,350,15,Beauty,0
+1555,53,Female,Los Angeles,141631.0,34.0,7,2,278,85,Fashion,0
+1556,64,Male,Phoenix,63880.0,96.0,3,32,445,197,Groceries,0
+1557,37,Male,San Francisco,134003.0,79.0,3,45,209,235,Sports,0
+1558,36,Female,New York,28320.0,17.0,1,9,25,344,Home,1
+1559,52,Male,Dallas,69589.0,33.0,4,30,25,263,Groceries,0
+1560,69,Female,Houston,139534.0,47.0,2,20,210,6,Groceries,0
+1561,60,Male,Houston,96276.0,52.0,10,38,167,289,Electronics,0
+1562,34,Male,Miami,55897.0,80.0,8,1,424,58,Fashion,0
+1563,62,Male,Chicago,78565.0,93.0,3,57,277,145,Home,0
+1564,60,Male,Houston,50930.0,9.0,7,5,237,42,Home,0
+1565,51,Male,Dallas,77233.0,33.0,7,35,498,350,Home,1
+1566,26,Female,New York,102821.0,60.0,9,36,109,200,Fashion,1
+1567,43,Female,Chicago,34380.0,93.0,6,1,331,174,Home,0
+1568,19,Female,San Francisco,96896.0,77.0,1,14,371,335,Electronics,0
+1569,26,Female,Los Angeles,90934.0,21.0,8,9,29,95,Sports,1
+1570,26,Female,San Francisco,75830.0,58.0,1,30,106,217,Fashion,1
+1571,57,Female,Dallas,25529.0,85.0,3,24,269,111,Home,0
+1572,34,Male,Dallas,141292.0,69.0,5,4,345,353,Beauty,0
+1573,18,Male,Houston,114598.0,10.0,8,50,170,180,Sports,0
+1574,42,Female,Chicago,122222.0,6.0,9,14,495,163,Groceries,0
+1575,60,Female,New York,102987.0,13.0,7,25,132,119,Fashion,0
+1576,57,Male,San Francisco,69178.0,65.0,9,4,49,325,Beauty,0
+1577,59,Male,Miami,26937.0,20.0,3,25,147,228,Groceries,1
+1578,42,Male,San Francisco,141952.0,57.0,5,10,97,145,Beauty,1
+1579,56,Female,Phoenix,59886.0,46.0,10,35,440,308,Home,0
+1580,52,Female,Phoenix,69699.0,8.0,8,55,74,142,Fashion,0
+1581,20,Female,New York,96396.0,10.0,1,7,499,122,Home,0
+1582,67,Male,New York,110678.0,73.0,8,42,324,285,Groceries,0
+1583,54,Male,Phoenix,45279.0,67.0,7,13,53,226,Electronics,0
+1584,61,Female,Miami,,,1,4,124,360,Beauty,1
+1585,61,Female,Chicago,130776.0,12.0,10,50,191,257,Electronics,1
+1586,68,Male,Phoenix,121444.0,10.0,10,43,41,285,Groceries,0
+1587,47,Male,New York,126300.0,25.0,6,57,306,165,Home,0
+1588,55,Male,Houston,133793.0,49.0,1,36,410,221,Sports,0
+1589,51,Male,Los Angeles,136278.0,49.0,2,56,124,69,Beauty,0
+1590,29,Female,Miami,99737.0,89.0,5,14,168,309,Sports,0
+1591,36,Male,Dallas,60544.0,11.0,2,18,291,224,Fashion,0
+1592,54,Male,Miami,123247.0,62.0,10,8,295,124,Beauty,0
+1593,61,Male,Houston,131190.0,36.0,1,32,318,344,Electronics,1
+1594,66,Female,Houston,28997.0,39.0,6,27,191,339,Sports,0
+1595,34,Female,Dallas,126102.0,53.0,8,42,66,12,Groceries,0
+1596,27,Male,San Francisco,105711.0,90.0,8,37,133,52,Fashion,1
+1597,66,Male,New York,136045.0,78.0,8,23,294,129,Beauty,0
+1598,64,Male,Phoenix,60860.0,56.0,6,7,323,135,Groceries,0
+1599,29,Female,San Francisco,23225.0,1.0,3,12,499,145,Fashion,0
+1600,33,Female,Chicago,130114.0,56.0,1,25,226,127,Electronics,0
+1601,41,Female,Miami,79470.0,4.0,2,3,472,226,Groceries,1
+1602,36,Male,Dallas,133218.0,30.0,5,26,414,71,Beauty,0
+1603,25,Female,Miami,148854.0,12.0,10,4,482,273,Fashion,1
+1604,48,Male,San Francisco,120764.0,35.0,5,42,432,187,Home,1
+1605,38,Male,Houston,127041.0,77.0,10,36,261,3,Beauty,0
+1606,34,Male,Phoenix,132224.0,52.0,1,15,320,285,Beauty,0
+1607,40,Female,Miami,,,1,32,215,22,Beauty,0
+1608,54,Male,Chicago,71880.0,87.0,9,29,183,166,Beauty,0
+1609,33,Female,Houston,,,2,10,195,310,Home,0
+1610,23,Female,Chicago,108646.0,52.0,7,21,362,363,Groceries,0
+1611,25,Male,Phoenix,96290.0,80.0,10,54,290,246,Groceries,0
+1612,42,Male,Miami,76633.0,7.0,4,16,129,234,Groceries,1
+1613,35,Female,Los Angeles,46655.0,22.0,7,47,191,325,Electronics,1
+1614,42,Male,San Francisco,141118.0,93.0,8,19,470,158,Home,0
+1615,29,Female,Miami,63601.0,75.0,5,29,371,151,Home,0
+1616,32,Male,San Francisco,23114.0,56.0,1,52,221,213,Fashion,1
+1617,43,Female,Phoenix,46502.0,97.0,4,51,187,218,Sports,0
+1618,58,Female,Miami,69768.0,58.0,10,18,121,246,Groceries,1
+1619,62,Female,San Francisco,68128.0,93.0,3,58,105,303,Sports,0
+1620,43,Female,Dallas,40028.0,64.0,10,44,161,276,Fashion,0
+1621,64,Male,San Francisco,75565.0,12.0,5,57,466,151,Home,0
+1622,49,Male,Miami,103123.0,7.0,10,16,356,196,Fashion,1
+1623,27,Female,New York,128255.0,55.0,10,1,232,21,Beauty,0
+1624,33,Female,Miami,55333.0,62.0,6,48,70,257,Fashion,1
+1625,24,Male,Miami,23174.0,90.0,2,2,131,17,Fashion,0
+1626,34,Male,San Francisco,137769.0,73.0,7,56,482,51,Beauty,0
+1627,40,Male,Chicago,55398.0,98.0,3,15,461,270,Sports,0
+1628,43,Male,Los Angeles,55929.0,77.0,1,39,290,315,Beauty,0
+1629,38,Male,Chicago,24321.0,55.0,10,28,84,83,Electronics,0
+1630,39,Male,San Francisco,143549.0,36.0,3,1,363,306,Fashion,0
+1631,24,Female,Chicago,115971.0,89.0,9,5,202,124,Fashion,1
+1632,31,Male,Houston,131508.0,24.0,10,42,351,290,Sports,0
+1633,32,Male,New York,75421.0,44.0,6,22,29,262,Home,0
+1634,24,Female,Chicago,92635.0,17.0,6,53,253,49,Beauty,0
+1635,26,Male,Dallas,43760.0,2.0,4,36,317,6,Home,0
+1636,68,Male,Phoenix,31360.0,13.0,8,46,263,117,Electronics,0
+1637,65,Male,Dallas,30313.0,31.0,5,13,370,118,Beauty,1
+1638,25,Male,Phoenix,131806.0,93.0,7,1,286,263,Electronics,1
+1639,67,Male,Miami,105998.0,28.0,9,16,137,353,Electronics,0
+1640,40,Female,Houston,25801.0,60.0,5,55,163,129,Electronics,0
+1641,46,Male,New York,34130.0,27.0,5,41,400,171,Groceries,0
+1642,35,Female,Dallas,34271.0,15.0,4,22,220,27,Beauty,0
+1643,48,Female,New York,36075.0,95.0,6,32,258,199,Beauty,0
+1644,47,Male,Dallas,122455.0,79.0,2,16,353,314,Groceries,0
+1645,69,Female,Miami,127215.0,33.0,3,51,422,345,Sports,1
+1646,56,Male,Phoenix,38984.0,20.0,1,15,434,97,Groceries,0
+1647,52,Female,Los Angeles,108095.0,42.0,2,58,476,17,Fashion,0
+1648,35,Female,Houston,80942.0,12.0,2,46,456,173,Home,1
+1649,59,Male,Dallas,32861.0,73.0,8,52,265,101,Home,0
+1650,56,Male,Dallas,118970.0,23.0,8,42,365,186,Electronics,0
+1651,34,Male,Miami,102203.0,72.0,2,53,27,184,Beauty,0
+1652,31,Male,Houston,91376.0,96.0,6,12,171,215,Beauty,0
+1653,48,Male,Phoenix,81247.0,14.0,5,1,411,251,Electronics,1
+1654,41,Female,Phoenix,89101.0,91.0,3,53,230,216,Fashion,0
+1655,52,Female,Dallas,128730.0,25.0,5,17,386,29,Home,0
+1656,61,Female,Los Angeles,40977.0,77.0,5,41,451,102,Groceries,0
+1657,62,Female,Los Angeles,70617.0,85.0,5,55,177,123,Sports,0
+1658,51,Female,New York,77473.0,31.0,3,51,77,54,Fashion,0
+1659,20,Female,Houston,106654.0,54.0,3,57,105,283,Beauty,1
+1660,54,Female,Houston,108177.0,5.0,4,50,74,102,Electronics,0
+1661,60,Male,Phoenix,92902.0,13.0,7,28,220,117,Home,0
+1662,57,Male,New York,112172.0,28.0,2,7,141,104,Electronics,1
+1663,43,Female,Miami,35630.0,43.0,10,9,465,45,Beauty,0
+1664,40,Female,Houston,40056.0,89.0,4,22,127,114,Electronics,0
+1665,61,Male,New York,27382.0,99.0,4,26,323,343,Groceries,0
+1666,56,Male,New York,75739.0,47.0,1,53,151,31,Home,0
+1667,32,Male,Dallas,101685.0,71.0,10,12,440,164,Electronics,1
+1668,66,Male,Phoenix,68639.0,38.0,8,7,411,189,Home,0
+1669,21,Female,New York,79838.0,96.0,1,46,404,293,Electronics,0
+1670,46,Male,San Francisco,66041.0,67.0,8,47,495,195,Electronics,1
+1671,39,Female,Los Angeles,20992.0,62.0,7,15,217,292,Home,0
+1672,42,Female,San Francisco,92394.0,39.0,9,38,66,261,Groceries,1
+1673,30,Female,Los Angeles,87657.0,37.0,8,21,247,207,Electronics,0
+1674,35,Male,Chicago,47160.0,86.0,5,14,264,52,Groceries,0
+1675,50,Male,Phoenix,65156.0,8.0,8,2,222,49,Fashion,0
+1676,33,Female,Dallas,71375.0,81.0,10,8,280,6,Sports,0
+1677,62,Female,Miami,106442.0,52.0,3,45,197,224,Fashion,0
+1678,59,Female,San Francisco,39572.0,91.0,10,55,43,23,Sports,0
+1679,61,Male,San Francisco,137925.0,33.0,7,6,194,145,Fashion,0
+1680,19,Female,Chicago,24136.0,81.0,4,37,293,110,Sports,0
+1681,52,Male,Los Angeles,81868.0,42.0,5,37,359,212,Electronics,1
+1682,59,Female,Dallas,102263.0,76.0,9,57,431,300,Home,0
+1683,51,Female,Chicago,52167.0,27.0,7,33,480,41,Home,0
+1684,47,Female,Phoenix,130957.0,8.0,4,41,280,172,Beauty,0
+1685,30,Male,Dallas,35479.0,23.0,6,6,305,186,Sports,1
+1686,30,Male,Phoenix,139392.0,64.0,10,52,20,214,Beauty,0
+1687,35,Female,New York,51376.0,93.0,7,26,105,306,Groceries,0
+1688,49,Male,Houston,24823.0,20.0,10,39,357,52,Groceries,0
+1689,49,Female,New York,145156.0,16.0,9,41,449,70,Beauty,0
+1690,52,Male,Phoenix,90456.0,17.0,4,37,88,196,Sports,0
+1691,56,Male,San Francisco,39585.0,80.0,10,14,50,151,Home,0
+1692,63,Male,Dallas,123775.0,19.0,3,37,217,109,Sports,1
+1693,69,Female,Los Angeles,37272.0,8.0,8,8,110,118,Groceries,0
+1694,46,Male,Miami,46619.0,38.0,1,39,459,95,Electronics,1
+1695,66,Male,Los Angeles,95069.0,38.0,9,13,492,256,Beauty,1
+1696,46,Female,Dallas,59895.0,53.0,1,13,368,44,Beauty,0
+1697,61,Female,New York,23720.0,93.0,2,40,402,67,Groceries,0
+1698,33,Female,Miami,39267.0,100.0,8,43,431,156,Sports,0
+1699,61,Female,Dallas,35696.0,90.0,9,28,35,323,Beauty,0
+1700,64,Male,Phoenix,49968.0,31.0,7,58,329,206,Home,1
+1701,27,Male,San Francisco,73364.0,44.0,3,18,456,274,Beauty,1
+1702,47,Male,Los Angeles,43345.0,60.0,7,57,415,155,Sports,0
+1703,42,Male,Phoenix,71567.0,76.0,6,19,295,179,Groceries,0
+1704,56,Male,Miami,111229.0,17.0,2,38,357,60,Home,0
+1705,37,Female,Miami,81607.0,79.0,3,32,181,74,Home,0
+1706,22,Male,Los Angeles,39385.0,73.0,10,22,456,49,Beauty,0
+1707,18,Male,Phoenix,103658.0,39.0,10,2,211,271,Sports,0
+1708,47,Male,Chicago,86900.0,42.0,5,13,170,73,Beauty,0
+1709,66,Female,Phoenix,88244.0,48.0,10,23,384,196,Electronics,0
+1710,20,Female,Miami,85425.0,12.0,4,25,430,179,Groceries,0
+1711,62,Male,Phoenix,98518.0,96.0,2,28,132,48,Electronics,0
+1712,31,Female,San Francisco,102844.0,89.0,4,58,292,72,Home,0
+1713,47,Female,Dallas,52919.0,18.0,8,11,195,113,Beauty,1
+1714,67,Female,New York,110697.0,79.0,5,33,168,245,Electronics,0
+1715,21,Female,San Francisco,77196.0,96.0,5,24,197,309,Fashion,0
+1716,35,Female,Chicago,135600.0,6.0,10,2,443,159,Electronics,1
+1717,54,Female,Houston,120625.0,43.0,3,30,401,274,Beauty,1
+1718,42,Female,Dallas,99401.0,35.0,8,17,242,268,Beauty,0
+1719,65,Male,New York,20495.0,98.0,6,40,278,304,Groceries,0
+1720,18,Male,Houston,64755.0,54.0,2,34,292,30,Electronics,0
+1721,63,Female,Los Angeles,87684.0,62.0,2,38,208,97,Beauty,0
+1722,32,Male,Houston,53324.0,69.0,9,22,325,251,Beauty,0
+1723,26,Male,Dallas,98929.0,82.0,7,5,397,7,Groceries,0
+1724,32,Female,Phoenix,21552.0,16.0,10,48,109,92,Groceries,0
+1725,66,Male,Dallas,71272.0,8.0,9,40,362,113,Groceries,0
+1726,41,Female,San Francisco,55853.0,89.0,6,51,281,259,Groceries,0
+1727,21,Female,Houston,138192.0,96.0,5,16,175,107,Fashion,0
+1728,29,Female,Miami,52924.0,90.0,1,13,219,63,Home,0
+1729,54,Male,New York,94462.0,86.0,6,26,74,358,Beauty,1
+1730,54,Male,New York,116387.0,31.0,6,31,273,271,Sports,1
+1731,60,Male,Houston,43889.0,10.0,3,52,461,199,Groceries,1
+1732,23,Male,New York,125466.0,56.0,3,39,192,347,Home,1
+1733,56,Female,Miami,74675.0,76.0,3,48,219,337,Groceries,0
+1734,63,Female,Dallas,142231.0,92.0,3,23,422,146,Home,0
+1735,41,Male,New York,93591.0,70.0,7,48,121,61,Sports,0
+1736,28,Female,Houston,90190.0,20.0,10,12,304,120,Electronics,1
+1737,30,Female,Chicago,42634.0,5.0,2,14,170,61,Fashion,0
+1738,51,Male,Chicago,52363.0,23.0,10,56,130,309,Beauty,1
+1739,42,Female,Los Angeles,83752.0,9.0,10,18,435,26,Electronics,0
+1740,24,Male,San Francisco,97004.0,58.0,2,27,285,115,Sports,0
+1741,69,Female,New York,76398.0,59.0,3,28,110,40,Fashion,0
+1742,21,Male,San Francisco,118458.0,93.0,10,18,196,344,Fashion,0
+1743,25,Female,Dallas,60718.0,80.0,7,16,468,116,Fashion,0
+1744,37,Female,Houston,133627.0,54.0,3,52,250,136,Sports,0
+1745,46,Male,New York,102916.0,46.0,7,16,48,277,Groceries,0
+1746,68,Male,Phoenix,46870.0,22.0,9,13,462,299,Groceries,1
+1747,62,Male,Miami,57394.0,64.0,10,58,320,21,Groceries,0
+1748,63,Male,New York,72057.0,8.0,4,29,214,31,Electronics,0
+1749,27,Female,New York,99795.0,20.0,7,9,326,247,Beauty,1
+1750,60,Female,San Francisco,100409.0,51.0,9,26,258,27,Fashion,0
+1751,51,Male,San Francisco,33016.0,78.0,8,28,376,73,Fashion,0
+1752,43,Female,Chicago,62137.0,39.0,8,41,498,97,Electronics,0
+1753,58,Male,Miami,20153.0,37.0,9,13,403,161,Groceries,0
+1754,66,Male,Houston,27853.0,50.0,5,36,286,346,Fashion,1
+1755,20,Female,New York,32379.0,34.0,5,9,233,300,Fashion,1
+1756,23,Female,Chicago,,,3,47,101,299,Sports,0
+1757,22,Male,San Francisco,141169.0,33.0,5,14,147,287,Home,0
+1758,22,Male,Los Angeles,58367.0,31.0,8,51,281,212,Electronics,1
+1759,64,Male,Miami,38100.0,54.0,5,12,86,76,Electronics,0
+1760,40,Female,Chicago,146082.0,44.0,4,53,81,143,Groceries,0
+1761,66,Female,Chicago,133089.0,34.0,8,58,152,34,Electronics,0
+1762,26,Female,Dallas,83456.0,71.0,7,57,156,336,Groceries,0
+1763,52,Female,Chicago,31049.0,62.0,6,32,47,4,Sports,0
+1764,37,Male,Dallas,20786.0,23.0,5,38,230,328,Sports,0
+1765,66,Male,New York,89904.0,46.0,5,3,495,98,Beauty,0
+1766,59,Male,New York,50699.0,56.0,10,58,494,217,Groceries,1
+1767,52,Male,San Francisco,142784.0,7.0,2,57,224,28,Sports,0
+1768,67,Male,Los Angeles,67691.0,89.0,4,54,272,201,Groceries,0
+1769,35,Male,Phoenix,57040.0,61.0,8,52,57,273,Electronics,0
+1770,34,Female,Phoenix,138455.0,3.0,8,16,62,314,Beauty,1
+1771,41,Female,Phoenix,112990.0,38.0,1,20,136,127,Home,0
+1772,20,Male,San Francisco,77986.0,84.0,2,32,424,202,Fashion,0
+1773,49,Male,Dallas,58762.0,34.0,5,56,494,9,Fashion,0
+1774,52,Female,San Francisco,43600.0,44.0,9,23,209,287,Beauty,1
+1775,55,Female,Miami,114774.0,30.0,10,17,65,88,Groceries,0
+1776,30,Female,Miami,110777.0,17.0,7,16,473,318,Groceries,1
+1777,64,Female,Los Angeles,39810.0,59.0,10,38,185,19,Groceries,0
+1778,42,Male,Miami,105703.0,10.0,5,8,324,81,Home,0
+1779,26,Male,Phoenix,107347.0,99.0,1,19,222,107,Fashion,0
+1780,21,Male,Phoenix,125315.0,84.0,6,30,252,311,Beauty,0
+1781,31,Male,San Francisco,77204.0,18.0,8,57,264,230,Groceries,1
+1782,54,Male,Chicago,40085.0,45.0,7,58,228,112,Sports,0
+1783,51,Female,Miami,66854.0,91.0,2,34,267,220,Electronics,0
+1784,28,Male,San Francisco,94797.0,59.0,5,14,314,123,Home,0
+1785,58,Female,New York,104269.0,62.0,4,22,346,244,Groceries,0
+1786,20,Male,New York,59779.0,59.0,9,44,402,178,Fashion,0
+1787,45,Male,Chicago,76207.0,49.0,10,17,177,65,Electronics,0
+1788,46,Male,Chicago,114615.0,100.0,1,59,424,3,Beauty,0
+1789,26,Male,Chicago,53980.0,63.0,6,15,20,207,Groceries,0
+1790,20,Male,San Francisco,76117.0,87.0,3,50,236,21,Fashion,0
+1791,42,Female,New York,34141.0,32.0,9,48,435,293,Electronics,1
+1792,51,Female,Phoenix,29344.0,10.0,5,32,268,15,Sports,0
+1793,29,Female,Chicago,125008.0,11.0,6,13,411,343,Home,1
+1794,59,Male,Los Angeles,35896.0,70.0,9,21,88,206,Beauty,0
+1795,26,Male,Dallas,109353.0,62.0,9,49,49,202,Fashion,1
+1796,32,Female,San Francisco,49813.0,47.0,8,40,134,120,Sports,0
+1797,57,Male,Chicago,104431.0,34.0,9,33,27,137,Home,1
+1798,42,Male,Dallas,85679.0,100.0,4,57,388,300,Home,0
+1799,22,Female,Houston,30681.0,17.0,6,58,294,295,Sports,1
+1800,28,Male,Chicago,92903.0,54.0,5,27,334,25,Fashion,0
+1801,51,Female,New York,23228.0,76.0,5,35,458,312,Home,0
+1802,41,Male,Miami,24582.0,85.0,4,16,433,234,Beauty,0
+1803,32,Female,Chicago,98683.0,40.0,2,28,354,121,Electronics,0
+1804,55,Male,San Francisco,31397.0,19.0,6,34,55,90,Beauty,0
+1805,25,Male,Miami,58799.0,67.0,9,47,330,320,Groceries,1
+1806,22,Female,Houston,57011.0,82.0,1,1,63,200,Home,0
+1807,65,Male,Los Angeles,99183.0,53.0,7,41,174,180,Electronics,0
+1808,43,Male,Miami,113254.0,64.0,6,48,96,345,Sports,0
+1809,35,Female,Dallas,64264.0,83.0,3,31,97,76,Electronics,0
+1810,23,Male,Phoenix,62317.0,47.0,1,36,120,137,Electronics,1
+1811,54,Female,Chicago,67914.0,6.0,4,44,457,138,Electronics,0
+1812,65,Male,Houston,104633.0,16.0,9,33,451,10,Home,0
+1813,30,Male,Houston,122489.0,72.0,2,33,49,201,Groceries,0
+1814,45,Male,Miami,144237.0,18.0,3,39,58,318,Groceries,1
+1815,22,Male,Los Angeles,65254.0,52.0,2,18,258,346,Fashion,0
+1816,30,Female,New York,60096.0,48.0,2,23,32,219,Groceries,0
+1817,34,Male,Chicago,73785.0,43.0,10,23,141,60,Home,0
+1818,67,Female,Houston,72344.0,39.0,8,15,163,147,Fashion,0
+1819,57,Male,Los Angeles,134988.0,49.0,3,26,191,107,Sports,0
+1820,62,Male,Phoenix,102643.0,12.0,7,30,474,38,Sports,0
+1821,49,Male,Houston,140382.0,10.0,8,25,387,134,Sports,0
+1822,46,Male,Los Angeles,88546.0,71.0,3,45,266,221,Sports,1
+1823,68,Female,San Francisco,,,2,16,266,303,Sports,1
+1824,20,Female,New York,85603.0,1.0,8,39,430,133,Beauty,0
+1825,57,Female,New York,48412.0,49.0,3,48,64,334,Home,0
+1826,51,Female,Houston,130489.0,36.0,7,45,272,53,Fashion,0
+1827,57,Male,Dallas,71658.0,21.0,1,14,394,62,Sports,0
+1828,44,Female,Houston,119841.0,37.0,6,17,310,23,Beauty,0
+1829,30,Female,Miami,69549.0,24.0,9,12,226,44,Groceries,1
+1830,62,Male,Chicago,147595.0,55.0,3,29,431,308,Beauty,0
+1831,50,Male,Los Angeles,31549.0,25.0,7,32,26,46,Beauty,0
+1832,23,Male,Houston,91216.0,7.0,6,56,465,147,Home,1
+1833,41,Male,Chicago,45739.0,81.0,8,24,261,216,Sports,0
+1834,36,Female,Miami,41209.0,93.0,3,52,129,340,Beauty,1
+1835,33,Female,San Francisco,127051.0,94.0,3,13,133,47,Beauty,0
+1836,57,Male,San Francisco,107968.0,71.0,4,56,326,347,Sports,1
+1837,45,Male,Chicago,35116.0,97.0,3,20,321,308,Home,0
+1838,50,Male,Houston,40045.0,71.0,9,15,295,24,Beauty,0
+1839,65,Female,New York,46327.0,24.0,4,56,115,145,Fashion,0
+1840,58,Female,Los Angeles,55709.0,11.0,6,53,313,89,Electronics,0
+1841,30,Male,Los Angeles,63617.0,73.0,8,4,208,174,Groceries,0
+1842,60,Male,San Francisco,80139.0,12.0,8,54,379,64,Electronics,1
+1843,62,Female,San Francisco,46905.0,35.0,5,34,307,119,Electronics,1
+1844,42,Male,New York,84148.0,63.0,5,28,173,223,Home,0
+1845,59,Male,Dallas,92603.0,68.0,6,50,77,156,Beauty,0
+1846,53,Female,Houston,118095.0,100.0,10,2,442,178,Electronics,0
+1847,44,Male,San Francisco,139779.0,92.0,7,57,423,320,Electronics,0
+1848,55,Female,San Francisco,62919.0,57.0,10,47,357,342,Groceries,0
+1849,24,Male,San Francisco,103521.0,13.0,7,30,69,56,Sports,1
+1850,22,Male,Los Angeles,112905.0,23.0,4,26,226,59,Beauty,0
+1851,60,Female,Houston,103400.0,83.0,6,51,71,220,Beauty,0
+1852,62,Female,Miami,108150.0,39.0,7,47,361,185,Groceries,0
+1853,68,Male,Houston,78446.0,88.0,5,26,390,47,Sports,0
+1854,48,Female,Chicago,72428.0,80.0,5,20,169,102,Beauty,0
+1855,40,Male,New York,67894.0,97.0,2,42,72,44,Fashion,0
+1856,59,Male,Dallas,,,7,28,232,15,Groceries,0
+1857,27,Female,San Francisco,26447.0,34.0,6,56,85,236,Home,0
+1858,49,Male,San Francisco,25499.0,71.0,1,20,251,361,Sports,0
+1859,60,Male,Houston,59041.0,75.0,4,11,392,51,Groceries,0
+1860,47,Female,Dallas,51315.0,31.0,3,58,318,309,Electronics,1
+1861,56,Female,San Francisco,21299.0,93.0,3,10,357,34,Beauty,0
+1862,48,Male,Dallas,140506.0,62.0,7,23,170,124,Fashion,1
+1863,35,Female,Miami,125005.0,13.0,10,37,224,77,Fashion,0
+1864,53,Female,Phoenix,24994.0,31.0,4,41,339,123,Home,0
+1865,19,Female,New York,115414.0,2.0,8,52,274,205,Groceries,1
+1866,31,Female,Dallas,101163.0,15.0,9,19,156,228,Fashion,1
+1867,30,Male,Los Angeles,146759.0,57.0,3,45,388,70,Groceries,0
+1868,46,Male,Chicago,27489.0,75.0,5,18,154,230,Beauty,0
+1869,29,Male,Los Angeles,111647.0,34.0,4,49,444,21,Beauty,0
+1870,56,Female,San Francisco,52355.0,68.0,10,27,73,108,Fashion,0
+1871,19,Female,Miami,93805.0,75.0,6,6,84,364,Beauty,1
+1872,49,Female,Miami,88367.0,29.0,10,10,21,241,Groceries,0
+1873,30,Female,Los Angeles,129906.0,66.0,4,2,151,251,Beauty,0
+1874,63,Female,New York,137409.0,16.0,8,24,353,135,Electronics,1
+1875,44,Female,Los Angeles,97355.0,39.0,3,38,51,90,Groceries,0
+1876,66,Female,Houston,136220.0,77.0,5,28,375,79,Sports,0
+1877,58,Male,San Francisco,110349.0,37.0,1,28,405,177,Beauty,1
+1878,34,Male,San Francisco,107173.0,81.0,6,53,379,298,Beauty,1
+1879,57,Female,Los Angeles,21996.0,21.0,5,45,262,308,Groceries,1
+1880,48,Female,Chicago,139999.0,44.0,8,50,211,102,Home,0
+1881,51,Female,Chicago,64387.0,19.0,9,39,161,361,Sports,1
+1882,41,Male,San Francisco,134965.0,71.0,8,2,167,335,Sports,1
+1883,62,Male,Phoenix,23089.0,8.0,8,46,108,112,Sports,1
+1884,52,Female,Chicago,118827.0,77.0,3,5,68,181,Fashion,0
+1885,65,Female,Los Angeles,40659.0,66.0,4,50,155,104,Electronics,0
+1886,23,Male,Chicago,65178.0,41.0,4,11,495,16,Electronics,0
+1887,36,Male,San Francisco,140053.0,75.0,5,10,210,96,Home,0
+1888,47,Male,New York,115965.0,88.0,9,43,449,293,Sports,0
+1889,24,Male,Dallas,101268.0,70.0,9,59,168,146,Sports,0
+1890,27,Female,Chicago,105042.0,61.0,10,2,106,302,Beauty,0
+1891,58,Male,Houston,126471.0,26.0,1,15,435,2,Groceries,0
+1892,49,Male,New York,90726.0,71.0,8,39,27,119,Fashion,0
+1893,51,Female,Phoenix,90111.0,83.0,1,41,242,343,Fashion,0
+1894,45,Male,Houston,126031.0,70.0,2,37,376,94,Home,0
+1895,32,Male,Los Angeles,133682.0,29.0,7,7,35,191,Electronics,1
+1896,47,Male,Dallas,54565.0,66.0,8,20,315,3,Sports,0
+1897,54,Female,Los Angeles,120435.0,19.0,1,34,125,111,Groceries,1
+1898,46,Male,Dallas,109242.0,68.0,3,35,302,177,Home,0
+1899,39,Female,Dallas,133204.0,58.0,7,34,123,257,Fashion,0
+1900,21,Female,Los Angeles,149642.0,70.0,9,53,380,361,Fashion,0
+1901,37,Male,Houston,42884.0,57.0,8,22,165,22,Fashion,0
+1902,49,Male,Houston,37199.0,37.0,8,31,54,220,Sports,0
+1903,53,Male,Dallas,80038.0,61.0,9,23,132,173,Sports,0
+1904,67,Male,Houston,77786.0,92.0,10,19,327,224,Sports,0
+1905,21,Female,Dallas,129636.0,30.0,3,4,418,65,Beauty,0
+1906,44,Male,San Francisco,124970.0,71.0,8,24,466,277,Electronics,1
+1907,34,Male,Dallas,69294.0,73.0,1,20,72,249,Fashion,1
+1908,29,Male,San Francisco,98015.0,25.0,8,39,366,260,Fashion,1
+1909,39,Female,New York,54178.0,97.0,7,28,100,131,Beauty,0
+1910,34,Male,Miami,32665.0,65.0,8,54,123,113,Fashion,0
+1911,27,Male,New York,149604.0,6.0,1,39,341,286,Fashion,1
+1912,18,Female,Los Angeles,20534.0,18.0,6,17,388,287,Sports,0
+1913,39,Female,Miami,111828.0,10.0,7,19,261,211,Sports,0
+1914,43,Male,Chicago,56132.0,92.0,5,54,50,20,Electronics,0
+1915,35,Male,Los Angeles,135720.0,11.0,5,48,336,215,Fashion,1
+1916,67,Male,Phoenix,56110.0,97.0,7,35,211,310,Home,0
+1917,31,Male,New York,78754.0,65.0,3,32,376,251,Fashion,0
+1918,64,Male,Houston,83580.0,77.0,6,47,380,271,Fashion,0
+1919,46,Female,New York,42469.0,84.0,7,46,252,180,Electronics,0
+1920,29,Female,Houston,84016.0,65.0,1,47,117,194,Home,0
+1921,53,Male,Miami,66233.0,52.0,2,46,53,313,Fashion,1
+1922,52,Male,Phoenix,122804.0,67.0,4,39,262,79,Groceries,0
+1923,69,Female,Miami,149863.0,82.0,8,57,458,180,Groceries,0
+1924,29,Male,Phoenix,86708.0,78.0,10,35,78,163,Home,0
+1925,24,Male,New York,78232.0,31.0,6,30,278,202,Groceries,1
+1926,46,Male,Houston,113450.0,91.0,1,17,36,14,Sports,0
+1927,28,Male,Miami,106437.0,17.0,10,42,97,347,Sports,1
+1928,50,Male,Phoenix,126311.0,55.0,5,47,225,246,Home,1
+1929,23,Female,Dallas,54409.0,93.0,7,29,321,14,Fashion,0
+1930,64,Male,Los Angeles,135159.0,36.0,6,6,185,99,Home,0
+1931,32,Male,Los Angeles,39324.0,26.0,9,17,310,33,Groceries,0
+1932,49,Male,Miami,28738.0,53.0,8,17,404,257,Home,1
+1933,68,Female,Houston,123030.0,17.0,4,14,131,34,Groceries,0
+1934,28,Female,Dallas,130093.0,86.0,5,24,432,19,Sports,0
+1935,40,Female,Miami,44054.0,25.0,7,57,407,152,Home,1
+1936,43,Female,New York,49709.0,2.0,8,50,336,260,Beauty,1
+1937,51,Male,Phoenix,,,5,57,372,164,Groceries,0
+1938,63,Female,San Francisco,105643.0,5.0,9,37,164,77,Beauty,0
+1939,51,Male,New York,148805.0,4.0,10,40,175,314,Sports,0
+1940,46,Male,Los Angeles,20363.0,36.0,4,39,197,137,Fashion,0
+1941,21,Female,Phoenix,30358.0,6.0,4,55,365,359,Groceries,1
+1942,34,Female,Miami,121613.0,21.0,8,32,155,208,Fashion,1
+1943,52,Female,New York,135233.0,77.0,1,36,437,242,Sports,0
+1944,30,Female,Chicago,23240.0,89.0,8,50,334,67,Fashion,0
+1945,58,Female,San Francisco,92201.0,26.0,5,37,37,116,Groceries,0
+1946,56,Male,Houston,65689.0,55.0,1,48,370,202,Electronics,0
+1947,32,Female,Dallas,21936.0,39.0,4,14,462,250,Groceries,0
+1948,46,Female,Dallas,132272.0,84.0,2,27,174,278,Groceries,0
+1949,46,Female,Houston,111074.0,33.0,4,59,291,112,Beauty,0
+1950,28,Male,Chicago,63965.0,14.0,8,19,285,331,Electronics,0
+1951,69,Female,Los Angeles,97534.0,56.0,5,31,379,234,Electronics,1
+1952,49,Male,Phoenix,20882.0,100.0,1,46,351,176,Electronics,0
+1953,19,Female,Houston,,,7,9,425,143,Groceries,0
+1954,64,Female,Chicago,125227.0,21.0,1,38,35,32,Sports,0
+1955,31,Male,Miami,143750.0,46.0,9,17,31,181,Electronics,0
+1956,37,Female,San Francisco,139299.0,16.0,3,19,94,67,Home,0
+1957,39,Male,Dallas,145865.0,16.0,3,44,231,4,Fashion,0
+1958,28,Male,San Francisco,132012.0,84.0,6,4,198,286,Sports,0
+1959,44,Male,Chicago,143745.0,29.0,10,48,148,269,Home,0
+1960,20,Female,San Francisco,50825.0,92.0,6,57,302,236,Groceries,0
+1961,34,Female,Los Angeles,90740.0,8.0,6,11,214,277,Groceries,1
+1962,61,Female,Los Angeles,48885.0,88.0,1,22,287,41,Home,0
+1963,45,Male,New York,60056.0,3.0,5,4,49,121,Beauty,0
+1964,46,Female,Houston,23203.0,89.0,6,17,28,275,Beauty,0
+1965,38,Male,New York,80241.0,19.0,8,8,328,231,Home,0
+1966,64,Female,San Francisco,22244.0,97.0,1,46,464,304,Beauty,0
+1967,33,Male,Dallas,118322.0,66.0,5,59,329,86,Fashion,0
+1968,54,Male,Chicago,135329.0,79.0,3,34,184,63,Fashion,0
+1969,37,Male,Phoenix,88619.0,86.0,2,11,212,192,Groceries,0
+1970,23,Female,San Francisco,41584.0,74.0,8,31,445,293,Beauty,0
+1971,36,Male,Phoenix,28521.0,82.0,7,11,324,31,Electronics,0
+1972,22,Male,Los Angeles,70017.0,22.0,10,56,279,330,Home,1
+1973,20,Male,Phoenix,53541.0,46.0,7,54,211,146,Fashion,0
+1974,18,Male,Phoenix,49063.0,91.0,5,56,98,107,Beauty,0
+1975,55,Male,Dallas,90268.0,13.0,9,38,198,359,Beauty,1
+1976,32,Male,Phoenix,145234.0,33.0,5,53,110,110,Fashion,0
+1977,51,Female,San Francisco,146218.0,5.0,2,21,475,276,Fashion,1
+1978,52,Female,Chicago,138206.0,90.0,3,46,463,210,Electronics,0
+1979,66,Male,Phoenix,84952.0,77.0,4,30,234,139,Beauty,0
+1980,42,Female,Miami,113054.0,27.0,5,10,98,86,Beauty,0
+1981,41,Female,Phoenix,59563.0,78.0,3,26,494,44,Sports,0
+1982,29,Male,Phoenix,59752.0,24.0,7,27,434,82,Groceries,0
+1983,35,Male,New York,115233.0,67.0,5,8,122,64,Electronics,0
+1984,32,Male,Chicago,22567.0,63.0,5,39,130,343,Fashion,0
+1985,61,Female,San Francisco,36121.0,94.0,6,8,475,321,Fashion,0
+1986,33,Male,Los Angeles,21674.0,99.0,7,8,497,55,Home,0
+1987,44,Female,New York,96411.0,48.0,10,55,333,74,Groceries,0
+1988,25,Male,San Francisco,129876.0,63.0,10,34,266,129,Fashion,0
+1989,63,Female,Houston,86275.0,78.0,8,59,253,256,Beauty,0
+1990,42,Male,Chicago,87081.0,12.0,9,16,101,231,Fashion,1
+1991,34,Male,Miami,49140.0,28.0,4,41,151,137,Beauty,1
+1992,46,Female,Chicago,145139.0,44.0,5,13,254,351,Beauty,0
+1993,25,Female,Houston,,,5,23,297,355,Electronics,0
+1994,32,Female,Houston,90663.0,43.0,8,12,406,112,Fashion,0
+1995,44,Female,Houston,43331.0,17.0,9,27,354,308,Electronics,1
+1996,63,Female,Dallas,43004.0,40.0,7,22,118,146,Groceries,0
+1997,67,Female,Los Angeles,127369.0,49.0,5,32,450,33,Beauty,0
+1998,69,Male,Phoenix,139243.0,85.0,3,57,57,260,Groceries,0
+1999,24,Female,Chicago,30492.0,57.0,1,49,180,87,Fashion,0
+2000,20,Male,San Francisco,74797.0,87.0,9,27,481,331,Groceries,0
+2001,46,Male,Dallas,78095.0,84.0,5,2,451,265,Groceries,0
+2002,61,Female,San Francisco,33749.0,64.0,9,45,468,320,Fashion,1
+2003,41,Male,Phoenix,83217.0,75.0,10,33,136,30,Electronics,0
+2004,20,Female,Phoenix,109044.0,57.0,4,26,260,232,Electronics,0
+2005,37,Female,Miami,29045.0,98.0,5,28,45,76,Beauty,0
+2006,63,Male,Houston,40116.0,74.0,4,19,155,129,Beauty,0
+2007,32,Male,Los Angeles,38667.0,74.0,2,43,69,271,Fashion,1
+2008,42,Female,Miami,95057.0,70.0,1,5,483,89,Fashion,0
+2009,47,Female,New York,94205.0,100.0,8,33,313,170,Sports,0
+2010,31,Male,Dallas,47302.0,88.0,4,20,413,128,Sports,0
+2011,24,Male,Dallas,31283.0,76.0,5,30,317,174,Home,0
+2012,34,Male,Los Angeles,,,6,45,312,26,Beauty,0
+2013,61,Male,Phoenix,92534.0,23.0,8,8,173,61,Groceries,1
+2014,37,Female,San Francisco,114342.0,27.0,8,38,239,67,Home,0
+2015,53,Female,Dallas,51624.0,58.0,7,17,159,26,Home,0
+2016,26,Female,Los Angeles,33440.0,37.0,4,44,487,83,Electronics,1
+2017,55,Female,Dallas,131001.0,6.0,6,1,68,364,Groceries,1
+2018,65,Male,Dallas,66501.0,65.0,4,3,161,60,Electronics,0
+2019,39,Male,Houston,107333.0,6.0,7,46,65,39,Sports,1
+2020,19,Female,New York,21269.0,50.0,1,26,182,123,Home,0
+2021,41,Female,Houston,27868.0,22.0,5,31,304,292,Sports,1
+2022,25,Female,New York,50251.0,88.0,10,8,287,277,Groceries,0
+2023,28,Female,Dallas,97909.0,25.0,10,43,135,304,Groceries,1
+2024,30,Female,Miami,104523.0,79.0,4,59,101,282,Beauty,0
+2025,34,Female,San Francisco,58729.0,90.0,7,46,63,191,Fashion,0
+2026,25,Female,Phoenix,35734.0,72.0,9,8,213,292,Electronics,0
+2027,38,Female,Dallas,62429.0,51.0,5,35,277,152,Beauty,0
+2028,35,Female,New York,61337.0,88.0,4,39,462,233,Beauty,0
+2029,47,Male,New York,60325.0,48.0,9,28,292,146,Electronics,0
+2030,35,Female,New York,103600.0,70.0,5,51,413,271,Electronics,0
+2031,63,Male,Dallas,82514.0,99.0,9,4,293,335,Groceries,0
+2032,64,Male,Los Angeles,28433.0,65.0,8,57,297,134,Groceries,0
+2033,48,Female,Miami,,,4,16,102,171,Home,1
+2034,55,Female,Los Angeles,29111.0,46.0,7,13,77,28,Sports,0
+2035,49,Male,Phoenix,123986.0,36.0,5,20,72,136,Groceries,0
+2036,28,Male,Dallas,83753.0,58.0,10,51,20,241,Beauty,0
+2037,62,Female,New York,133783.0,76.0,4,5,235,344,Home,1
+2038,42,Male,Miami,100583.0,38.0,5,55,336,228,Home,1
+2039,50,Female,Miami,93620.0,11.0,5,37,247,287,Beauty,1
+2040,55,Female,Chicago,41751.0,12.0,9,20,492,303,Groceries,1
+2041,58,Female,Phoenix,36453.0,42.0,9,24,273,34,Beauty,0
+2042,25,Male,San Francisco,105844.0,39.0,6,36,178,2,Fashion,0
+2043,28,Male,San Francisco,58968.0,71.0,4,34,306,362,Groceries,0
+2044,39,Female,Miami,50077.0,11.0,2,58,85,195,Sports,0
+2045,68,Male,Dallas,128582.0,36.0,3,45,422,94,Beauty,0
+2046,41,Male,New York,54775.0,52.0,2,48,328,328,Groceries,0
+2047,58,Male,New York,78144.0,31.0,5,54,479,308,Electronics,0
+2048,34,Male,Miami,68570.0,33.0,6,34,477,135,Fashion,0
+2049,29,Male,Los Angeles,66097.0,13.0,5,19,114,204,Sports,1
+2050,63,Male,Phoenix,44503.0,18.0,2,17,272,250,Groceries,1
+2051,49,Male,New York,22779.0,41.0,5,5,169,147,Electronics,0
+2052,32,Female,Miami,106840.0,58.0,9,25,42,346,Groceries,0
+2053,33,Male,New York,20755.0,56.0,4,18,263,348,Electronics,1
+2054,39,Male,San Francisco,59263.0,24.0,10,55,234,254,Sports,0
+2055,45,Male,Miami,128491.0,73.0,2,53,418,334,Fashion,0
+2056,37,Male,Phoenix,75087.0,31.0,3,50,429,176,Electronics,0
+2057,50,Male,Miami,62281.0,55.0,3,8,150,125,Home,0
+2058,27,Male,Chicago,71482.0,10.0,9,27,362,251,Sports,0
+2059,57,Male,Miami,74857.0,60.0,4,15,167,131,Sports,1
+2060,49,Male,Miami,142989.0,2.0,1,45,400,50,Beauty,0
+2061,67,Female,Dallas,37400.0,15.0,1,13,128,93,Fashion,0
+2062,50,Male,San Francisco,60115.0,3.0,7,16,59,310,Home,1
+2063,19,Male,Phoenix,34249.0,43.0,7,22,140,220,Home,1
+2064,50,Male,Dallas,133183.0,31.0,2,20,314,334,Beauty,0
+2065,50,Male,Miami,66825.0,70.0,9,13,139,334,Electronics,1
+2066,58,Female,Phoenix,130361.0,67.0,9,20,475,20,Electronics,0
+2067,30,Female,Chicago,44600.0,56.0,5,2,37,205,Home,0
+2068,47,Female,Phoenix,57706.0,63.0,3,35,188,91,Fashion,0
+2069,50,Female,New York,39222.0,75.0,3,47,217,355,Electronics,0
+2070,30,Female,Dallas,119041.0,15.0,3,55,430,173,Sports,1
+2071,69,Female,Phoenix,124504.0,92.0,6,19,162,189,Groceries,0
+2072,43,Female,San Francisco,61139.0,10.0,4,45,56,312,Beauty,1
+2073,39,Female,Chicago,,,8,37,205,2,Fashion,0
+2074,56,Female,Houston,136605.0,47.0,5,58,280,361,Electronics,1
+2075,19,Female,Miami,61302.0,57.0,1,54,250,168,Groceries,0
+2076,55,Female,Phoenix,114684.0,50.0,9,6,273,24,Home,1
+2077,56,Female,Miami,107838.0,71.0,1,14,348,68,Beauty,0
+2078,43,Female,Los Angeles,88159.0,15.0,6,4,410,194,Electronics,1
+2079,63,Female,New York,28646.0,18.0,1,22,316,84,Home,0
+2080,67,Female,Dallas,33543.0,82.0,3,51,487,207,Electronics,0
+2081,32,Female,New York,114496.0,88.0,10,55,29,49,Beauty,0
+2082,51,Male,Los Angeles,148212.0,2.0,5,39,465,32,Sports,0
+2083,59,Female,Los Angeles,42785.0,84.0,10,36,429,317,Sports,0
+2084,61,Male,Dallas,98353.0,98.0,7,34,343,170,Groceries,0
+2085,66,Female,Phoenix,51406.0,43.0,10,27,249,129,Home,0
+2086,57,Female,Los Angeles,108992.0,26.0,8,7,43,102,Sports,0
+2087,28,Male,Houston,71428.0,71.0,9,3,97,35,Beauty,0
+2088,20,Female,Miami,43777.0,38.0,6,47,444,307,Home,0
+2089,23,Male,Miami,77939.0,94.0,9,33,212,199,Electronics,1
+2090,26,Male,Chicago,73026.0,42.0,8,2,420,301,Fashion,1
+2091,23,Male,San Francisco,106450.0,5.0,9,42,128,77,Electronics,1
+2092,26,Female,Los Angeles,49553.0,11.0,10,16,299,321,Beauty,0
+2093,56,Female,Los Angeles,43548.0,65.0,4,25,430,14,Groceries,0
+2094,48,Female,Houston,83221.0,34.0,9,15,282,349,Home,1
+2095,49,Male,New York,57265.0,1.0,7,24,348,131,Electronics,0
+2096,58,Male,New York,145549.0,83.0,5,15,382,238,Home,0
+2097,67,Female,Miami,60701.0,2.0,5,31,374,280,Sports,1
+2098,29,Female,Miami,71287.0,85.0,1,14,397,65,Fashion,0
+2099,25,Female,Phoenix,26727.0,20.0,2,54,287,138,Beauty,1
+2100,25,Female,Dallas,130460.0,61.0,10,14,360,269,Electronics,0
+2101,67,Female,San Francisco,70717.0,87.0,3,6,278,228,Fashion,0
+2102,45,Male,Houston,52427.0,21.0,8,14,354,201,Beauty,1
+2103,37,Male,Dallas,36692.0,88.0,6,17,104,142,Beauty,0
+2104,64,Male,Dallas,51625.0,68.0,10,18,29,100,Groceries,1
+2105,24,Female,Chicago,44918.0,12.0,5,20,308,138,Sports,0
+2106,28,Male,Dallas,126931.0,22.0,1,51,321,168,Groceries,0
+2107,37,Male,Chicago,61136.0,20.0,9,17,78,99,Groceries,0
+2108,33,Male,Dallas,134826.0,82.0,3,16,327,311,Home,0
+2109,21,Male,Houston,134881.0,1.0,3,40,281,319,Home,1
+2110,23,Male,Chicago,72409.0,30.0,2,39,405,327,Fashion,1
+2111,39,Female,New York,35577.0,97.0,4,52,304,355,Sports,1
+2112,43,Male,Chicago,105155.0,24.0,2,32,138,66,Beauty,0
+2113,20,Female,Chicago,131776.0,14.0,9,44,187,335,Sports,1
+2114,58,Female,Houston,119246.0,36.0,10,9,372,329,Sports,1
+2115,59,Female,Houston,122924.0,69.0,7,27,208,47,Fashion,0
+2116,31,Female,Chicago,146759.0,75.0,8,46,471,337,Home,0
+2117,28,Female,San Francisco,140408.0,24.0,3,52,270,231,Sports,0
+2118,35,Male,Los Angeles,101731.0,60.0,6,33,343,308,Sports,0
+2119,29,Male,San Francisco,47689.0,95.0,10,10,432,146,Sports,0
+2120,40,Female,Houston,31154.0,55.0,6,17,248,207,Electronics,0
+2121,29,Female,San Francisco,124657.0,77.0,1,49,209,146,Sports,0
+2122,30,Female,San Francisco,114948.0,80.0,6,49,335,152,Sports,0
+2123,42,Male,Phoenix,41341.0,24.0,3,36,143,279,Beauty,0
+2124,62,Female,Phoenix,117554.0,77.0,3,17,103,140,Groceries,0
+2125,68,Male,New York,94681.0,24.0,3,18,316,151,Electronics,1
+2126,36,Female,Dallas,127798.0,54.0,10,52,234,21,Sports,0
+2127,63,Male,Chicago,66330.0,26.0,10,23,256,254,Groceries,1
+2128,53,Female,Los Angeles,138069.0,66.0,8,34,485,64,Sports,0
+2129,62,Male,New York,107759.0,80.0,5,8,132,218,Fashion,0
+2130,25,Female,Chicago,88416.0,38.0,4,13,236,72,Fashion,0
+2131,46,Male,San Francisco,145067.0,65.0,9,23,340,162,Groceries,0
+2132,49,Male,Houston,106807.0,75.0,9,57,265,130,Electronics,0
+2133,68,Male,Phoenix,53313.0,51.0,1,54,467,69,Beauty,0
+2134,61,Male,Miami,66900.0,35.0,2,20,354,225,Electronics,1
+2135,35,Male,Los Angeles,98840.0,43.0,8,22,338,246,Electronics,0
+2136,23,Male,San Francisco,54695.0,29.0,5,47,451,68,Fashion,0
+2137,35,Male,Miami,50225.0,37.0,7,52,423,107,Fashion,0
+2138,36,Female,Phoenix,106072.0,81.0,1,23,393,109,Beauty,0
+2139,39,Female,San Francisco,116367.0,58.0,10,41,56,328,Sports,0
+2140,54,Female,Dallas,69156.0,54.0,5,35,83,103,Beauty,0
+2141,49,Female,Dallas,97209.0,39.0,3,3,238,141,Sports,1
+2142,58,Female,Miami,107453.0,42.0,10,34,361,65,Groceries,0
+2143,20,Male,Houston,47829.0,28.0,2,33,408,134,Groceries,0
+2144,45,Male,San Francisco,100908.0,29.0,2,46,53,199,Home,0
+2145,27,Male,Chicago,45938.0,43.0,9,17,58,155,Fashion,0
+2146,68,Male,San Francisco,79164.0,3.0,4,45,86,79,Home,1
+2147,52,Male,Houston,74530.0,10.0,4,19,228,250,Home,1
+2148,46,Female,San Francisco,140921.0,59.0,7,30,337,87,Fashion,1
+2149,32,Female,Miami,88199.0,14.0,10,23,363,304,Home,1
+2150,50,Female,Houston,80282.0,76.0,10,15,171,241,Electronics,0
+2151,24,Female,Phoenix,67801.0,47.0,2,59,406,88,Sports,0
+2152,29,Male,Los Angeles,29465.0,42.0,3,57,384,324,Beauty,0
+2153,66,Male,Houston,23326.0,94.0,3,14,218,172,Fashion,0
+2154,47,Male,San Francisco,23659.0,32.0,6,2,108,357,Electronics,1
+2155,38,Female,Phoenix,80289.0,32.0,3,39,267,17,Groceries,0
+2156,48,Male,Los Angeles,47594.0,42.0,5,49,342,223,Beauty,1
+2157,41,Female,Dallas,135819.0,32.0,4,18,98,294,Beauty,0
+2158,37,Male,Chicago,24763.0,26.0,3,6,496,310,Beauty,0
+2159,54,Male,Miami,108657.0,1.0,8,59,453,219,Home,0
+2160,21,Female,San Francisco,30828.0,56.0,10,32,304,234,Home,0
+2161,45,Male,San Francisco,67588.0,2.0,3,21,349,248,Home,1
+2162,61,Male,Dallas,31221.0,81.0,6,40,51,52,Home,0
+2163,37,Female,Chicago,31211.0,30.0,7,28,106,15,Electronics,0
+2164,41,Male,Dallas,33569.0,71.0,7,27,58,324,Home,0
+2165,67,Female,New York,116894.0,52.0,2,2,412,112,Fashion,0
+2166,66,Male,Dallas,57860.0,91.0,3,33,120,184,Beauty,0
+2167,68,Male,Phoenix,91558.0,9.0,10,16,263,360,Electronics,1
+2168,49,Male,Los Angeles,65337.0,22.0,10,39,251,7,Groceries,0
+2169,58,Male,San Francisco,72311.0,34.0,4,22,417,51,Home,0
+2170,53,Male,Dallas,33515.0,49.0,7,56,87,314,Groceries,0
+2171,51,Male,San Francisco,91695.0,1.0,2,43,211,241,Beauty,0
+2172,53,Male,Houston,142006.0,73.0,3,47,423,245,Electronics,1
+2173,19,Male,Chicago,131527.0,84.0,7,13,47,186,Beauty,1
+2174,32,Female,Dallas,126749.0,53.0,7,56,289,287,Groceries,0
+2175,51,Female,Los Angeles,107227.0,83.0,10,2,447,92,Electronics,0
+2176,53,Male,Phoenix,44904.0,100.0,3,14,245,106,Sports,0
+2177,23,Male,New York,79935.0,40.0,1,56,96,13,Electronics,0
+2178,56,Female,San Francisco,,,3,38,242,146,Home,0
+2179,59,Male,Chicago,88580.0,68.0,5,41,391,119,Groceries,0
+2180,68,Male,Miami,95148.0,9.0,7,28,186,203,Beauty,1
+2181,68,Female,Los Angeles,25636.0,22.0,4,7,303,141,Beauty,1
+2182,29,Male,Miami,97129.0,18.0,1,18,211,115,Beauty,1
+2183,20,Male,Los Angeles,134483.0,76.0,6,56,108,152,Fashion,0
+2184,62,Female,Los Angeles,22892.0,43.0,2,41,51,57,Fashion,0
+2185,35,Male,Phoenix,41672.0,39.0,3,55,156,157,Home,0
+2186,57,Male,Phoenix,25812.0,73.0,4,36,175,310,Sports,0
+2187,38,Female,Phoenix,116621.0,6.0,6,41,269,133,Fashion,0
+2188,32,Male,Dallas,148177.0,83.0,6,36,114,163,Electronics,0
+2189,50,Female,Houston,20654.0,48.0,7,44,36,275,Groceries,0
+2190,52,Male,Los Angeles,74633.0,7.0,5,4,136,183,Home,0
+2191,43,Male,Chicago,37143.0,80.0,7,57,490,77,Sports,0
+2192,25,Female,Miami,75934.0,69.0,2,30,352,325,Electronics,0
+2193,53,Female,Phoenix,87334.0,16.0,1,24,330,44,Beauty,0
+2194,65,Male,Dallas,123463.0,1.0,10,20,29,206,Fashion,1
+2195,47,Female,Phoenix,145851.0,37.0,8,46,99,38,Electronics,0
+2196,40,Female,Miami,49087.0,83.0,1,56,153,318,Sports,0
+2197,59,Male,Miami,31618.0,37.0,2,31,451,22,Home,0
+2198,61,Male,San Francisco,28446.0,81.0,10,24,222,73,Electronics,0
+2199,31,Male,Los Angeles,107182.0,64.0,6,7,135,241,Home,0
+2200,31,Female,Phoenix,122127.0,90.0,1,26,470,154,Beauty,0
+2201,19,Female,Miami,68867.0,86.0,10,13,239,237,Sports,0
+2202,54,Female,Houston,71028.0,62.0,3,54,272,5,Sports,0
+2203,22,Female,Houston,80101.0,72.0,7,8,188,221,Fashion,0
+2204,55,Male,Phoenix,47200.0,61.0,8,55,354,310,Groceries,0
+2205,62,Female,Dallas,115107.0,33.0,4,5,335,86,Sports,0
+2206,58,Male,Miami,108074.0,66.0,3,44,224,177,Electronics,0
+2207,64,Female,San Francisco,126091.0,30.0,1,13,317,259,Electronics,1
+2208,31,Male,Los Angeles,81465.0,20.0,9,29,391,220,Electronics,0
+2209,56,Male,Los Angeles,129500.0,60.0,10,20,267,38,Beauty,0
+2210,42,Male,Dallas,106436.0,82.0,6,14,384,142,Sports,0
+2211,37,Female,San Francisco,138422.0,74.0,6,32,484,235,Sports,0
+2212,19,Male,Los Angeles,144124.0,24.0,9,50,90,203,Electronics,1
+2213,56,Male,San Francisco,107892.0,4.0,1,27,175,329,Fashion,1
+2214,23,Female,New York,108559.0,37.0,6,56,121,294,Fashion,1
+2215,34,Male,Phoenix,140044.0,4.0,5,25,32,172,Sports,1
+2216,42,Female,Los Angeles,59148.0,77.0,6,52,484,125,Sports,0
+2217,45,Female,Houston,102928.0,89.0,8,4,290,326,Home,0
+2218,19,Male,Miami,40698.0,77.0,5,21,311,65,Sports,0
+2219,52,Male,San Francisco,62470.0,18.0,2,18,239,281,Electronics,1
+2220,54,Female,San Francisco,112071.0,88.0,2,39,34,272,Groceries,0
+2221,22,Male,Chicago,71660.0,66.0,10,15,257,244,Beauty,1
+2222,18,Female,Dallas,73910.0,48.0,5,53,136,15,Sports,0
+2223,57,Female,Chicago,55450.0,33.0,3,38,350,226,Sports,1
+2224,29,Female,Los Angeles,76463.0,58.0,10,48,75,131,Electronics,0
+2225,53,Male,Chicago,53757.0,83.0,3,52,370,195,Home,0
+2226,62,Female,Chicago,98012.0,73.0,8,24,151,293,Groceries,0
+2227,40,Male,New York,126750.0,28.0,7,8,245,209,Sports,0
+2228,64,Male,San Francisco,147043.0,35.0,1,28,327,113,Fashion,1
+2229,48,Male,Houston,90247.0,10.0,5,21,494,244,Fashion,1
+2230,28,Male,Dallas,92015.0,65.0,9,16,413,166,Fashion,0
+2231,27,Female,Houston,51390.0,42.0,4,54,241,191,Beauty,1
+2232,20,Male,New York,76116.0,85.0,1,16,192,257,Beauty,0
+2233,31,Female,New York,33161.0,9.0,8,35,359,327,Groceries,1
+2234,33,Female,Chicago,52152.0,60.0,5,17,304,218,Sports,0
+2235,27,Male,Phoenix,100171.0,15.0,2,9,328,359,Sports,1
+2236,46,Female,San Francisco,126379.0,99.0,1,57,176,275,Sports,0
+2237,27,Female,Miami,115833.0,57.0,3,35,170,52,Beauty,0
+2238,29,Male,San Francisco,40836.0,69.0,9,52,204,158,Groceries,0
+2239,47,Female,Miami,110367.0,22.0,1,29,197,363,Sports,1
+2240,58,Female,Chicago,86543.0,64.0,4,39,40,55,Electronics,0
+2241,18,Female,Miami,75648.0,41.0,8,18,131,14,Home,0
+2242,22,Female,New York,46331.0,87.0,8,12,190,269,Fashion,0
+2243,37,Male,Houston,125992.0,71.0,10,19,157,340,Fashion,0
+2244,25,Female,Miami,30763.0,56.0,8,48,252,90,Electronics,0
+2245,60,Female,San Francisco,89444.0,23.0,10,22,351,27,Sports,0
+2246,29,Female,Dallas,113109.0,25.0,8,59,49,89,Groceries,0
+2247,18,Female,Chicago,39187.0,91.0,4,56,400,41,Groceries,0
+2248,37,Male,Phoenix,31957.0,6.0,8,49,326,304,Beauty,1
+2249,45,Female,Chicago,24379.0,34.0,9,52,180,268,Sports,1
+2250,60,Male,Los Angeles,47959.0,63.0,7,15,421,138,Groceries,0
+2251,54,Female,Chicago,102018.0,9.0,2,1,97,6,Sports,0
+2252,64,Male,New York,143076.0,60.0,9,2,297,242,Fashion,1
+2253,54,Male,Houston,47105.0,49.0,8,8,339,162,Fashion,0
+2254,29,Male,Houston,20877.0,97.0,5,22,40,180,Beauty,0
+2255,54,Male,Dallas,68353.0,51.0,3,25,404,297,Fashion,1
+2256,66,Male,Miami,103788.0,60.0,7,2,382,6,Sports,0
+2257,66,Female,New York,116870.0,70.0,2,51,391,271,Electronics,1
+2258,61,Female,Los Angeles,104585.0,37.0,3,9,399,272,Beauty,0
+2259,45,Female,New York,103308.0,31.0,9,9,162,156,Electronics,1
+2260,64,Male,Chicago,71567.0,98.0,4,13,55,85,Sports,0
+2261,32,Female,New York,77913.0,41.0,4,6,322,200,Beauty,0
+2262,23,Male,New York,22637.0,62.0,3,30,457,10,Electronics,0
+2263,61,Male,Dallas,92778.0,93.0,5,15,233,138,Beauty,0
+2264,37,Female,Los Angeles,62025.0,58.0,3,51,51,242,Sports,1
+2265,67,Female,Chicago,126917.0,14.0,9,53,205,201,Groceries,1
+2266,31,Male,Phoenix,121187.0,36.0,3,15,193,156,Beauty,1
+2267,19,Male,Dallas,119508.0,36.0,2,50,73,275,Groceries,0
+2268,26,Female,Phoenix,102464.0,79.0,5,7,180,225,Sports,0
+2269,54,Female,Dallas,48742.0,8.0,6,58,269,68,Beauty,0
+2270,37,Female,Houston,31831.0,26.0,1,11,270,184,Beauty,0
+2271,43,Female,San Francisco,133768.0,36.0,6,40,442,195,Groceries,1
+2272,46,Male,Dallas,,,10,38,298,42,Fashion,0
+2273,18,Female,Miami,105092.0,85.0,3,40,190,151,Groceries,0
+2274,52,Female,New York,110879.0,28.0,4,2,202,84,Groceries,0
+2275,23,Female,Houston,,,6,51,21,134,Groceries,0
+2276,54,Male,Los Angeles,146537.0,62.0,8,48,213,309,Sports,0
+2277,22,Male,Phoenix,66762.0,80.0,9,39,185,354,Home,0
+2278,50,Male,San Francisco,124824.0,86.0,6,10,266,298,Groceries,0
+2279,66,Male,San Francisco,118958.0,76.0,7,44,432,30,Beauty,0
+2280,68,Female,Dallas,108741.0,80.0,5,17,263,9,Electronics,0
+2281,31,Male,New York,38830.0,51.0,9,7,129,170,Fashion,0
+2282,29,Female,Los Angeles,75044.0,42.0,4,54,399,290,Groceries,1
+2283,59,Female,Miami,93948.0,29.0,10,40,342,168,Groceries,0
+2284,37,Female,Los Angeles,89202.0,82.0,6,39,90,344,Fashion,0
+2285,67,Female,New York,57045.0,10.0,5,4,183,145,Groceries,0
+2286,41,Male,Miami,106322.0,39.0,1,35,304,228,Beauty,1
+2287,60,Male,Los Angeles,137257.0,82.0,5,51,394,306,Home,0
+2288,51,Male,Miami,,,5,47,440,76,Groceries,1
+2289,42,Female,Dallas,127509.0,39.0,9,36,132,223,Fashion,1
+2290,67,Female,Dallas,46627.0,21.0,1,31,247,177,Groceries,1
+2291,46,Female,New York,35198.0,65.0,5,25,490,189,Sports,1
+2292,56,Female,New York,89521.0,15.0,7,41,320,302,Beauty,1
+2293,48,Female,Miami,131439.0,4.0,6,13,35,46,Beauty,0
+2294,64,Male,Chicago,126471.0,60.0,6,18,50,17,Home,0
+2295,60,Female,Houston,49475.0,61.0,7,21,181,66,Sports,0
+2296,67,Male,San Francisco,125752.0,20.0,6,48,325,360,Sports,1
+2297,40,Female,Los Angeles,138998.0,10.0,5,1,212,261,Home,0
+2298,61,Female,Los Angeles,39403.0,87.0,10,36,229,123,Electronics,0
+2299,55,Male,Chicago,23681.0,34.0,5,50,397,231,Groceries,1
+2300,37,Male,Chicago,111555.0,48.0,9,8,465,125,Sports,0
+2301,40,Female,Chicago,138884.0,33.0,8,52,251,112,Electronics,0
+2302,62,Female,Phoenix,113122.0,98.0,10,48,446,272,Electronics,0
+2303,69,Female,Phoenix,135260.0,61.0,4,21,203,81,Beauty,0
+2304,33,Female,Miami,62292.0,10.0,4,43,34,246,Groceries,0
+2305,67,Male,Phoenix,123057.0,54.0,10,52,451,347,Beauty,1
+2306,59,Female,Dallas,125386.0,84.0,5,53,324,328,Fashion,0
+2307,25,Male,Dallas,122306.0,65.0,3,53,228,215,Beauty,0
+2308,67,Female,New York,25629.0,77.0,8,21,191,352,Sports,0
+2309,38,Male,San Francisco,113246.0,1.0,7,27,285,235,Sports,0
+2310,18,Male,Miami,115864.0,5.0,5,19,39,82,Groceries,0
+2311,25,Female,San Francisco,97814.0,80.0,10,23,89,294,Electronics,0
+2312,46,Male,Los Angeles,28417.0,15.0,3,51,27,310,Sports,0
+2313,49,Female,Houston,138888.0,28.0,5,50,448,76,Beauty,0
+2314,55,Male,New York,54765.0,95.0,3,51,53,15,Beauty,0
+2315,22,Female,Los Angeles,94499.0,23.0,10,43,243,220,Groceries,1
+2316,64,Male,Los Angeles,134088.0,17.0,5,35,198,230,Beauty,0
+2317,39,Female,Miami,76574.0,98.0,1,40,265,265,Home,0
+2318,64,Female,Chicago,122828.0,13.0,6,52,279,264,Groceries,1
+2319,51,Male,Chicago,110545.0,14.0,10,51,127,110,Groceries,1
+2320,18,Male,San Francisco,148206.0,11.0,4,42,261,307,Sports,1
+2321,43,Male,New York,47675.0,28.0,4,48,442,200,Groceries,1
+2322,60,Male,Chicago,145609.0,42.0,8,5,487,226,Fashion,0
+2323,27,Female,Los Angeles,121711.0,96.0,2,52,43,185,Sports,1
+2324,47,Male,Chicago,92267.0,99.0,4,41,235,31,Sports,0
+2325,67,Female,Phoenix,60563.0,61.0,2,8,74,102,Home,0
+2326,35,Male,Chicago,31332.0,64.0,1,11,45,259,Sports,0
+2327,34,Female,Los Angeles,143745.0,31.0,10,16,300,99,Electronics,0
+2328,43,Female,San Francisco,39177.0,81.0,3,39,311,339,Beauty,0
+2329,25,Female,Miami,109254.0,73.0,8,47,346,299,Beauty,0
+2330,64,Female,New York,88447.0,10.0,6,24,477,285,Groceries,1
+2331,57,Male,Houston,77104.0,8.0,7,21,205,266,Home,1
+2332,66,Male,Chicago,104335.0,21.0,2,52,31,140,Beauty,0
+2333,29,Female,Dallas,134938.0,77.0,6,23,148,302,Electronics,0
+2334,44,Male,Dallas,100730.0,59.0,8,49,391,286,Home,0
+2335,25,Male,San Francisco,24951.0,50.0,8,38,453,350,Fashion,0
+2336,42,Female,Los Angeles,126402.0,69.0,4,47,428,216,Beauty,0
+2337,63,Male,Houston,48333.0,70.0,6,8,227,32,Sports,0
+2338,21,Male,Houston,41673.0,30.0,5,7,152,303,Electronics,1
+2339,50,Male,Phoenix,134421.0,95.0,9,2,358,88,Electronics,0
+2340,18,Female,Houston,60870.0,17.0,8,30,215,63,Beauty,0
+2341,36,Male,Dallas,141945.0,75.0,2,13,281,279,Groceries,0
+2342,48,Female,Miami,147536.0,20.0,7,23,301,74,Fashion,0
+2343,33,Male,Los Angeles,91101.0,48.0,7,29,388,306,Sports,1
+2344,31,Male,Los Angeles,42821.0,73.0,1,38,122,124,Fashion,1
+2345,65,Male,Chicago,45494.0,2.0,1,37,139,269,Fashion,1
+2346,22,Female,Chicago,119477.0,37.0,4,20,202,285,Beauty,0
+2347,58,Female,Chicago,,,5,33,442,121,Sports,1
+2348,43,Male,Dallas,94160.0,4.0,4,29,28,346,Beauty,1
+2349,45,Female,Dallas,132698.0,100.0,7,50,64,212,Beauty,0
+2350,19,Male,San Francisco,131560.0,54.0,3,15,263,148,Groceries,0
+2351,67,Female,Dallas,20835.0,25.0,7,23,289,78,Electronics,0
+2352,23,Female,Dallas,145126.0,3.0,8,42,131,14,Groceries,1
+2353,26,Male,Dallas,38646.0,9.0,6,3,74,136,Groceries,0
+2354,50,Male,Dallas,143777.0,86.0,6,37,412,304,Beauty,1
+2355,58,Male,Miami,97360.0,87.0,8,56,34,280,Groceries,1
+2356,42,Male,Dallas,57335.0,76.0,8,29,56,79,Groceries,0
+2357,65,Female,San Francisco,89351.0,74.0,7,45,197,243,Home,0
+2358,30,Female,Houston,134934.0,34.0,6,8,146,193,Sports,0
+2359,26,Female,Houston,22429.0,43.0,6,22,136,242,Electronics,0
+2360,30,Male,Phoenix,,,10,53,359,51,Sports,0
+2361,48,Male,Miami,80654.0,94.0,6,29,91,232,Electronics,0
+2362,58,Female,Chicago,127422.0,22.0,8,2,371,259,Home,1
+2363,28,Male,New York,129934.0,70.0,1,41,130,218,Beauty,1
+2364,21,Female,Dallas,139975.0,2.0,5,49,168,206,Electronics,1
+2365,51,Female,Phoenix,88143.0,94.0,3,59,204,314,Electronics,0
+2366,55,Female,New York,111186.0,66.0,8,50,124,311,Electronics,1
+2367,63,Female,San Francisco,124234.0,32.0,6,45,166,120,Home,0
+2368,21,Female,Houston,117889.0,16.0,2,1,240,80,Sports,0
+2369,55,Male,Phoenix,122326.0,76.0,7,44,333,42,Home,0
+2370,36,Male,San Francisco,97527.0,1.0,7,20,370,21,Electronics,0
+2371,23,Male,Phoenix,106704.0,72.0,5,52,393,10,Groceries,0
+2372,51,Female,Los Angeles,51099.0,48.0,8,21,25,313,Electronics,0
+2373,35,Female,San Francisco,59385.0,50.0,5,37,279,153,Groceries,0
+2374,30,Female,Houston,55919.0,13.0,1,8,318,312,Beauty,0
+2375,58,Female,Houston,116952.0,15.0,9,27,368,294,Home,1
+2376,40,Male,Miami,80782.0,53.0,4,47,61,86,Groceries,0
+2377,36,Male,Phoenix,91116.0,44.0,2,59,278,113,Home,0
+2378,62,Female,Dallas,92590.0,8.0,4,35,404,189,Fashion,0
+2379,28,Female,Houston,109626.0,74.0,9,6,458,112,Sports,0
+2380,18,Female,Phoenix,60387.0,46.0,2,45,290,175,Fashion,1
+2381,41,Male,Miami,35823.0,69.0,4,44,66,310,Groceries,0
+2382,24,Male,Dallas,66015.0,19.0,2,19,104,302,Fashion,1
+2383,42,Male,San Francisco,122877.0,38.0,5,18,193,4,Sports,0
+2384,38,Female,Miami,35339.0,11.0,3,56,77,222,Groceries,1
+2385,32,Female,Los Angeles,149949.0,43.0,10,1,498,221,Beauty,0
+2386,18,Male,Dallas,23491.0,20.0,2,25,218,171,Beauty,0
+2387,29,Female,Phoenix,20706.0,20.0,9,27,228,318,Sports,1
+2388,24,Male,Houston,117493.0,21.0,5,7,267,213,Sports,0
+2389,32,Female,Houston,35728.0,82.0,10,44,230,253,Groceries,0
+2390,38,Male,Phoenix,26997.0,57.0,5,42,58,124,Home,0
+2391,36,Female,Phoenix,123537.0,50.0,1,29,271,128,Groceries,0
+2392,46,Male,Phoenix,80408.0,74.0,6,31,150,213,Home,1
+2393,42,Male,Chicago,78097.0,98.0,7,44,433,112,Home,0
+2394,50,Male,Dallas,149526.0,26.0,1,43,310,85,Home,0
+2395,66,Male,Houston,58523.0,30.0,9,36,269,4,Groceries,0
+2396,49,Male,Dallas,141648.0,73.0,8,19,460,65,Electronics,0
+2397,66,Male,Miami,45163.0,31.0,8,6,432,318,Electronics,1
+2398,52,Female,Houston,37718.0,42.0,7,25,453,346,Beauty,1
+2399,61,Female,Chicago,107508.0,68.0,5,31,465,120,Electronics,0
+2400,55,Female,Phoenix,,,3,9,71,243,Electronics,0
+2401,43,Male,Los Angeles,59619.0,61.0,9,20,393,137,Home,1
+2402,28,Male,Phoenix,32126.0,70.0,7,10,33,247,Home,0
+2403,52,Female,San Francisco,109131.0,78.0,10,37,438,45,Sports,0
+2404,25,Male,Phoenix,84926.0,68.0,10,27,175,146,Home,0
+2405,63,Male,Chicago,,,8,13,461,176,Groceries,0
+2406,31,Male,Dallas,97654.0,17.0,6,41,49,42,Sports,0
+2407,27,Male,Houston,23317.0,19.0,5,2,109,297,Sports,1
+2408,19,Male,Phoenix,64980.0,51.0,8,50,410,89,Electronics,0
+2409,63,Female,Houston,64115.0,70.0,3,21,186,218,Home,0
+2410,26,Female,New York,81646.0,63.0,7,33,370,228,Electronics,0
+2411,20,Female,Miami,63158.0,93.0,2,24,88,298,Home,0
+2412,38,Female,Dallas,75963.0,75.0,3,53,182,291,Electronics,1
+2413,43,Female,Houston,67631.0,80.0,2,44,261,67,Electronics,0
+2414,25,Male,Los Angeles,69316.0,30.0,5,42,402,251,Electronics,1
+2415,65,Male,Miami,125364.0,25.0,7,34,71,41,Groceries,0
+2416,19,Male,San Francisco,79342.0,75.0,10,9,161,99,Beauty,0
+2417,23,Male,San Francisco,35504.0,71.0,10,2,82,306,Electronics,0
+2418,45,Female,Los Angeles,88593.0,26.0,1,55,311,360,Fashion,1
+2419,46,Female,Phoenix,46660.0,56.0,10,56,110,342,Fashion,0
+2420,43,Female,Miami,57196.0,22.0,9,30,171,79,Fashion,0
+2421,42,Male,Houston,85938.0,89.0,1,22,443,301,Groceries,0
+2422,29,Female,Miami,28605.0,19.0,1,46,176,199,Sports,0
+2423,22,Male,Phoenix,77388.0,31.0,10,11,328,147,Electronics,1
+2424,51,Female,Chicago,101297.0,26.0,8,55,384,106,Fashion,0
+2425,65,Female,Dallas,75501.0,42.0,6,43,169,193,Groceries,0
+2426,54,Male,Los Angeles,73309.0,41.0,6,17,347,122,Sports,1
+2427,32,Male,Phoenix,47043.0,100.0,9,36,290,77,Fashion,0
+2428,61,Female,Chicago,53635.0,23.0,4,13,388,312,Home,1
+2429,53,Female,Miami,99315.0,47.0,8,7,88,112,Beauty,0
+2430,32,Male,Miami,100691.0,13.0,4,16,135,349,Electronics,1
+2431,60,Female,Phoenix,126514.0,89.0,2,33,211,297,Beauty,0
+2432,65,Female,Houston,53132.0,66.0,8,45,23,170,Beauty,0
+2433,40,Male,Miami,109387.0,66.0,7,1,94,6,Home,0
+2434,23,Female,Houston,35366.0,16.0,4,11,421,197,Home,0
+2435,63,Male,Houston,113944.0,73.0,9,6,317,98,Home,0
+2436,67,Female,Dallas,92107.0,28.0,9,20,260,329,Sports,1
+2437,61,Male,Houston,,,8,35,49,230,Fashion,0
+2438,60,Female,New York,135267.0,35.0,1,44,162,168,Electronics,0
+2439,62,Male,Dallas,142362.0,41.0,7,37,345,297,Home,1
+2440,38,Female,Chicago,77889.0,77.0,5,41,202,265,Groceries,0
+2441,40,Male,Chicago,99553.0,31.0,7,26,456,8,Electronics,0
+2442,60,Female,Miami,59236.0,85.0,9,58,35,172,Electronics,1
+2443,33,Female,Miami,24150.0,32.0,2,12,130,360,Electronics,1
+2444,64,Female,Houston,131369.0,54.0,4,30,379,195,Home,0
+2445,32,Female,Dallas,39423.0,98.0,4,28,220,269,Home,0
+2446,42,Female,Dallas,24137.0,72.0,2,27,126,19,Fashion,0
+2447,53,Female,New York,49992.0,59.0,3,42,398,354,Home,1
+2448,28,Female,Houston,130540.0,41.0,8,19,181,352,Home,1
+2449,68,Female,New York,114438.0,66.0,9,5,302,49,Electronics,0
+2450,32,Female,San Francisco,135140.0,96.0,6,58,288,356,Fashion,0
+2451,21,Male,Houston,64921.0,54.0,10,5,174,338,Beauty,1
+2452,38,Male,Los Angeles,141225.0,40.0,2,41,92,158,Home,1
+2453,30,Female,Los Angeles,99369.0,28.0,2,27,216,66,Groceries,0
+2454,39,Male,Phoenix,86917.0,37.0,7,28,262,347,Home,0
+2455,36,Female,Houston,93690.0,65.0,8,26,105,59,Beauty,0
+2456,51,Female,Dallas,54235.0,74.0,8,27,306,309,Electronics,0
+2457,31,Male,Miami,98975.0,55.0,6,52,278,308,Fashion,1
+2458,21,Female,Chicago,39122.0,4.0,10,49,305,337,Electronics,0
+2459,65,Female,Phoenix,43956.0,99.0,8,42,168,159,Sports,0
+2460,69,Male,Miami,83879.0,10.0,1,21,374,271,Home,1
+2461,63,Male,Los Angeles,78560.0,47.0,9,1,409,121,Groceries,1
+2462,44,Female,Houston,141435.0,75.0,1,54,495,254,Sports,1
+2463,46,Male,Phoenix,102800.0,14.0,3,28,435,261,Home,1
+2464,64,Male,Houston,130310.0,38.0,9,48,445,135,Sports,0
+2465,45,Female,Los Angeles,88685.0,12.0,5,58,209,274,Beauty,0
+2466,52,Male,Phoenix,44660.0,45.0,9,58,236,56,Home,0
+2467,25,Male,Los Angeles,148029.0,17.0,9,15,435,331,Groceries,0
+2468,33,Female,New York,126196.0,80.0,6,55,374,96,Home,0
+2469,59,Male,Los Angeles,106064.0,35.0,1,17,105,114,Sports,0
+2470,53,Male,Dallas,134440.0,66.0,10,26,235,357,Fashion,1
+2471,47,Female,Dallas,21168.0,75.0,7,20,442,28,Sports,0
+2472,35,Female,Houston,65124.0,41.0,6,25,339,306,Home,1
+2473,19,Female,Chicago,55897.0,67.0,9,13,137,2,Home,0
+2474,66,Male,Los Angeles,35032.0,29.0,7,33,433,212,Fashion,0
+2475,30,Female,Miami,72797.0,18.0,4,25,466,68,Electronics,0
+2476,21,Female,Dallas,55294.0,20.0,7,8,389,128,Fashion,0
+2477,43,Male,San Francisco,63827.0,14.0,2,5,499,333,Electronics,1
+2478,42,Female,Chicago,23516.0,34.0,6,6,434,24,Groceries,0
+2479,47,Female,New York,39751.0,49.0,6,23,106,253,Home,0
+2480,28,Female,Phoenix,50373.0,54.0,2,52,59,230,Beauty,0
+2481,24,Female,Phoenix,,,4,30,180,176,Beauty,0
+2482,48,Male,Dallas,50270.0,58.0,8,14,210,221,Sports,0
+2483,61,Female,Chicago,30386.0,42.0,8,54,44,36,Fashion,1
+2484,27,Female,Dallas,121859.0,58.0,8,23,439,2,Fashion,0
+2485,56,Male,Phoenix,84817.0,82.0,8,11,171,361,Beauty,0
+2486,30,Female,San Francisco,85184.0,30.0,1,31,114,274,Electronics,0
+2487,48,Male,Los Angeles,134316.0,25.0,2,6,461,177,Fashion,0
+2488,24,Male,Chicago,99693.0,63.0,4,11,442,264,Electronics,0
+2489,66,Male,Houston,57879.0,19.0,9,13,65,186,Electronics,1
+2490,59,Female,Los Angeles,125056.0,72.0,3,12,480,15,Electronics,0
+2491,59,Male,Los Angeles,69597.0,92.0,6,54,157,279,Electronics,0
+2492,53,Male,Los Angeles,59132.0,8.0,7,2,490,194,Sports,1
+2493,37,Male,Houston,23626.0,95.0,8,53,485,198,Sports,0
+2494,21,Female,San Francisco,105936.0,3.0,7,35,307,349,Beauty,1
+2495,24,Female,New York,122179.0,67.0,3,55,372,305,Sports,1
+2496,18,Female,San Francisco,123801.0,86.0,6,36,183,64,Groceries,0
+2497,61,Female,San Francisco,101515.0,81.0,5,17,431,290,Fashion,0
+2498,62,Female,San Francisco,97065.0,100.0,10,28,419,18,Groceries,0
+2499,59,Female,Miami,75390.0,17.0,4,28,35,64,Sports,0
+2500,64,Female,Dallas,36645.0,14.0,1,22,37,362,Fashion,1
